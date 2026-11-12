@@ -1,0 +1,98 @@
+{
+  "L": 2,
+  "auxiliary": {
+    "msigma_sq": 0.5
+  },
+  "campaign": "p5_fermionic_full_measure_rescue_v1",
+  "closure_rule": {
+    "P5_closed": "reference AND sampler AND physics",
+    "physics": "Latent-HMC agrees with independent full-measure Gauss-Hermite quadrature for all primary observables across all five couplings.",
+    "reference": "Free Wilson determinant, force, Gauss-Hermite convergence, Gaussian g=0 baseline, condensate thermodynamic identity, and nontrivial response all pass.",
+    "sampler": "Every Yukawa coupling group passes the frozen HMC quality gate."
+  },
+  "couplings": [
+    0.0,
+    0.125,
+    0.25,
+    0.375,
+    0.5
+  ],
+  "dimension": 2,
+  "fermion": {
+    "Nf": 2,
+    "mf": 0.5,
+    "wilson_r": 1.0
+  },
+  "finite_measure_match_gates": {
+    "global_chi2_p_min": 0.001,
+    "max_z": 4.0,
+    "relative_error_max": {
+      "chi_sigma": 0.02,
+      "condensate": 0.01,
+      "sigma2": 0.01
+    }
+  },
+  "hmc": {
+    "acceptance_target_high": 0.85,
+    "acceptance_target_low": 0.65,
+    "adapt_down": 0.88,
+    "adapt_interval": 50,
+    "adapt_up": 1.08,
+    "fixed_n_leapfrog": 3,
+    "global_shift_std": 0.25,
+    "initial_step_size": 0.4,
+    "production": 120000,
+    "step_size_max": 1.0,
+    "step_size_min": 0.001,
+    "trajectory_length": 1.2,
+    "warmup": 5000
+  },
+  "jackknife_blocks": 60,
+  "parent_campaign": "p5_fermionic_full_measure_v1",
+  "primary_observables": [
+    "sigma2",
+    "chi_sigma",
+    "condensate"
+  ],
+  "reference": {
+    "batch_size": 4096,
+    "condensate_fd_dm": 0.0001,
+    "condensate_fd_relative_max": 0.0005,
+    "force_fd_eps": 1e-06,
+    "force_relative_max": 1e-06,
+    "free_logdet_relative_max": 1e-11,
+    "gh_check": 22,
+    "gh_primary": 26,
+    "quadrature_absolute_mean_max": 0.0005,
+    "quadrature_relative_max": 0.0005,
+    "response_endpoint_relative_min": 0.01
+  },
+  "rescue_preregistration": {
+    "constant_observable_tau_rule": "If max absolute deviation from the mean is <= 1e-12 * max(1,abs(mean)), assign tau_int=0.5.",
+    "coupling_grid_changed": false,
+    "final_rescue": true,
+    "integrator_change": "Use fixed n_leapfrog=3 and adapt leapfrog epsilon directly rather than holding trajectory length fixed.",
+    "no_third_rescue": true,
+    "observables_changed": false,
+    "physical_target_changed": false,
+    "physics_gate_thresholds_changed": false,
+    "reason": "Original physics/reference gates passed. Formal sampler gate failed because g=0 condensate is deterministic but was assigned maximal autocorrelation, and fixed-trajectory step quantization left all chains at acceptance ~0.97.",
+    "reference_changed": false,
+    "sampler_gate_thresholds_changed": false,
+    "seeds_changed": false
+  },
+  "sampler_gates": {
+    "acceptance_max": 0.95,
+    "acceptance_min": 0.55,
+    "group_mean_Neff_min": 500.0,
+    "individual_Neff_min": 200.0,
+    "nonfinite_max": 0
+  },
+  "seeds": [
+    13001,
+    13002,
+    13003,
+    13004
+  ],
+  "status": "P5_FINAL_HMC_RESCUE"
+}

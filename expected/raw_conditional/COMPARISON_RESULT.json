@@ -1,0 +1,918 @@
+{
+  "status": "PASS",
+  "scope": "post hoc deterministic paired comparison on exactly the existing 200 primary chains; no new simulations or stochastic resampling",
+  "binary_sha256_rechecked": true,
+  "source_sha256": "5434d58ad86a80472fc7547947b26cff6da8d93d30fe616533cc8b1f072c5588",
+  "primary_records": 200,
+  "samples": 123988000,
+  "method": "raw and conditional each estimate own mass and coupling, interpolate to z=3; independent-endpoint stratified paired delete-block jackknife",
+  "checks": {
+    "12": "conditional primary g and adopted SE reproduced",
+    "16": "conditional primary g and adopted SE reproduced",
+    "24": "conditional primary g and adopted SE reproduced",
+    "32": "conditional primary g and adopted SE reproduced"
+  },
+  "results": {
+    "12": {
+      "eight_block": {
+        "value": [
+          5.838209807718878,
+          5.781216428017483
+        ],
+        "se": [
+          0.05439835274639911,
+          0.010622016814135077
+        ],
+        "covariance": [
+          [
+            0.0029591807815216678,
+            0.00013830164645273595
+          ],
+          [
+            0.00013830164645273595,
+            0.0001128272411997683
+          ]
+        ],
+        "order": [
+          "raw",
+          "conditional"
+        ],
+        "paired_difference": 0.056993379701395064,
+        "paired_difference_se": 0.05287158716944257,
+        "paired_difference_pull": 1.0779585549180317,
+        "variance_gain": 26.22753822618278,
+        "adopted_envelope_se": [
+          0.06208253151850655,
+          0.01079525240465757
+        ],
+        "adopted_envelope_variance_gain": 33.072972766361545,
+        "interpolation_fractions": [
+          0.5659817885236091,
+          0.568503131033345
+        ],
+        "both_interpolations_inside_brackets": true
+      },
+      "blocking": {
+        "8": {
+          "value": [
+            5.838209807718878,
+            5.781216428017483
+          ],
+          "se": [
+            0.05439835274639911,
+            0.010622016814135077
+          ],
+          "covariance": [
+            [
+              0.0029591807815216678,
+              0.00013830164645273595
+            ],
+            [
+              0.00013830164645273595,
+              0.0001128272411997683
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": 0.056993379701395064,
+          "paired_difference_se": 0.05287158716944257,
+          "paired_difference_pull": 1.0779585549180317,
+          "variance_gain": 26.22753822618278,
+          "adopted_envelope_se": [
+            0.06208253151850655,
+            0.01079525240465757
+          ],
+          "adopted_envelope_variance_gain": 33.072972766361545,
+          "interpolation_fractions": [
+            0.5659817885236091,
+            0.568503131033345
+          ],
+          "both_interpolations_inside_brackets": true
+        },
+        "4": {
+          "value": [
+            5.838209807718876,
+            5.781216428017436
+          ],
+          "se": [
+            0.052416785391807115,
+            0.010209703533168139
+          ],
+          "covariance": [
+            [
+              0.0027475193908107634,
+              8.736960044980779e-05
+            ],
+            [
+              8.736960044980779e-05,
+              0.00010423804623518598
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": 0.05699337970143947,
+          "paired_difference_se": 0.051739909510418874,
+          "paired_difference_pull": 1.1015361302470525,
+          "variance_gain": 26.358124408929367,
+          "adopted_envelope_se": [
+            0.059932113879854115,
+            0.010387867634840248
+          ],
+          "adopted_envelope_variance_gain": 33.28636552557426,
+          "interpolation_fractions": [
+            0.5659817885236101,
+            0.568503131033345
+          ],
+          "both_interpolations_inside_brackets": true
+        },
+        "2": {
+          "value": [
+            5.838209807718845,
+            5.781216428017436
+          ],
+          "se": [
+            0.05222211382579581,
+            0.01054118549184138
+          ],
+          "covariance": [
+            [
+              0.002727149172434374,
+              0.00028709929717959785
+            ],
+            [
+              0.00028709929717959785,
+              0.0001111165915734072
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": 0.056993379701408386,
+          "paired_difference_se": 0.04758221484597565,
+          "paired_difference_pull": 1.197787448228226,
+          "variance_gain": 24.54313198252424,
+          "adopted_envelope_se": [
+            0.05981372222841464,
+            0.010685481734859269
+          ],
+          "adopted_envelope_variance_gain": 31.333827377825525,
+          "interpolation_fractions": [
+            0.5659817885236091,
+            0.568503131033345
+          ],
+          "both_interpolations_inside_brackets": true
+        },
+        "1": {
+          "value": [
+            5.838209807718867,
+            5.781216428017436
+          ],
+          "se": [
+            0.058737496879789304,
+            0.00706264663570356
+          ],
+          "covariance": [
+            [
+              0.003450093539703258,
+              0.00016339654363807602
+            ],
+            [
+              0.00016339654363807602,
+              4.9880977500814806e-05
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": 0.05699337970143059,
+          "paired_difference_se": 0.05633099883659015,
+          "paired_difference_pull": 1.0117587274949966,
+          "variance_gain": 69.16651823126162,
+          "adopted_envelope_se": [
+            0.0597243773731461,
+            0.007215694455334169
+          ],
+          "adopted_envelope_variance_gain": 68.50889960883777,
+          "interpolation_fractions": [
+            0.5659817885236091,
+            0.568503131033345
+          ],
+          "both_interpolations_inside_brackets": true
+        }
+      },
+      "variance_gain_blocking_range": [
+        24.54313198252424,
+        69.16651823126162
+      ],
+      "samples": 40400000,
+      "chains": 16,
+      "recorded_generation": {
+        "measurement_wall_s": 93259.864,
+        "thermalization_wall_s": 183.301,
+        "total_single_process_wall_s": 93443.16500000001
+      },
+      "local_postprocessing": {
+        "raw": {
+          "cpu_s": 0.041241999999984735,
+          "wall_s": 0.04125421028584242
+        },
+        "conditional": {
+          "cpu_s": 97.540899,
+          "wall_s": 97.58470062376
+        }
+      },
+      "break_even": {
+        "total_cost_ratio_must_be_less_than": 26.22753822618278,
+        "extra_conditional_analysis_budget_if_raw_analysis_negligible_in_common_generation_cost_units": 25.22753822618278
+      }
+    },
+    "16": {
+      "eight_block": {
+        "value": [
+          5.690751038503436,
+          5.6428034393827335
+        ],
+        "se": [
+          0.05827488599056486,
+          0.017652859060596045
+        ],
+        "covariance": [
+          [
+            0.0033959623372133325,
+            0.0004977634041955234
+          ],
+          [
+            0.0004977634041955234,
+            0.00031162343301326795
+          ]
+        ],
+        "order": [
+          "raw",
+          "conditional"
+        ],
+        "paired_difference": 0.04794759912070212,
+        "paired_difference_se": 0.052077432366002395,
+        "paired_difference_pull": 0.920698216911394,
+        "variance_gain": 10.89764753688707,
+        "adopted_envelope_se": [
+          0.05870328553840964,
+          0.018322364267234006
+        ],
+        "adopted_envelope_variance_gain": 10.265067070049739,
+        "interpolation_fractions": [
+          0.5261347382705606,
+          0.5276398286363714
+        ],
+        "both_interpolations_inside_brackets": true
+      },
+      "blocking": {
+        "8": {
+          "value": [
+            5.690751038503436,
+            5.6428034393827335
+          ],
+          "se": [
+            0.05827488599056486,
+            0.017652859060596045
+          ],
+          "covariance": [
+            [
+              0.0033959623372133325,
+              0.0004977634041955234
+            ],
+            [
+              0.0004977634041955234,
+              0.00031162343301326795
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": 0.04794759912070212,
+          "paired_difference_se": 0.052077432366002395,
+          "paired_difference_pull": 0.920698216911394,
+          "variance_gain": 10.89764753688707,
+          "adopted_envelope_se": [
+            0.05870328553840964,
+            0.018322364267234006
+          ],
+          "adopted_envelope_variance_gain": 10.265067070049739,
+          "interpolation_fractions": [
+            0.5261347382705606,
+            0.5276398286363714
+          ],
+          "both_interpolations_inside_brackets": true
+        },
+        "4": {
+          "value": [
+            5.69075103850345,
+            5.642803439382821
+          ],
+          "se": [
+            0.05179688771359563,
+            0.016471445904817653
+          ],
+          "covariance": [
+            [
+              0.0026829175768148337,
+              0.0004416481183431237
+            ],
+            [
+              0.0004416481183431237,
+              0.00027130853019533425
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": 0.04794759912062929,
+          "paired_difference_se": 0.045507470489183646,
+          "paired_difference_pull": 1.0536203969417641,
+          "variance_gain": 9.888806573398968,
+          "adopted_envelope_se": [
+            0.056194409438680065,
+            0.018322435902681147
+          ],
+          "adopted_envelope_variance_gain": 9.406321116593105,
+          "interpolation_fractions": [
+            0.5261347382705625,
+            0.527639828636377
+          ],
+          "both_interpolations_inside_brackets": true
+        },
+        "2": {
+          "value": [
+            5.690751038503404,
+            5.642803439382726
+          ],
+          "se": [
+            0.04866703187863984,
+            0.014904590432014265
+          ],
+          "covariance": [
+            [
+              0.0023684799918765468,
+              0.0003894189424305264
+            ],
+            [
+              0.0003894189424305264,
+              0.00022214681594609118
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": 0.04794759912067725,
+          "paired_difference_se": 0.04256511391928354,
+          "paired_difference_pull": 1.1264529730050894,
+          "variance_gain": 10.661777805770175,
+          "adopted_envelope_se": [
+            0.05761503992243104,
+            0.017636220199121075
+          ],
+          "adopted_envelope_variance_gain": 10.672365962047664,
+          "interpolation_fractions": [
+            0.5261347382705625,
+            0.5276398286363735
+          ],
+          "both_interpolations_inside_brackets": true
+        },
+        "1": {
+          "value": [
+            5.690751038503458,
+            5.6428034393827335
+          ],
+          "se": [
+            0.055233658762110616,
+            0.015733673978446782
+          ],
+          "covariance": [
+            [
+              0.003050757060249279,
+              0.0005878515280726712
+            ],
+            [
+              0.0005878515280726712,
+              0.0002475484968600534
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": 0.04794759912072433,
+          "paired_difference_se": 0.04607171041934508,
+          "paired_difference_pull": 1.0407167149711807,
+          "variance_gain": 12.323876327045376,
+          "adopted_envelope_se": [
+            0.055618414687898514,
+            0.015985909595567834
+          ],
+          "adopted_envelope_variance_gain": 12.104936247665847,
+          "interpolation_fractions": [
+            0.5261347382705625,
+            0.5276398286363735
+          ],
+          "both_interpolations_inside_brackets": true
+        }
+      },
+      "variance_gain_blocking_range": [
+        9.888806573398968,
+        12.323876327045376
+      ],
+      "samples": 39776000,
+      "chains": 16,
+      "recorded_generation": {
+        "measurement_wall_s": 291414.515,
+        "thermalization_wall_s": 581.796,
+        "total_single_process_wall_s": 291996.311
+      },
+      "local_postprocessing": {
+        "raw": {
+          "cpu_s": 0.04177900000006218,
+          "wall_s": 0.04177362623158842
+        },
+        "conditional": {
+          "cpu_s": 95.24901299999998,
+          "wall_s": 95.30049470707309
+        }
+      },
+      "break_even": {
+        "total_cost_ratio_must_be_less_than": 10.89764753688707,
+        "extra_conditional_analysis_budget_if_raw_analysis_negligible_in_common_generation_cost_units": 9.89764753688707
+      }
+    },
+    "24": {
+      "eight_block": {
+        "value": [
+          5.313843174516215,
+          5.410171758834405
+        ],
+        "se": [
+          0.12864146993858527,
+          0.07007558158252547
+        ],
+        "covariance": [
+          [
+            0.01654862778795994,
+            0.006626061939391663
+          ],
+          [
+            0.006626061939391663,
+            0.0049105871341291836
+          ]
+        ],
+        "order": [
+          "raw",
+          "conditional"
+        ],
+        "paired_difference": -0.09632858431819002,
+        "paired_difference_se": 0.09059299665705842,
+        "paired_difference_pull": -1.0633116010373715,
+        "variance_gain": 3.3699896439969357,
+        "adopted_envelope_se": [
+          0.13077045398971898,
+          0.07418828398097492
+        ],
+        "adopted_envelope_variance_gain": 3.107052642328074,
+        "interpolation_fractions": [
+          0.12126424925370505,
+          0.12373550740553405
+        ],
+        "both_interpolations_inside_brackets": true
+      },
+      "blocking": {
+        "8": {
+          "value": [
+            5.313843174516215,
+            5.410171758834405
+          ],
+          "se": [
+            0.12864146993858527,
+            0.07007558158252547
+          ],
+          "covariance": [
+            [
+              0.01654862778795994,
+              0.006626061939391663
+            ],
+            [
+              0.006626061939391663,
+              0.0049105871341291836
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": -0.09632858431819002,
+          "paired_difference_se": 0.09059299665705842,
+          "paired_difference_pull": -1.0633116010373715,
+          "variance_gain": 3.3699896439969357,
+          "adopted_envelope_se": [
+            0.13077045398971898,
+            0.07418828398097492
+          ],
+          "adopted_envelope_variance_gain": 3.107052642328074,
+          "interpolation_fractions": [
+            0.12126424925370505,
+            0.12373550740553405
+          ],
+          "both_interpolations_inside_brackets": true
+        },
+        "4": {
+          "value": [
+            5.313843174516247,
+            5.410171758834407
+          ],
+          "se": [
+            0.1376791900139662,
+            0.07428133985562475
+          ],
+          "covariance": [
+            [
+              0.018955559362901806,
+              0.007612840582268119
+            ],
+            [
+              0.007612840582268119,
+              0.005517717450746827
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": -0.09632858431815983,
+          "paired_difference_se": 0.09616441987092937,
+          "paired_difference_pull": -1.0017071225246386,
+          "variance_gain": 3.4353987010219518,
+          "adopted_envelope_se": [
+            0.13986764336434981,
+            0.0774830345782027
+          ],
+          "adopted_envelope_variance_gain": 3.258526614038499,
+          "interpolation_fractions": [
+            0.12126424925370505,
+            0.12373550740553305
+          ],
+          "both_interpolations_inside_brackets": true
+        },
+        "2": {
+          "value": [
+            5.313843174516193,
+            5.41017175883449
+          ],
+          "se": [
+            0.13160480441703065,
+            0.07267618509676593
+          ],
+          "covariance": [
+            [
+              0.01731982454564489,
+              0.008019073869267828
+            ],
+            [
+              0.008019073869267828,
+              0.005281827880219382
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": -0.0963285843182975,
+          "paired_difference_se": 0.0810154595575969,
+          "paired_difference_pull": -1.1890148478367135,
+          "variance_gain": 3.2791345985559657,
+          "adopted_envelope_se": [
+            0.13385229264856244,
+            0.07541004939060413
+          ],
+          "adopted_envelope_variance_gain": 3.1505993427272077,
+          "interpolation_fractions": [
+            0.12126424925370505,
+            0.12373550740553405
+          ],
+          "both_interpolations_inside_brackets": true
+        },
+        "1": {
+          "value": [
+            5.313843174516262,
+            5.410171758834336
+          ],
+          "se": [
+            0.12398225944231664,
+            0.07259702722314713
+          ],
+          "covariance": [
+            [
+              0.015371600656421914,
+              0.00754259960233445
+            ],
+            [
+              0.00754259960233445,
+              0.005270328361638366
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": -0.09632858431807367,
+          "paired_difference_se": 0.07454347599482719,
+          "paired_difference_pull": -1.2922470146784975,
+          "variance_gain": 2.9166305401971964,
+          "adopted_envelope_se": [
+            0.1252045672314097,
+            0.07457594264160655
+          ],
+          "adopted_envelope_variance_gain": 2.818660956231063,
+          "interpolation_fractions": [
+            0.12126424925370505,
+            0.12373550740553405
+          ],
+          "both_interpolations_inside_brackets": true
+        }
+      },
+      "variance_gain_blocking_range": [
+        2.9166305401971964,
+        3.4353987010219518
+      ],
+      "samples": 15392000,
+      "chains": 52,
+      "recorded_generation": {
+        "measurement_wall_s": 572820.713,
+        "thermalization_wall_s": 9602.486,
+        "total_single_process_wall_s": 582423.199
+      },
+      "local_postprocessing": {
+        "raw": {
+          "cpu_s": 0.014477999999996882,
+          "wall_s": 0.014495462062768638
+        },
+        "conditional": {
+          "cpu_s": 36.47464999999997,
+          "wall_s": 36.4825482070446
+        }
+      },
+      "break_even": {
+        "total_cost_ratio_must_be_less_than": 3.3699896439969357,
+        "extra_conditional_analysis_budget_if_raw_analysis_negligible_in_common_generation_cost_units": 2.3699896439969357
+      }
+    },
+    "32": {
+      "eight_block": {
+        "value": [
+          5.277079675944082,
+          5.266544377788858
+        ],
+        "se": [
+          0.10438449135765834,
+          0.07206801558781727
+        ],
+        "covariance": [
+          [
+            0.010896122035997048,
+            0.00675850002811679
+          ],
+          [
+            0.00675850002811679,
+            0.005193798870765872
+          ]
+        ],
+        "order": [
+          "raw",
+          "conditional"
+        ],
+        "paired_difference": 0.010535298155224027,
+        "paired_difference_se": 0.05072396721993798,
+        "paired_difference_pull": 0.20769862320790508,
+        "variance_gain": 2.097909893532384,
+        "adopted_envelope_se": [
+          0.1067251890082222,
+          0.07580998528859284
+        ],
+        "adopted_envelope_variance_gain": 1.9818968184190255,
+        "interpolation_fractions": [
+          0.3439061720615043,
+          0.34646060615096147
+        ],
+        "both_interpolations_inside_brackets": true
+      },
+      "blocking": {
+        "8": {
+          "value": [
+            5.277079675944082,
+            5.266544377788858
+          ],
+          "se": [
+            0.10438449135765834,
+            0.07206801558781727
+          ],
+          "covariance": [
+            [
+              0.010896122035997048,
+              0.00675850002811679
+            ],
+            [
+              0.00675850002811679,
+              0.005193798870765872
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": 0.010535298155224027,
+          "paired_difference_se": 0.05072396721993798,
+          "paired_difference_pull": 0.20769862320790508,
+          "variance_gain": 2.097909893532384,
+          "adopted_envelope_se": [
+            0.1067251890082222,
+            0.07580998528859284
+          ],
+          "adopted_envelope_variance_gain": 1.9818968184190255,
+          "interpolation_fractions": [
+            0.3439061720615043,
+            0.34646060615096147
+          ],
+          "both_interpolations_inside_brackets": true
+        },
+        "4": {
+          "value": [
+            5.277079675944032,
+            5.266544377788906
+          ],
+          "se": [
+            0.10490697947695311,
+            0.07250579211441444
+          ],
+          "covariance": [
+            [
+              0.01100547434297786,
+              0.006886950348794766
+            ],
+            [
+              0.006886950348794766,
+              0.005257089890138683
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": 0.010535298155126327,
+          "paired_difference_se": 0.04988650654763282,
+          "paired_difference_pull": 0.2111853261375794,
+          "variance_gain": 2.0934537116479732,
+          "adopted_envelope_se": [
+            0.10694638812672556,
+            0.07580676362181318
+          ],
+          "adopted_envelope_variance_gain": 1.990289866507681,
+          "interpolation_fractions": [
+            0.3439061720615017,
+            0.3464606061509641
+          ],
+          "both_interpolations_inside_brackets": true
+        },
+        "2": {
+          "value": [
+            5.277079675944122,
+            5.2665443777888745
+          ],
+          "se": [
+            0.1034642343603756,
+            0.07162382144141982
+          ],
+          "covariance": [
+            [
+              0.01070484779177873,
+              0.006642960993121252
+            ],
+            [
+              0.006642960993121252,
+              0.005129971797872389
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": 0.01053529815524712,
+          "paired_difference_se": 0.05048660815908131,
+          "paired_difference_pull": 0.20867510295107983,
+          "variance_gain": 2.0867264409169795,
+          "adopted_envelope_se": [
+            0.10844811789887376,
+            0.07621011472724898
+          ],
+          "adopted_envelope_variance_gain": 2.024970998988396,
+          "interpolation_fractions": [
+            0.3439061720614979,
+            0.34646060615096147
+          ],
+          "both_interpolations_inside_brackets": true
+        },
+        "1": {
+          "value": [
+            5.277079675944032,
+            5.266544377788872
+          ],
+          "se": [
+            0.10339792445655953,
+            0.07501961158813981
+          ],
+          "covariance": [
+            [
+              0.010691130781924392,
+              0.006922512939236229
+            ],
+            [
+              0.006922512939236229,
+              0.005627942122835361
+            ]
+          ],
+          "order": [
+            "raw",
+            "conditional"
+          ],
+          "paired_difference": 0.010535298155160078,
+          "paired_difference_se": 0.04973979318701773,
+          "paired_difference_pull": 0.21180824205577575,
+          "variance_gain": 1.8996518707157906,
+          "adopted_envelope_se": [
+            0.10539516332397152,
+            0.07580145662371983
+          ],
+          "adopted_envelope_variance_gain": 1.933242169960942,
+          "interpolation_fractions": [
+            0.3439061720615017,
+            0.3464606061509641
+          ],
+          "both_interpolations_inside_brackets": true
+        }
+      },
+      "variance_gain_blocking_range": [
+        1.8996518707157906,
+        2.097909893532384
+      ],
+      "samples": 28420000,
+      "chains": 116,
+      "recorded_generation": {
+        "measurement_wall_s": 3372824.02,
+        "thermalization_wall_s": 67839.609,
+        "total_single_process_wall_s": 3440663.629
+      },
+      "local_postprocessing": {
+        "raw": {
+          "cpu_s": 0.02552399999996169,
+          "wall_s": 0.025579962064512074
+        },
+        "conditional": {
+          "cpu_s": 67.73619799999977,
+          "wall_s": 67.74982342065778
+        }
+      },
+      "break_even": {
+        "total_cost_ratio_must_be_less_than": 2.097909893532384,
+        "extra_conditional_analysis_budget_if_raw_analysis_negligible_in_common_generation_cost_units": 1.097909893532384
+      }
+    }
+  },
+  "recorded_generation_totals": {
+    "measurement_wall_s": 4330319.112,
+    "thermalization_wall_s": 78207.192,
+    "total_single_process_wall_s": 4408526.3040000005
+  },
+  "raw_secondary_fit": {
+    "B": 0.0234589273693376,
+    "B_se": 0.013372149904349796,
+    "chi2": 0.851964384098781,
+    "dof": 1,
+    "objective": "same g-space primary ansatz, raw data and adopted raw envelope errors; descriptive secondary fit"
+  },
+  "environment": {
+    "python": "3.13.2 (v3.13.2:4f8bb3947cf, Feb  4 2025, 11:51:10) [Clang 15.0.0 (clang-1500.3.9.4)]",
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "processor": "arm",
+    "timing_clock": "process_time and perf_counter; one process, thread limit 1; no input I/O/hash/warmup in timed moment calculation"
+  },
+  "elapsed_wall_s": 305.4302563749952,
+  "cost_scope": "HIPSTER generation and local analysis are reported separately; no same-hardware end-to-end speedup is measured",
+  "new_simulations": false,
+  "new_random_draws": false
+}

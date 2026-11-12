@@ -1,0 +1,5 @@
+parent_campaign=p3_reference_kernel_invariance_v1
+parent_results=results/p3_reference_kernel_invariance_v1
+rescue_reason=ESS failure / L32 apparent reference dependence under poor mixing
+scientific_gates_changed=false
+final_hmc_rescue=true

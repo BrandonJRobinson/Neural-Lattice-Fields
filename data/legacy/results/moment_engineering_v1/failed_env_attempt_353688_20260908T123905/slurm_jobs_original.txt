@@ -1,0 +1,5 @@
+production_job=353688
+analysis_job=353689
+repository=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+python=/home/brobins/miniconda3/envs/categorification_env/bin/python
+timestamp=2026-09-08T11:35:42+02:00

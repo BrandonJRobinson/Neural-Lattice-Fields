@@ -1,0 +1,15 @@
+{
+  "aggregate_pass": true,
+  "artifacts": {
+    "actual": 24,
+    "expected": 24,
+    "extra": 0,
+    "missing": 0
+  },
+  "campaign": "moment_engineering_p1c_s1",
+  "chi2_pass": true,
+  "interpretation_if_pass": "P1c Gaussian sextic anomaly is not reproduced by the exactly unbiased U-statistic estimator; original miss is attributable to finite-sample plug-in estimation.",
+  "per_width_pass": true,
+  "primary_estimator": "sitewise_unbiased_U",
+  "width_chi2_dof": 0.11619257313064983
+}

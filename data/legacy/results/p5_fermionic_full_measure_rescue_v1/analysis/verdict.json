@@ -1,0 +1,236 @@
+{
+  "P5_closed": false,
+  "campaign": "p5_fermionic_full_measure_rescue_v1",
+  "classification": "P5_NOT_CLOSED",
+  "full_measure_physics_pass": false,
+  "global_rows": [
+    {
+      "chi2": 7.544614653587313,
+      "dof": 5,
+      "observable": "sigma2",
+      "p_value": 0.18318309911055441,
+      "pass": true
+    },
+    {
+      "chi2": 3.7807636380425915,
+      "dof": 5,
+      "observable": "chi_sigma",
+      "p_value": 0.581392325898307,
+      "pass": true
+    },
+    {
+      "chi2": 1.8002121451274515,
+      "dof": 5,
+      "observable": "condensate",
+      "p_value": 0.8760407002493031,
+      "pass": true
+    }
+  ],
+  "interpretation": "At least one determinant-reference, sampler, or interacting full-measure physics gate failed.",
+  "physics_rows": [
+    {
+      "g": 0.0,
+      "hmc": 0.5769849571821017,
+      "observable": "sigma2",
+      "pass": false,
+      "reference": 0.6405228758169773,
+      "relative_error": 0.09919695460343068,
+      "se": 0.030330018218408784,
+      "z": 2.0948856072994797
+    },
+    {
+      "g": 0.0,
+      "hmc": 2.002697697067297,
+      "observable": "chi_sigma",
+      "pass": true,
+      "reference": 1.9999999999999603,
+      "relative_error": 0.0013488485336684833,
+      "se": 0.02005162514879336,
+      "z": 0.13453757724466794
+    },
+    {
+      "g": 0.0,
+      "hmc": 1.5111111111110742,
+      "observable": "condensate",
+      "pass": true,
+      "reference": 1.5111111111110698,
+      "relative_error": 2.9388256534196123e-15,
+      "se": 1e-14,
+      "z": 0.4440892098500626
+    },
+    {
+      "g": 0.125,
+      "hmc": 1.0509838611423656,
+      "observable": "sigma2",
+      "pass": true,
+      "reference": 1.0604497604472427,
+      "relative_error": 0.008926306231503926,
+      "se": 0.008261123832198174,
+      "z": 1.1458367526199302
+    },
+    {
+      "g": 0.125,
+      "hmc": 1.8155005092762102,
+      "observable": "chi_sigma",
+      "pass": true,
+      "reference": 1.80482403792619,
+      "relative_error": 0.005915519255986816,
+      "se": 0.013673056420099262,
+      "z": 0.7808401444410004
+    },
+    {
+      "g": 0.125,
+      "hmc": 1.3701951687204401,
+      "observable": "condensate",
+      "pass": true,
+      "reference": 1.3702055683910634,
+      "relative_error": 7.589861596855515e-06,
+      "se": 0.00018060336611932587,
+      "z": 0.05758292797520608
+    },
+    {
+      "g": 0.25,
+      "hmc": 1.832551055446359,
+      "observable": "sigma2",
+      "pass": true,
+      "reference": 1.8214399291857828,
+      "relative_error": 0.006100188143752392,
+      "se": 0.009346841207510826,
+      "z": 1.1887573581166395
+    },
+    {
+      "g": 0.25,
+      "hmc": 1.5798978478834396,
+      "observable": "chi_sigma",
+      "pass": true,
+      "reference": 1.5757807094867315,
+      "relative_error": 0.002612761009143885,
+      "se": 0.007414934334280658,
+      "z": 0.5552494750592332
+    },
+    {
+      "g": 0.25,
+      "hmc": 1.135616225576733,
+      "observable": "condensate",
+      "pass": true,
+      "reference": 1.1352841296968235,
+      "relative_error": 0.0002925222604831552,
+      "se": 0.00032864949780940706,
+      "z": 1.0104864973874323
+    },
+    {
+      "g": 0.375,
+      "hmc": 2.5214987643388027,
+      "observable": "sigma2",
+      "pass": true,
+      "reference": 2.516090867898103,
+      "relative_error": 0.002149324775864511,
+      "se": 0.008766681129430595,
+      "z": 0.6168692987526377
+    },
+    {
+      "g": 0.375,
+      "hmc": 1.4516429379252869,
+      "observable": "chi_sigma",
+      "pass": true,
+      "reference": 1.4484807987165524,
+      "relative_error": 0.0021830729213230073,
+      "se": 0.005858501469624464,
+      "z": 0.5397522259113
+    },
+    {
+      "g": 0.375,
+      "hmc": 0.9468270006469788,
+      "observable": "condensate",
+      "pass": true,
+      "reference": 0.946706728667198,
+      "relative_error": 0.0001270424896526717,
+      "se": 0.00021708968139123427,
+      "z": 0.5540197903928268
+    },
+    {
+      "g": 0.5,
+      "hmc": 3.096078041393095,
+      "observable": "sigma2",
+      "pass": true,
+      "reference": 3.095081107928487,
+      "relative_error": 0.0003221025329689313,
+      "se": 0.004482907525894287,
+      "z": 0.22238546274924006
+    },
+    {
+      "g": 0.5,
+      "hmc": 1.3817533144670748,
+      "observable": "chi_sigma",
+      "pass": true,
+      "reference": 1.3744857954132854,
+      "relative_error": 0.005287445732827085,
+      "se": 0.004548139406924817,
+      "z": 1.59791035488582
+    },
+    {
+      "g": 0.5,
+      "hmc": 0.8084369390053261,
+      "observable": "condensate",
+      "pass": true,
+      "reference": 0.8085659330234938,
+      "relative_error": 0.0001595343223097861,
+      "se": 0.0002474893611945153,
+      "z": 0.5212103564577047
+    }
+  ],
+  "reference_pass": true,
+  "sampler_pass": false,
+  "sampler_rows": [
+    {
+      "ESS_per_1000_grad": 10.27042246894446,
+      "Neff_mean": 4929.80278509334,
+      "Neff_min": 4830.730744403397,
+      "acceptance_mean": 1.0,
+      "g": 0.0,
+      "pass": false,
+      "shift_acceptance_mean": 0.88838125,
+      "tau_mean": 12.178673757756819
+    },
+    {
+      "ESS_per_1000_grad": 250.0,
+      "Neff_mean": 120000.0,
+      "Neff_min": 120000.0,
+      "acceptance_mean": 0.9810416666666667,
+      "g": 0.125,
+      "pass": false,
+      "shift_acceptance_mean": 0.8828416666666667,
+      "tau_mean": 0.5
+    },
+    {
+      "ESS_per_1000_grad": 250.0,
+      "Neff_mean": 120000.0,
+      "Neff_min": 120000.0,
+      "acceptance_mean": 0.94684375,
+      "g": 0.25,
+      "pass": true,
+      "shift_acceptance_mean": 0.8750229166666668,
+      "tau_mean": 0.5
+    },
+    {
+      "ESS_per_1000_grad": 250.0,
+      "Neff_mean": 120000.0,
+      "Neff_min": 120000.0,
+      "acceptance_mean": 0.91980625,
+      "g": 0.375,
+      "pass": true,
+      "shift_acceptance_mean": 0.8703229166666666,
+      "tau_mean": 0.5
+    },
+    {
+      "ESS_per_1000_grad": 250.0,
+      "Neff_mean": 120000.0,
+      "Neff_min": 120000.0,
+      "acceptance_mean": 0.9014354166666667,
+      "g": 0.5,
+      "pass": true,
+      "shift_acceptance_mean": 0.8663166666666667,
+      "tau_mean": 0.5
+    }
+  ]
+}

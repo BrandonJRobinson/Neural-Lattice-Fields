@@ -1,0 +1,60 @@
+{
+  "L": 24,
+  "V": 576,
+  "campaign": "p3_reference_kernel_invariance_v1",
+  "diagnostics": {
+    "ESS_per_1000_grad": 1.1263481333031624,
+    "ESS_per_grad": 0.0011263481333031625,
+    "ESS_per_sec": 6.262979423295997,
+    "Neff_worst": 33.790443999094876,
+    "acceptance": 0.7858333333333334,
+    "final_nominal_step_size": 0.2,
+    "mean_abs_dH": 0.4615420755940061,
+    "mean_actual_step_size": 0.19999999999999996,
+    "mean_leapfrog_steps": 4.0,
+    "nonfinite_production": 0,
+    "nonfinite_warmup": 0,
+    "production_seconds": 5.395266647916287,
+    "tau_absM": 88.78249720780109,
+    "tau_phi2": 17.976083249923207,
+    "tau_worst": 88.78249720780109,
+    "total_grad_evals": 30000,
+    "warmup_acceptance": 0.8815
+  },
+  "dimension": 2,
+  "effective_seed": 24016004,
+  "estimates": {
+    "S_pmin": {
+      "jk_se": 0.35846155669385316,
+      "value": 3.534310749246657
+    },
+    "abs_M": {
+      "jk_se": 0.010730514963799571,
+      "value": 0.557715763225908
+    },
+    "binder_U4": {
+      "jk_se": 0.005275574090842248,
+      "value": 0.6379450961130911
+    },
+    "chi0": {
+      "jk_se": 6.271002754654326,
+      "value": 183.7887185559451
+    },
+    "chi_abs": {
+      "jk_se": 0.8604074336076967,
+      "value": 4.625719966766656
+    },
+    "phi2": {
+      "jk_se": 0.0029272339195140873,
+      "value": 0.6302202717035121
+    },
+    "xi_over_L": {
+      "jk_se": 0.07869544814359045,
+      "value": 1.1398604230295646
+    }
+  },
+  "lambda": 1.0,
+  "m0_sq": -3.84,
+  "m_ref_sq": 0.5,
+  "seed": 11004
+}

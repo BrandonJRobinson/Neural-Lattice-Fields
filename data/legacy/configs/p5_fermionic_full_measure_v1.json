@@ -1,0 +1,109 @@
+{
+  "campaign": "p5_fermionic_full_measure_v1",
+  "status": "P5_FINAL",
+
+  "dimension": 2,
+  "L": 2,
+
+  "fermion": {
+    "Nf": 2,
+    "wilson_r": 1.0,
+    "mf": 0.5
+  },
+
+  "auxiliary": {
+    "msigma_sq": 0.5
+  },
+
+  "couplings": [
+    0.0,
+    0.125,
+    0.25,
+    0.375,
+    0.5
+  ],
+
+  "seeds": [
+    13001,
+    13002,
+    13003,
+    13004
+  ],
+
+  "reference": {
+    "gh_primary": 26,
+    "gh_check": 22,
+    "batch_size": 4096,
+
+    "quadrature_relative_max": 0.0005,
+    "quadrature_absolute_mean_max": 0.0005,
+
+    "condensate_fd_dm": 0.0001,
+    "condensate_fd_relative_max": 0.0005,
+
+    "free_logdet_relative_max": 1e-11,
+
+    "force_fd_eps": 1e-6,
+    "force_relative_max": 1e-6,
+
+    "response_endpoint_relative_min": 0.01
+  },
+
+  "hmc": {
+    "warmup": 5000,
+    "production": 120000,
+
+    "trajectory_length": 1.2,
+
+    "initial_step_size": 0.08,
+
+    "adapt_interval": 50,
+
+    "acceptance_target_low": 0.65,
+    "acceptance_target_high": 0.85,
+
+    "adapt_up": 1.08,
+    "adapt_down": 0.88,
+
+    "step_size_min": 0.001,
+    "step_size_max": 0.4,
+
+    "global_shift_std": 0.25
+  },
+
+  "jackknife_blocks": 60,
+
+  "sampler_gates": {
+    "acceptance_min": 0.55,
+    "acceptance_max": 0.95,
+
+    "group_mean_Neff_min": 500.0,
+    "individual_Neff_min": 200.0,
+
+    "nonfinite_max": 0
+  },
+
+  "finite_measure_match_gates": {
+    "max_z": 4.0,
+    "global_chi2_p_min": 0.001,
+
+    "relative_error_max": {
+      "sigma2": 0.01,
+      "chi_sigma": 0.02,
+      "condensate": 0.01
+    }
+  },
+
+  "primary_observables": [
+    "sigma2",
+    "chi_sigma",
+    "condensate"
+  ],
+
+  "closure_rule": {
+    "reference": "Free Wilson determinant, force, Gauss-Hermite convergence, Gaussian g=0 baseline, condensate thermodynamic identity, and nontrivial response all pass.",
+    "sampler": "Every Yukawa coupling group passes the frozen HMC quality gate.",
+    "physics": "Latent-HMC agrees with independent full-measure Gauss-Hermite quadrature for all primary observables across all five couplings.",
+    "P5_closed": "reference AND sampler AND physics"
+  }
+}

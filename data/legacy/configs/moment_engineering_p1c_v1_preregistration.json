@@ -1,0 +1,76 @@
+{
+  "campaign": "moment_engineering_p1c_v1",
+  "status": "PREREGISTERED_BEFORE_PRODUCTION",
+  "L": 16,
+  "twoscale": {
+    "sigma1": 5.053427193613765,
+    "sigma2": 1.9002050977792333,
+    "pi1": 0.8013785646741373,
+    "sigma_c": 0.7126676290948498
+  },
+  "amplitude_laws": {
+    "fixed": {
+      "E_c2": 1.0,
+      "E_c4": 1.0,
+      "E_c6": 1.0
+    },
+    "gaussian": {
+      "E_c2": 1.0,
+      "E_c4": 3.0,
+      "E_c6": 15.0
+    },
+    "quartic_null": {
+      "E_c2": 1.0,
+      "E_c4": 2.0,
+      "E_c6": 4.0
+    }
+  },
+  "widths": [16, 32, 64, 128],
+  "separations": [0, 1, 2, 4, 8],
+  "seeds": [9201, 9202, 9203, 9204, 9205, 9206, 9207, 9208],
+  "samples_per_replica": 12000,
+  "batch_size": 50,
+  "jackknife_blocks": 24,
+  "seed_rules": {
+    "geometry_seed": "seed + 10000*N",
+    "amplitude_seed": "seed + 100000000 + 10000*N"
+  },
+  "theory": {
+    "covariance": "G(r)=(sigma_c^2/2) C1(r), independent of amplitude law",
+    "C1": "pi1 exp(-sigma1^2 d2(r)) + (1-pi1) exp(-sigma2^2 d2(r))",
+    "C2": "pi1 exp(-4 sigma1^2 d2(r)) + (1-pi1) exp(-4 sigma2^2 d2(r))",
+    "N_kappa22": "sigma_c^4 [m4(1/4+C2/8)-1/4-C1^2/2]",
+    "N_kappa4_local": "(3 sigma_c^4/8)(m4-2)",
+    "N2_kappa6_local": "(5 sigma_c^6/16)(m6-9m4+12)"
+  },
+  "primary_gates": {
+    "covariance_against_same_nngp": {
+      "pooled_abs_z_max": 3.0,
+      "individual_width_abs_z_max": 4.5
+    },
+    "paired_covariance_between_amplitude_laws": {
+      "pooled_abs_z_max": 3.0,
+      "individual_width_abs_z_max": 4.5
+    },
+    "spatial_connected_quartic": {
+      "pooled_abs_z_max": 3.0,
+      "individual_width_abs_z_max": 4.5,
+      "width_chi2_dof_max": 3.5
+    },
+    "local_sextic_primary_widths": {
+      "widths": [16, 32, 64],
+      "pooled_abs_z_max": 3.0,
+      "individual_width_abs_z_max": 4.5,
+      "width_chi2_dof_max": 3.5
+    }
+  },
+  "descriptive_not_hard_gates": [
+    "full momentum-space kernel relative L2 error",
+    "historical RMS-relative TwoScale covariance metric",
+    "N=128 local sextic stress point"
+  ],
+  "interpretation_constraint": {
+    "quartic_null": "Cancellation at r=0 must not be interpreted as cancellation of the full quartic functional unless all separated targets also vanish.",
+    "large_separation_limit": "N kappa22 -> sigma_c^4 (m4-1)/4 when C1,C2 -> 0"
+  }
+}

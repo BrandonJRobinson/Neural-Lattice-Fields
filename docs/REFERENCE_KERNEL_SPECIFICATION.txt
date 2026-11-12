@@ -1,0 +1,71 @@
+P3 INDEPENDENT-REPLICATION ANALYSIS — 12 November 2026
+
+This is a post hoc analysis. The archived patterns and exploratory computations
+were already known when this specification was finalized. It is not a new
+preregistration. The unit choice follows the saved design: independent complete
+chains, not 180000 independent observations or reconstructed block histories.
+
+Use all 72 final-campaign summaries, six masses, four archived seed labels and
+three volumes, for each of the six recorded primary observables. Do not pool
+the short parent campaign, delete records, choose a subset of favorable tests,
+resample data, or change the original uncertainty prescription or weighted fits.
+
+Estimands
+mu_mj = expected reported estimator from a complete run of the stated length,
+algorithm and observable definition at reference m, observable-volume j.
+The operational log-trend contrast is beta_j=sum_m c_m mu_mj, with fixed
+c_m=(log(m)-mean(log(m)))/sum(log(m)-mean(log(m)))^2 over the six archived masses.
+This definition requires no assumption that the mean profile is exactly linear.
+It differs from the archived data-weighted slope. A zero contrast does not
+imply equality of every reference mean, nor equality with the true target mean.
+
+Replication and inference
+Group by the existing seed labels, once: D_sj=sum_m c_m y_msj. Each of the four
+groups contains six distinct, independent complete chains. Repeated labels do
+not identify common random streams. All four D_sj estimate beta_j under the
+working model of common expected run summaries within a reference. They may
+have different variances. Use their arithmetic mean, standard error from four
+replicates, and Student-t3 critical values. The Gaussian heterogeneity result
+of Bakirov--Szekely, used by Ibragimov--Muller, justifies conservative two-sided
+decisions at local significance levels <=0.05 for independent centered normal
+replicate estimators of possibly different variances. Its use for finite MCMC
+run estimates is conditional on an adequate centered-normal approximation.
+
+Compute all 18 tests. To avoid claiming a calibrated p-value above the theorem's
+stated operating range, retain p_ref=2*sf_t3(|T|) as a reference tail area, and
+use p_safe=p_ref if p_ref<=0.05, otherwise 1, for Holm's procedure at familywise
+0.05. No conclusion uses an unadjusted favorable subset. Report the marginal
+L24 result as well as L32. Preserve the original normal/max-error diagnostics.
+
+Grouping sensitivity
+The seed labels are bookkeeping. Report the maximum replicate standard error
+over every allocation of the four chains at each reference into four disjoint
+replicate contrasts. It is computed by sorting the centered, signed weighted
+terms at each reference in the same order. Rearrangement of each pair of terms
+maximizes every cross-product simultaneously. This gives an interval envelope
+containing the interval from any fixed allocation, so data dependence can only
+make coverage more conservative. It does not select a favorable matching.
+Supply individual and Bonferroni-18 95% contrast intervals and this envelope.
+
+Precision beyond a linear contrast
+Construct simultaneous 95% intervals for all 108 run means using the four chain
+values, t3 critical value with Bonferroni-108, and the same Gaussian-heterogeneity
+calibration at its smaller local level. From this rectangle derive lower/upper
+bounds for the maximum-minus-minimum run expectation across the six references.
+Also intersect that rectangle with the constant-reference subspace and project
+it using the original archived weighted-fit coefficients. The whole confidence
+rectangle protects these projections even though those coefficients are data
+dependent. Under a constant-reference null every zero-sum contrast is zero.
+This checks the original weights without treating their variance estimates as
+known or replacing their nominal p values with invented recalibrated p values.
+This is a separately specified confidence summary, not a joint 95% statement
+with the contrast intervals. Do not choose an equivalence margin after seeing
+the bounds. The original protocol supplied no physical equivalence margin.
+
+Limits
+No method here tests equilibration, absolute/common bias, autocorrelation tails,
+or a within-chain blocking plateau. Nonlinear finite-run estimators can also
+have reference-dependent bias. Four replicates cannot empirically validate a
+normal approximation. Results are model-qualified compatibility and precision
+statements about run summaries; no unconditional invariance certificate follows.
+There are no random draws, new Markov trajectories, or PDF/TeX operations.

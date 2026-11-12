@@ -1,0 +1,86 @@
+{
+  "result": "PASS",
+  "schema": "nnlft-adversarial-source-review-v1",
+  "exact_population_description": "Finite spectral law and exact phase quadrature through fourth order; weighted enumeration, no random draws",
+  "amplitude_fourth_moments": [
+    1.0,
+    1.4,
+    2.0,
+    3.0
+  ],
+  "widths": [
+    1,
+    2
+  ],
+  "complete_fourth_tensor_components_checked_per_case": 256,
+  "maximum_full_tensor_discrepancy": 2.091660178393795e-13,
+  "maximum_projected_kurtosis_discrepancy": 5.995204332975845e-15,
+  "polarization_coefficient": "1/(2^4*4!)=1/384",
+  "polarization_identity": "PASS",
+  "independent_Gaussian_quadrature": [
+    {
+      "sigma": 5.053427193613765,
+      "nodes": 128,
+      "A": 0.08046368485422785,
+      "B": 0.021991738729283027,
+      "maximum_absolute_discrepancy": 7.644108725383958e-06,
+      "converged_rule": false
+    },
+    {
+      "sigma": 5.053427193613765,
+      "nodes": 256,
+      "A": 0.08046368485423049,
+      "B": 0.021999382838011422,
+      "maximum_absolute_discrepancy": 3.011479954295737e-15,
+      "converged_rule": true
+    },
+    {
+      "sigma": 5.053427193613765,
+      "nodes": 384,
+      "A": 0.08046368485423305,
+      "B": 0.021999382838012498,
+      "maximum_absolute_discrepancy": 5.190292640122607e-15,
+      "converged_rule": true
+    },
+    {
+      "sigma": 1.9002050977792333,
+      "nodes": 128,
+      "A": 0.21898340720357584,
+      "B": 0.1143493461816514,
+      "maximum_absolute_discrepancy": 0.0,
+      "converged_rule": false
+    },
+    {
+      "sigma": 1.9002050977792333,
+      "nodes": 256,
+      "A": 0.21898340720358062,
+      "B": 0.11434934618165495,
+      "maximum_absolute_discrepancy": 4.773959005888173e-15,
+      "converged_rule": true
+    },
+    {
+      "sigma": 1.9002050977792333,
+      "nodes": 384,
+      "A": 0.21898340720358273,
+      "B": 0.11434934618165826,
+      "maximum_absolute_discrepancy": 6.8833827526759706e-15,
+      "converged_rule": true
+    }
+  ],
+  "independent_rho_M_checks": [
+    {
+      "nodes": 256,
+      "rho_M": 13.789004407156515
+    },
+    {
+      "nodes": 384,
+      "rho_M": 13.78900440715642
+    }
+  ],
+  "coarse_quadrature_retained": true,
+  "new_simulations": false,
+  "new_random_draws": 0,
+  "new_empirical_data": false,
+  "tex_compiled": false,
+  "pdf_rendering": false
+}

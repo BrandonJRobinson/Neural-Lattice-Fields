@@ -1,0 +1,35 @@
+{
+  "aggregate_pass": false,
+  "artifacts": {
+    "actual": 96,
+    "expected": 96,
+    "extra": 0,
+    "missing": 0
+  },
+  "campaign": "moment_engineering_p1c_v1",
+  "counts": {
+    "covariance_gates": [
+      15,
+      15
+    ],
+    "paired_covariance_gates": [
+      15,
+      15
+    ],
+    "sextic_gates": [
+      2,
+      3
+    ],
+    "vertex_gates": [
+      15,
+      15
+    ]
+  },
+  "gates": {
+    "local_sextic": false,
+    "paired_amplitude_covariance": true,
+    "same_nngp_covariance": true,
+    "spatial_connected_quartic": true
+  },
+  "interpretation": "quartic_null is a full-quartic cancellation only if the separated spatial targets themselves vanish; otherwise it is a local/contact cancellation."
+}

@@ -1,0 +1,82 @@
+{
+  "algorithmic_sensitivity_gates": {
+    "ESS_per_grad_ratio_min": 1.5
+  },
+  "campaign": "p3_reference_kernel_invariance_rescue_v1",
+  "closure_rule": {
+    "P3_A": "All sampler groups pass and every primary physical observable passes the reference-kernel invariance tests at every lattice size.",
+    "P3_B": "At least one lattice size exhibits max/min ESS-per-gradient ratio >= 1.5 across reference masses.",
+    "P3_closed": "P3_A passes. P3_B controls whether the performance/preconditioning claim is promoted."
+  },
+  "dimension": 2,
+  "hmc": {
+    "acceptance_target_high": 0.85,
+    "acceptance_target_low": 0.65,
+    "adapt_down": 0.88,
+    "adapt_interval": 50,
+    "adapt_up": 1.08,
+    "global_z2_probability": 0.5,
+    "initial_step_size": 0.08,
+    "production": 180000,
+    "step_size_max": 0.5,
+    "step_size_min": 0.001,
+    "trajectory_length": 1.6,
+    "warmup": 5000
+  },
+  "jackknife_blocks": 60,
+  "lambda": 1.0,
+  "lattice_sizes": [
+    16,
+    24,
+    32
+  ],
+  "m0_sq": -3.84,
+  "m_ref_sq_values": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "parent_campaign": "p3_reference_kernel_invariance_v1",
+  "physical_invariance_gates": {
+    "chi2_p_min": 0.001,
+    "log_mref_slope_z_max": 3.5,
+    "max_standardized_residual": 4.0
+  },
+  "primary_observables": [
+    "phi2",
+    "abs_M",
+    "chi_abs",
+    "binder_U4",
+    "xi_over_L",
+    "S_pmin"
+  ],
+  "rescue_preregistration": {
+    "final_rescue": true,
+    "no_third_hmc_rescue": true,
+    "observables_changed": false,
+    "physical_invariance_thresholds_changed": false,
+    "physical_target_changed": false,
+    "production_multiplier": 30.0,
+    "reason": "Original campaign failed sampler ESS certification; apparent L=32 reference-kernel dependence coincided with the least-mixed high-mref chains.",
+    "reference_grid_changed": false,
+    "sampler_gate_thresholds_changed": false,
+    "scientific_gates_changed": false
+  },
+  "sampler_gates": {
+    "acceptance_max": 0.98,
+    "acceptance_min": 0.55,
+    "group_mean_Neff_min": 100.0,
+    "individual_Neff_min": 25.0,
+    "nonfinite_max": 0
+  },
+  "seeds": [
+    11001,
+    11002,
+    11003,
+    11004
+  ],
+  "status": "P3_FINAL_RESCUE"
+}

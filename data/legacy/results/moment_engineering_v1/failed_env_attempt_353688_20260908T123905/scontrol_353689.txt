@@ -1,0 +1,28 @@
+JobId=353689 JobName=nnft_mom_an
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=5 Nice=0 Account=linuxusers QOS=normal
+   JobState=PENDING Reason=Dependency Dependency=afterany:353688_*(unfulfilled)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=00:15:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:35:42 EligibleTime=Unknown
+   AccrueTime=Unknown
+   StartTime=Unknown EndTime=Unknown Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T11:35:42 Scheduler=Main
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/analyze_moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/analysis_353689.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/analysis_353689.out
+   TresPerTask=cpu=1
+   
+

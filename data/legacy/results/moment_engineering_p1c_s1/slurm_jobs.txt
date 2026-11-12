@@ -1,0 +1,6 @@
+campaign=moment_engineering_p1c_s1
+production_job=354046
+analysis_job=354047
+tasks=24
+samples_per_replica=48000
+timestamp=2026-09-08T14:43:10+02:00

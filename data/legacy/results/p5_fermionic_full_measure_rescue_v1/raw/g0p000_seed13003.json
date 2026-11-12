@@ -1,0 +1,45 @@
+{
+  "L": 2,
+  "V": 4,
+  "campaign": "p5_fermionic_full_measure_rescue_v1",
+  "diagnostics": {
+    "ESS_per_1000_grad": 10.717984958830582,
+    "ESS_per_sec": 79.2179442860154,
+    "Neff_worst": 5144.6327802386795,
+    "acceptance": 1.0,
+    "final_nominal_step_size": 1.0,
+    "global_shift_acceptance": 0.8892083333333334,
+    "mean_actual_step_size": 1.0,
+    "mean_leapfrog_steps": 3.0,
+    "nonfinite_production": 0,
+    "nonfinite_warmup": 0,
+    "production_seconds": 64.94277056299325,
+    "tau_condensate": 0.5,
+    "tau_sigma2": 11.662639990646012,
+    "tau_sigma_mean": 0.5,
+    "tau_worst": 11.662639990646012,
+    "warmup_acceptance": 0.9936,
+    "warmup_shift_acceptance": 0.8838
+  },
+  "effective_seed": 2013003,
+  "estimates": {
+    "chi_sigma": {
+      "jk_se": 0.041241256916561594,
+      "value": 1.9797970176430204
+    },
+    "condensate": {
+      "jk_se": 0.0,
+      "value": 1.5111111111110742
+    },
+    "sigma2": {
+      "jk_se": 0.010310318053734509,
+      "value": 0.5760323739651689
+    },
+    "sigma_mean": {
+      "jk_se": 0.0002816734828066824,
+      "value": 0.00014898670666912023
+    }
+  },
+  "g": 0.0,
+  "seed": 13003
+}

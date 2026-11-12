@@ -1,0 +1,38 @@
+{
+  "campaign": "moment_engineering_v1",
+  "purpose": [
+    "engineer the leading finite-width quartic cumulant while holding the second moment fixed",
+    "test the connected sextic 1/N^2 hierarchy",
+    "construct a quartic-null architecture with nonzero sextic interaction"
+  ],
+  "sigma_c": 0.7127,
+  "widths": [2, 4, 8, 16, 32],
+  "seeds": [9101, 9102, 9103, 9104, 9105, 9106, 9107, 9108],
+  "samples_per_replica": 4000000,
+  "block_size": 10000,
+  "amplitude_laws": {
+    "fixed": {
+      "moments_c2_c4_c6": [1.0, 1.0, 1.0],
+      "target_N_kappa4": -0.09675163278257404,
+      "target_N2_kappa6": 0.16381383055062315
+    },
+    "gaussian": {
+      "moments_c2_c4_c6": [1.0, 3.0, 15.0],
+      "target_N_kappa4": 0.09675163278257404,
+      "target_N2_kappa6": 0.0
+    },
+    "quartic_null": {
+      "moments_c2_c4_c6": [1.0, 2.0, 4.0],
+      "target_N_kappa4": 0.0,
+      "target_N2_kappa6": -0.08190691527531158
+    }
+  },
+  "theory": {
+    "variance": "sigma_c^2/2",
+    "N_kappa4": "(3 sigma_c^4 / 8) (E[c^4]-2)",
+    "N2_kappa6": "(5 sigma_c^6 / 16) (E[c^6]-9 E[c^4]+12)"
+  },
+  "primary_sextic_window": [2, 4, 8, 16],
+  "width_32_role": "stress test; not required to dominate the sextic fit",
+  "aggregate_pass_gate": "each preregistered plateau within 3 conservative standard errors of its analytic target; variance agreement within 1 percent"
+}

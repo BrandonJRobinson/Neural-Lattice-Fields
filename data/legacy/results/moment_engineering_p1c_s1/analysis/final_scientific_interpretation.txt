@@ -1,0 +1,41 @@
+P1c-S1 FINAL SCIENTIFIC INTERPRETATION
+
+Status:
+  PASS / CLOSED
+
+Primary preregistered endpoint:
+  sitewise_unbiased_U N^2*kappa6 = 0 for Gaussian amplitudes.
+
+Results:
+  N=16: +0.00040306 +/- 0.01818768
+  N=32: +0.01717690 +/- 0.05639180
+  N=64: +0.06983760 +/- 0.18724273
+
+Cross-width chi2/dof:
+  0.11619257313064983
+
+Interpretation:
+  The original P1c Gaussian N=64 sextic excursion is not reproduced
+  in an independent campaign with 4x higher per-replica statistics.
+
+  The legacy plug-in and exactly unbiased U-statistic estimators agree
+  closely on the new fields. At N=64,
+
+    legacy N^2*kappa6  = +0.06361246 +/- 0.18657439
+    unbiased U         = +0.06983760 +/- 0.18724273
+    legacy - U         = -0.00622514 +/- 0.00524384
+
+  This correction is far too small to explain the original
+  -1.18355932 +/- 0.37565888 excursion.
+
+  Therefore the supported diagnosis is:
+    finite-sample / seed-realization fluctuation in the original P1c
+    Gaussian N=64 sextic measurement.
+
+  A small finite-M sitewise plug-in bias is separately resolved, but
+  it is quantitatively negligible relative to the original anomaly.
+
+Research-record constraint:
+  The original P1c aggregate FAIL is retained as the preregistered
+  historical result. P1c-S1 is the independent adjudication that
+  resolves that failure in favor of the exact Gaussian-zero prediction.

@@ -1,0 +1,9 @@
+campaign=moment_engineering_v1
+production_lineage=353816
+retired_scheduler_analysis=353817
+execution_mode=manual_exact_preregistered_analysis
+analysis_script=scripts/analyze_moment_engineered_cumulants.py
+analysis_script_sha256=067d7ee20bda1b918356d4e382ab193a9482a7e960952af42c5ffda90b81792d
+python=/home/brobins/miniconda3/envs/categorification_env/bin/python
+repository=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+timestamp=2026-09-08T12:48:58+02:00

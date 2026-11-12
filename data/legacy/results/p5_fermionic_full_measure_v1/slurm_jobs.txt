@@ -1,0 +1,17 @@
+campaign=p5_fermionic_full_measure_v1
+reference_job=355171
+hmc_job=355172
+analysis_job=355173
+L=2
+Nf=2
+wilson_r=1.0
+mf=0.5
+msigma_sq=0.5
+couplings=0,0.125,0.25,0.375,0.5
+seeds=13001,13002,13003,13004
+gh_primary=26
+gh_check=22
+warmup=5000
+production=120000
+jackknife_blocks=60
+timestamp=2026-09-09T18:51:16+02:00

@@ -1,0 +1,83 @@
+{
+  "campaign": "p3_reference_kernel_invariance_v1",
+  "status": "P3_FINAL",
+
+  "dimension": 2,
+  "lambda": 1.0,
+  "m0_sq": -3.84,
+
+  "lattice_sizes": [16, 24, 32],
+
+  "m_ref_sq_values": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+
+  "seeds": [
+    11001,
+    11002,
+    11003,
+    11004
+  ],
+
+  "hmc": {
+    "warmup": 2000,
+    "production": 6000,
+
+    "trajectory_length": 0.8,
+
+    "initial_step_size": 0.05,
+
+    "adapt_interval": 50,
+
+    "acceptance_target_low": 0.65,
+    "acceptance_target_high": 0.85,
+
+    "adapt_up": 1.08,
+    "adapt_down": 0.88,
+
+    "step_size_min": 0.001,
+    "step_size_max": 0.20,
+
+    "global_z2_probability": 0.5
+  },
+
+  "jackknife_blocks": 30,
+
+  "sampler_gates": {
+    "acceptance_min": 0.55,
+    "acceptance_max": 0.98,
+    "group_mean_Neff_min": 100.0,
+    "individual_Neff_min": 25.0,
+    "nonfinite_max": 0
+  },
+
+  "physical_invariance_gates": {
+    "chi2_p_min": 0.001,
+    "max_standardized_residual": 4.0,
+    "log_mref_slope_z_max": 3.5
+  },
+
+  "algorithmic_sensitivity_gates": {
+    "ESS_per_grad_ratio_min": 1.5
+  },
+
+  "primary_observables": [
+    "phi2",
+    "abs_M",
+    "chi_abs",
+    "binder_U4",
+    "xi_over_L",
+    "S_pmin"
+  ],
+
+  "closure_rule": {
+    "P3_A": "All sampler groups pass and every primary physical observable passes the reference-kernel invariance tests at every lattice size.",
+    "P3_B": "At least one lattice size exhibits max/min ESS-per-gradient ratio >= 1.5 across reference masses.",
+    "P3_closed": "P3_A passes. P3_B controls whether the performance/preconditioning claim is promoted."
+  }
+}

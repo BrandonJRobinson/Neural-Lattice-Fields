@@ -1,0 +1,9 @@
+campaign=moment_engineering_v1
+failed_production_job=353688
+failed_analysis_job=353689
+failure_class=slurm_user_environment_retrieval
+policy=partial_outputs_archived_without_measurement_inspection
+scientific_preregistration_unchanged=true
+scientific_production_code_unchanged=true
+scientific_analysis_code_unchanged=true
+timestamp=2026-09-08T12:39:07+02:00

@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "baseline_rule": {
+    "nodes": 80,
+    "halfwidth_sigmas": 11
+  },
+  "stricter_rule": {
+    "nodes": 160,
+    "halfwidth_sigmas": 16
+  },
+  "chains_recomputed": 224,
+  "measured_rows_recomputed": 126988000,
+  "max_relative_block_r2_change": 5.218897153139174e-16,
+  "max_relative_block_r4_change": 5.728102043203684e-16,
+  "coupling_changes": {
+    "12": {
+      "baseline": [
+        5.781216428017484,
+        0.01079525240465757
+      ],
+      "stricter": [
+        5.781216428017474,
+        0.010795252404649175
+      ],
+      "delta_g": -1.0658141036401503e-14,
+      "delta_g_over_baseline_se": -9.87298919643888e-13,
+      "delta_se": -8.39432690025177e-15
+    },
+    "16": {
+      "baseline": [
+        5.6428034393827335,
+        0.018322364267234006
+      ],
+      "stricter": [
+        5.642803439382768,
+        0.018322364267237608
+      ],
+      "delta_g": 3.4638958368304884e-14,
+      "delta_g_over_baseline_se": 1.8905288565979413e-12,
+      "delta_se": 3.6012859361278515e-15
+    },
+    "24": {
+      "baseline": [
+        5.410171758834406,
+        0.0741882839809749
+      ],
+      "stricter": [
+        5.410171758834421,
+        0.07418828398097393
+      ],
+      "delta_g": 1.509903313490213e-14,
+      "delta_g_over_baseline_se": 2.035231484633635e-13,
+      "delta_se": -9.71445146547012e-16
+    },
+    "32": {
+      "baseline": [
+        5.266544377788858,
+        0.07580998528859285
+      ],
+      "stricter": [
+        5.266544377788895,
+        0.07580998528859181
+      ],
+      "delta_g": 3.730349362740526e-14,
+      "delta_g_over_baseline_se": 4.920657019705071e-13,
+      "delta_se": -1.0408340855860843e-15
+    }
+  },
+  "elapsed_s": 299.7443540096283,
+  "new_simulations": false,
+  "scope": "full existing zero-source data reprocessing with stricter quadrature; numerical convergence evidence, not a rigorous arbitrary-integrand error bound"
+}

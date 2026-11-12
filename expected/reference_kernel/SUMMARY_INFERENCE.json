@@ -1,0 +1,35 @@
+{
+  "schema": "nnlft-p3-summary-inference-v1",
+  "summary_files_verified": 72,
+  "independent_effective_seeds": 72,
+  "reference_points": 18,
+  "observables": 6,
+  "replicate_groups_per_contrast": 4,
+  "scalar_trend_tests": 18,
+  "alpha": 0.05,
+  "t3_critical_individual95": 3.182446305284263,
+  "t3_critical_simultaneous18": 9.129392351849411,
+  "t3_critical_simultaneous108": 16.75434892538228,
+  "min_reference_tail_area": {
+    "L": 24,
+    "observable": "xi_over_L",
+    "p": 0.0489191505079662
+  },
+  "min_safe_holm18": 0.8805447091433916,
+  "familywise_05_rejections": 0,
+  "L32_reference_tail_area_range": [
+    0.10181232439450955,
+    0.16187885962169765
+  ],
+  "simultaneous108_range_lower_bounds_all_zero": true,
+  "original_weight_projections_all_contain_zero": true,
+  "all_18_reference_constant_subspaces_intersect_rectangle": true,
+  "normal_centered_independent_replica_model_assumed": true,
+  "equivalence_established": false,
+  "equilibration_established": false,
+  "archived_weighted_fit_recalibrated": false,
+  "new_random_draws": 0,
+  "new_simulations": false,
+  "latex_compiled": false,
+  "pdf_rendering": false
+}

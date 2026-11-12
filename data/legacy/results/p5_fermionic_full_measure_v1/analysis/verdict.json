@@ -1,0 +1,236 @@
+{
+  "P5_closed": false,
+  "campaign": "p5_fermionic_full_measure_v1",
+  "classification": "P5_NOT_CLOSED",
+  "full_measure_physics_pass": true,
+  "global_rows": [
+    {
+      "chi2": 3.5604414533991804,
+      "dof": 5,
+      "observable": "sigma2",
+      "p_value": 0.6142624522445512,
+      "pass": true
+    },
+    {
+      "chi2": 3.1653862552664447,
+      "dof": 5,
+      "observable": "chi_sigma",
+      "p_value": 0.6745053732692851,
+      "pass": true
+    },
+    {
+      "chi2": 2.938871111340476,
+      "dof": 5,
+      "observable": "condensate",
+      "p_value": 0.7094097198094269,
+      "pass": true
+    }
+  ],
+  "interpretation": "At least one determinant-reference, sampler, or interacting full-measure physics gate failed.",
+  "physics_rows": [
+    {
+      "g": 0.0,
+      "hmc": 0.6414734967591729,
+      "observable": "sigma2",
+      "pass": true,
+      "reference": 0.6405228758169773,
+      "relative_error": 0.001484132695468611,
+      "se": 0.0011133938163330691,
+      "z": 0.8538047618464417
+    },
+    {
+      "g": 0.0,
+      "hmc": 2.0043064444417595,
+      "observable": "chi_sigma",
+      "pass": true,
+      "reference": 1.9999999999999603,
+      "relative_error": 0.002153222220899685,
+      "se": 0.004293059992237817,
+      "z": 1.0031176945082685
+    },
+    {
+      "g": 0.0,
+      "hmc": 1.5111111111110742,
+      "observable": "condensate",
+      "pass": true,
+      "reference": 1.5111111111110698,
+      "relative_error": 2.9388256534196123e-15,
+      "se": 1e-14,
+      "z": 0.4440892098500626
+    },
+    {
+      "g": 0.125,
+      "hmc": 1.057958981337657,
+      "observable": "sigma2",
+      "pass": true,
+      "reference": 1.0604497604472427,
+      "relative_error": 0.002348795013669611,
+      "se": 0.0025848418547664968,
+      "z": 0.9636098645619552
+    },
+    {
+      "g": 0.125,
+      "hmc": 1.7995911933386182,
+      "observable": "chi_sigma",
+      "pass": true,
+      "reference": 1.80482403792619,
+      "relative_error": 0.0028993655212973097,
+      "se": 0.005675709956549573,
+      "z": 0.9219718110389452
+    },
+    {
+      "g": 0.125,
+      "hmc": 1.3703533008754656,
+      "observable": "condensate",
+      "pass": true,
+      "reference": 1.3702055683910634,
+      "relative_error": 0.0001078177521754002,
+      "se": 0.0002956117333700473,
+      "z": 0.4997517612645275
+    },
+    {
+      "g": 0.25,
+      "hmc": 1.8189734278817236,
+      "observable": "sigma2",
+      "pass": true,
+      "reference": 1.8214399291857828,
+      "relative_error": 0.0013541491347243077,
+      "se": 0.0029335514497845264,
+      "z": 0.840790197915363
+    },
+    {
+      "g": 0.25,
+      "hmc": 1.5784584651837916,
+      "observable": "chi_sigma",
+      "pass": true,
+      "reference": 1.5757807094867315,
+      "relative_error": 0.001699320013843987,
+      "se": 0.003562081375269844,
+      "z": 0.7517390578583365
+    },
+    {
+      "g": 0.25,
+      "hmc": 1.135711166804704,
+      "observable": "condensate",
+      "pass": true,
+      "reference": 1.1352841296968235,
+      "relative_error": 0.00037614998458098867,
+      "se": 0.00031453905422633584,
+      "z": 1.3576600493406907
+    },
+    {
+      "g": 0.375,
+      "hmc": 2.512852488794878,
+      "observable": "sigma2",
+      "pass": true,
+      "reference": 2.516090867898103,
+      "relative_error": 0.001287067627223722,
+      "se": 0.004652392828540746,
+      "z": 0.6960674264990271
+    },
+    {
+      "g": 0.375,
+      "hmc": 1.4458135170751394,
+      "observable": "chi_sigma",
+      "pass": true,
+      "reference": 1.4484807987165524,
+      "relative_error": 0.0018414338966567172,
+      "se": 0.0030931863219630616,
+      "z": 0.8623087534281769
+    },
+    {
+      "g": 0.375,
+      "hmc": 0.9468479134818418,
+      "observable": "condensate",
+      "pass": true,
+      "reference": 0.946706728667198,
+      "relative_error": 0.00014913257756457799,
+      "se": 0.00037133776155638535,
+      "z": 0.3802059183319301
+    },
+    {
+      "g": 0.5,
+      "hmc": 3.092213722056555,
+      "observable": "sigma2",
+      "pass": true,
+      "reference": 3.095081107928487,
+      "relative_error": 0.0009264331925217411,
+      "se": 0.003399427172422128,
+      "z": 0.8434908961114389
+    },
+    {
+      "g": 0.5,
+      "hmc": 1.3744265141747727,
+      "observable": "chi_sigma",
+      "pass": true,
+      "reference": 1.3744857954132854,
+      "relative_error": 4.3129757113937143e-05,
+      "se": 0.002888749845673313,
+      "z": 0.02052141641877418
+    },
+    {
+      "g": 0.5,
+      "hmc": 0.8087237597428493,
+      "observable": "condensate",
+      "pass": true,
+      "reference": 0.8085659330234938,
+      "relative_error": 0.00019519338239409328,
+      "se": 0.0002222896741009766,
+      "z": 0.7100047269123162
+    }
+  ],
+  "reference_pass": true,
+  "sampler_pass": false,
+  "sampler_rows": [
+    {
+      "ESS_per_1000_grad": 0.024997500249975005,
+      "Neff_mean": 11.998800119988001,
+      "Neff_min": 11.998800119988001,
+      "acceptance_mean": 0.9714270833333334,
+      "g": 0.0,
+      "pass": false,
+      "shift_acceptance_mean": 0.8883937500000001,
+      "tau_mean": 5000.5
+    },
+    {
+      "ESS_per_1000_grad": 138.08277660921752,
+      "Neff_mean": 66279.73277242441,
+      "Neff_min": 65875.93263571154,
+      "acceptance_mean": 0.9702020833333334,
+      "g": 0.125,
+      "pass": false,
+      "shift_acceptance_mean": 0.8847375,
+      "tau_mean": 0.905284865277693
+    },
+    {
+      "ESS_per_1000_grad": 164.5107280551248,
+      "Neff_mean": 78965.1494664599,
+      "Neff_min": 78117.12022614031,
+      "acceptance_mean": 0.96841875,
+      "g": 0.25,
+      "pass": false,
+      "shift_acceptance_mean": 0.8754083333333333,
+      "tau_mean": 0.7598655585628227
+    },
+    {
+      "ESS_per_1000_grad": 179.09891275478063,
+      "Neff_mean": 85967.4781222947,
+      "Neff_min": 84753.68462964329,
+      "acceptance_mean": 0.9673416666666667,
+      "g": 0.375,
+      "pass": false,
+      "shift_acceptance_mean": 0.8706333333333333,
+      "tau_mean": 0.6980038482478821
+    },
+    {
+      "ESS_per_1000_grad": 191.41110796312475,
+      "Neff_mean": 91877.33182229988,
+      "Neff_min": 91570.71163909498,
+      "acceptance_mean": 0.9665083333333334,
+      "g": 0.5,
+      "pass": false,
+      "shift_acceptance_mean": 0.8671604166666667,
+      "tau_mean": 0.6530492486147634
+    }
+  ]
+}

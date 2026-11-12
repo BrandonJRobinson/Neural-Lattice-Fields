@@ -1,0 +1,17 @@
+2026-10-30T08:15:48Z START pid=2543990 once=True dry=True
+2026-10-30T08:16:08Z START pid=2544939 once=False dry=False
+2026-10-30T09:35:29Z START pid=2769920 once=True dry=True
+2026-10-30T09:35:36Z START pid=2770162 once=True dry=True
+2026-10-30T09:35:36Z healthy nodes ['hipster-cn006', 'hipster-cn007', 'hipster-cn008', 'hipster-cn009', 'hipster-cn010']; excluded hipster-cn011,hipster-cn012,hipster-cn013
+2026-10-30T09:35:36Z dry: would set ExcNodeList=hipster-cn011,hipster-cn012,hipster-cn013 on queued tasks of 382426
+2026-10-30T09:35:37Z retry tasks [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 146, 147] exclude hipster-cn011,hipster-cn012,hipster-cn013 dry=True rc=0: ['37 tasks, this submission 219.50 core-h, previously 779.63, ceiling 1400.00', 'sbatch --parsable --array=146,147 --time=11:45:00 --exclude=hipster-cn011,hipster-cn012,hipster-cn013 --export=ALL,RG1_RELEASE=/home/brobins/RG1_SCIENTIFIC_RESCUE_20261028/stage2_release_v1,RG1_DATA=/home/brobins/RG1_SCIENTIFIC_RESCUE_20261028/stage2_data /home/brobins/RG1_SCIENTIFIC_RESCUE_20261028/stage2_release_v1/slurm/stage2_chain.sbatch'] 
+2026-10-30T09:35:50Z START pid=2770824 once=False dry=False
+2026-10-30T09:35:50Z healthy nodes ['hipster-cn006', 'hipster-cn007', 'hipster-cn008', 'hipster-cn009', 'hipster-cn010']; excluded hipster-cn011,hipster-cn012,hipster-cn013
+2026-10-30T09:35:50Z ExcNodeList=hipster-cn011,hipster-cn012,hipster-cn013 on queued tasks of 382426 rc=0 
+2026-10-30T09:35:52Z retry tasks [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 146, 147] exclude hipster-cn011,hipster-cn012,hipster-cn013 dry=False rc=0: ['37 tasks, this submission 219.50 core-h, previously 779.63, ceiling 1400.00', '{'] 
+2026-10-30T20:16:50Z START pid=1486840 once=True dry=True
+2026-10-30T20:16:50Z healthy nodes ['hipster-cn006', 'hipster-cn007', 'hipster-cn008', 'hipster-cn009', 'hipster-cn010']; excluded hipster-cn011,hipster-cn012,hipster-cn013
+2026-10-30T20:25:56Z EXIT STOP file present
+2026-10-30T20:28:00Z START pid=1529579 once=False dry=False
+2026-10-30T20:28:00Z healthy nodes ['hipster-cn006', 'hipster-cn007', 'hipster-cn008', 'hipster-cn009', 'hipster-cn010']; excluded hipster-cn011,hipster-cn012,hipster-cn013
+2026-10-31T02:58:02Z EXIT nothing live or retryable; 148 captured, not captured: []

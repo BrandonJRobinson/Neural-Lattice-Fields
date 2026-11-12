@@ -1,0 +1,117 @@
+{
+  "campaign": "p4_anharmonic_oscillator_v1",
+  "status": "P4_FINAL",
+
+  "hamiltonian": {
+    "mass": 1.0,
+    "omega": 1.0,
+    "g": 1.0
+  },
+
+  "euclidean": {
+    "beta": 12.0,
+    "Nt_values": [48, 64, 80, 96, 128]
+  },
+
+  "latent": {
+    "omega_ref": 1.0
+  },
+
+  "seeds": [
+    12001,
+    12002,
+    12003,
+    12004
+  ],
+
+  "hmc": {
+    "warmup": 5000,
+    "production": 180000,
+
+    "trajectory_length": 1.2,
+
+    "initial_step_size": 0.08,
+
+    "adapt_interval": 50,
+
+    "acceptance_target_low": 0.65,
+    "acceptance_target_high": 0.85,
+
+    "adapt_up": 1.08,
+    "adapt_down": 0.88,
+
+    "step_size_min": 0.001,
+    "step_size_max": 0.5,
+
+    "global_z2_probability": 0.5,
+
+    "correlator_stride": 4
+  },
+
+  "jackknife_blocks": 60,
+
+  "gap_fit": {
+    "tau_min": 1.5,
+    "tau_max": 3.0,
+    "mass_lower": 0.5,
+    "mass_upper": 4.0
+  },
+
+  "hamiltonian_reference": {
+    "basis_omega": 2.0,
+    "dim_primary": 220,
+    "dim_check": 180,
+    "relative_convergence_max": 1e-8
+  },
+
+  "transfer_reference": {
+    "x_max": 7.0,
+    "quadrature_primary": 520,
+
+    "quadrature_check": 420,
+
+    "x_max_domain_check": 8.0,
+
+    "relative_convergence_max": 0.001
+  },
+
+  "continuum_reference_gates": {
+    "relative_error_max": 0.01,
+    "fit_stability_relative_max": 0.01
+  },
+
+  "sampler_gates": {
+    "acceptance_min": 0.55,
+    "acceptance_max": 0.95,
+
+    "group_mean_Neff_min": 300.0,
+    "individual_Neff_min": 100.0,
+
+    "nonfinite_max": 0
+  },
+
+  "finite_lattice_match_gates": {
+    "max_z": 4.0,
+
+    "global_chi2_p_min": 0.001,
+
+    "relative_error_max": {
+      "x2": 0.01,
+      "x4": 0.015,
+      "gap_fit": 0.02
+    }
+  },
+
+  "primary_observables": [
+    "x2",
+    "x4",
+    "gap_fit"
+  ],
+
+  "closure_rule": {
+    "reference": "Hamiltonian, transfer-matrix convergence, and deterministic continuum-consistency gates all pass.",
+    "sampler": "Every Nt group passes the frozen HMC quality gate.",
+    "physics": "Latent-HMC agrees with the deterministic finite-lattice transfer-matrix reference for x2, x4, and the identically extracted Euclidean gap.",
+    "P4_closed": "reference AND sampler AND physics"
+  }
+}

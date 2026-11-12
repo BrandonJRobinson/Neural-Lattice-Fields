@@ -1,0 +1,4 @@
+rc=0 host=hipster-l2.science.uva.nl wall_s=6513
+bash times (shell, then children user/sys):
+0m0.008s 0m0.005s
+670m1.161s 93m16.120s

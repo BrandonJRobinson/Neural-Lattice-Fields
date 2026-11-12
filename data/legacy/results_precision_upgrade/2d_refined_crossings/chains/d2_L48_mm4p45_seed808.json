@@ -1,0 +1,200 @@
+{
+  "tag": "d2_L48_mm4p45_seed808",
+  "source": "new_precision_chain",
+  "dim": 2,
+  "L": 48,
+  "m0sq": -4.45,
+  "lambda": 1.0,
+  "m_ref_sq": 4.45,
+  "seed": 808,
+  "hmc": {
+    "n_therm": 1500,
+    "n_measure": 4000,
+    "measure_every": 1,
+    "n_leapfrog": 20,
+    "step_size_init": 0.05,
+    "target_acc": 0.75
+  },
+  "acceptance": 0.6795,
+  "step_size_final": 0.24521737315291842,
+  "n_leapfrog": 20,
+  "dH_stats": {
+    "mean": 0.34733100290759567,
+    "abs_mean": 0.7472033194654261,
+    "std": 0.8678708454940591,
+    "max_abs": 3.167310058652447,
+    "exp_neg_mean": 1.0338006032208695,
+    "accepted_mean": -0.0063821693235919285,
+    "accepted_std": 0.7436788679807883,
+    "accepted_max_abs": 3.024210326574803
+  },
+  "nonfinite_rejects": 0,
+  "nonfinite_rejects_therm": 0,
+  "nonfinite_rejects_prod": 0,
+  "nonfinite_measurements": 0,
+  "n_measure_recorded": 4000,
+  "max_abs_phi": 2.087743277077631,
+  "max_abs_theta": 5.47292589498855,
+  "action_stats": {
+    "mean": -1328.2212825366835,
+    "max": -1143.2129694591476
+  },
+  "U4": 0.6662257805433478,
+  "U4_se": 1.703419950213811e-05,
+  "U4_bootstrap": {
+    "value": 0.6662257805433478,
+    "se": 1.703419950213811e-05,
+    "ci16": 0.6662106075782125,
+    "ci84": 0.6662449310076242,
+    "n_boot": 500,
+    "n_invalid": 0,
+    "n_blocks": 20,
+    "block_size": 200
+  },
+  "chi0": 1598.3953576894041,
+  "chi0_se": 2.116127699689931,
+  "chi_abs": 0.5301324468292989,
+  "chi_abs_se": 0.021068116833491406,
+  "absM": 0.8327772168475931,
+  "M": -0.8327772168475931,
+  "M2": 0.6937479851082483,
+  "M4": 0.4819228441509378,
+  "xi": {
+    "xi_raw_over_L": 8.84227476412058,
+    "xi_connected_M_over_L": 0.02394681807287738,
+    "xi_sector_abs_over_L": 0.02394681807287738,
+    "xi_connected_over_L": 0.02394681807287738,
+    "connected_policy": "sector_abs",
+    "g0_raw": 1598.3953576894037,
+    "g0_connected_M": 0.5301324468292989,
+    "g0_sector_abs": 0.5301324468292989,
+    "ghatpmin": 0.5184128965082186,
+    "U4": 0.6662257805433478,
+    "xi_raw_over_L_bootstrap": {
+      "value": 8.84227476412058,
+      "se": 0.08115322659578071,
+      "ci16": 8.764117366322973,
+      "ci84": 8.925889091674795,
+      "n_boot": 500,
+      "n_invalid": 0,
+      "n_blocks": 20,
+      "block_size": 200
+    },
+    "xi_connected_M_over_L_bootstrap": {
+      "value": 0.02394681807287738,
+      "se": 0.012247130368787726,
+      "ci16": 0.016997451420252514,
+      "ci84": 0.04123104059546443,
+      "n_boot": 351,
+      "n_invalid": 149,
+      "n_blocks": 20,
+      "block_size": 200
+    },
+    "xi_sector_abs_over_L_bootstrap": {
+      "value": 0.02394681807287738,
+      "se": 0.011784778963336483,
+      "ci16": 0.017246248706654355,
+      "ci84": 0.04194307145847559,
+      "n_boot": 349,
+      "n_invalid": 151,
+      "n_blocks": 20,
+      "block_size": 200
+    },
+    "xi_connected_over_L_bootstrap": {
+      "value": 0.02394681807287738,
+      "se": 0.012368178056643144,
+      "ci16": 0.017398122179758294,
+      "ci84": 0.04295638136625231,
+      "n_boot": 346,
+      "n_invalid": 154,
+      "n_blocks": 20,
+      "block_size": 200
+    },
+    "U4_bootstrap": {
+      "value": 0.6662257805433478,
+      "se": 1.5813132558074566e-05,
+      "ci16": 0.666212166780708,
+      "ci84": 0.6662422252761422,
+      "n_boot": 500,
+      "n_invalid": 0,
+      "n_blocks": 20,
+      "block_size": 200
+    }
+  },
+  "tau_M": {
+    "tau_int": 3.1834289362680686,
+    "N_eff": 628.2533833924996,
+    "W": 20,
+    "flag": "ok"
+  },
+  "tau_absM": {
+    "tau_int": 3.1834289362680686,
+    "N_eff": 628.2533833924996,
+    "W": 20,
+    "flag": "ok"
+  },
+  "tau_M2": {
+    "tau_int": 3.185164960207175,
+    "N_eff": 627.9109637919389,
+    "W": 20,
+    "flag": "ok"
+  },
+  "npz_path": "results_precision_upgrade/2d_refined_crossings/chains/d2_L48_mm4p45_seed808.npz",
+  "npz_sha256": "cba93dbac19e85a88de06234dd472fb97e869febb0523a81f4e7fcb729d3bf63",
+  "runtime_s": 25.917721271514893,
+  "analysis_runtime_s": 0.27929297849186696,
+  "runtime_metadata": {
+    "timestamp_utc": "2026-06-18T13:41:17.180695+00:00",
+    "timezone_requested": "Europe/Rome",
+    "cwd": "/Users/brandonrobinson/Jupyter/current_active/lattice_nnft",
+    "command": [
+      "scripts/precision_upgrade/scalar_precision.py",
+      "--campaign",
+      "2d",
+      "--workers",
+      "1"
+    ],
+    "hostname": "MacBook-Pro-10.local",
+    "platform": "macOS-26.6-x86_64-i386-64bit",
+    "pid": 22425,
+    "versions": {
+      "python": "3.11.11",
+      "numpy": "1.25.2",
+      "scipy": "1.11.4",
+      "matplotlib": "3.8.0"
+    },
+    "source_files": [
+      {
+        "path": "scripts/precision_upgrade/scalar_precision.py",
+        "sha256": "38e0442f3e2e4c9de6bfaf651f3597a4045eb7978fcaef7f0160fb3b06e718a9"
+      },
+      {
+        "path": "scripts/precision_upgrade/connected_xi.py",
+        "sha256": "102fd0e5c5d72c74562f7103018b2820957ee068680e108994a2acd91a57b36d"
+      },
+      {
+        "path": "scripts/precision_upgrade/common.py",
+        "sha256": "7f93be12774cbc4c4203e1b508c11b4bb898f4cd6ef5e560161735fa5999edd9"
+      },
+      {
+        "path": "scripts/precision_upgrade/configs/scalar_precision.json",
+        "sha256": "d373c6a26090fc764f5835ccefd1baf28c3a2e5c1111ecee4ee4fdee4b12165b"
+      },
+      {
+        "path": "experiments_lowerd/hmc.py",
+        "sha256": "48c181e3669b10cb9d881842656462a7af879e971999caa42bf56346d5f2bc52"
+      },
+      {
+        "path": "experiments_lowerd/latent_lattice.py",
+        "sha256": "9c3b26126e88355d4a0b848ac1ecb99a09937c456f3dde93784b69e2826ddbba"
+      },
+      {
+        "path": "experiments_lowerd/observables.py",
+        "sha256": "6387f38857fbca8745f240ebcc511d4fcf1f4970fd90585cace069ea66efb415"
+      }
+    ],
+    "git_commit": null,
+    "git_note": "Repository directory is not a Git worktree in this execution environment."
+  },
+  "diagnostic_pass": true
+}

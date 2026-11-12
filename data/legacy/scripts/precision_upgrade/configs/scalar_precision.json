@@ -1,0 +1,34 @@
+{
+  "lambda": 1.0,
+  "seeds": [101, 202, 303, 404, 505, 606, 707, 808],
+  "bootstrap_replicates": 500,
+  "bootstrap_blocks": 20,
+  "2d": {
+    "L_list": [32, 48, 64],
+    "optional_L": 96,
+    "m0sq_grid": [-4.45, -4.35, -4.25, -4.15, -4.05, -3.95, -3.85, -3.75, -3.65],
+    "reuse_seeds": [101, 202, 303, 404, 505, 606],
+    "new_seeds": [707, 808],
+    "hmc": {
+      "n_therm": 1500,
+      "n_measure": 4000,
+      "measure_every": 1,
+      "n_leapfrog": 20,
+      "step_size_init": 0.05,
+      "target_acc": 0.75
+    }
+  },
+  "3d": {
+    "L_list": [12, 16, 24, 32],
+    "optional_L": 48,
+    "m0sq_grid": [-2.42, -2.38, -2.34, -2.30, -2.26, -2.22, -2.18],
+    "hmc": {
+      "n_therm": 600,
+      "n_measure": 1200,
+      "measure_every": 1,
+      "n_leapfrog": 20,
+      "step_size_init": 0.08,
+      "target_acc": 0.75
+    }
+  }
+}

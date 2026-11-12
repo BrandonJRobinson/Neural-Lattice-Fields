@@ -1,0 +1,107 @@
+{
+  "result": "PASS",
+  "schema": "nnlft-analytic-extension-checks-v1",
+  "input_source": "baseline/appendices.tex",
+  "input_sha256": "f05abe99db8770b26cfde393edf3ffbb4ab9ab2c31490175880f78a231ddea6a",
+  "input_parameters": {
+    "L": 16,
+    "sigma1": "5.053427193613765",
+    "sigma2": "1.9002050977792333",
+    "mixture_weight": "0.8013785646741373"
+  },
+  "symbolic_checks": [
+    "phase moments",
+    "projection coefficient",
+    "minimax balance",
+    "dimension floor",
+    "target fourth-order feasibility",
+    "Gaussian dilution"
+  ],
+  "independent_linear_programs": [
+    {
+      "rho_star": 1.0,
+      "q4": 2.0,
+      "loss_without_3_over_N": 0.0
+    },
+    {
+      "rho_star": 1.1,
+      "q4": 1.9047619047619047,
+      "loss_without_3_over_N": 0.04761904761904766
+    },
+    {
+      "rho_star": 1.2,
+      "q4": 1.8181818181818183,
+      "loss_without_3_over_N": 0.09090909090909088
+    },
+    {
+      "rho_star": 2.0,
+      "q4": 1.3333333333333333,
+      "loss_without_3_over_N": 0.33333333333333337
+    },
+    {
+      "rho_star": 3.0,
+      "q4": 1.0,
+      "loss_without_3_over_N": 0.5
+    },
+    {
+      "rho_star": 3.1,
+      "q4": 1.0,
+      "loss_without_3_over_N": 0.55
+    },
+    {
+      "rho_star": 13.789004407156714,
+      "q4": 1.0,
+      "loss_without_3_over_N": 5.894502203578357
+    },
+    {
+      "rho_star": 100.0,
+      "q4": 1.0,
+      "loss_without_3_over_N": 49.0
+    }
+  ],
+  "exact_finite_sign_enumeration": "PASS",
+  "full_and_rotation_reduced_finite_sums_agree": true,
+  "ring_moments": [
+    {
+      "sigma": "5.053427193613765",
+      "A": 0.08046368485422786,
+      "B": 0.02199938283800841
+    },
+    {
+      "sigma": "1.9002050977792333",
+      "A": 0.21898340720357584,
+      "B": 0.1143493461816514
+    }
+  ],
+  "rho_M_float": 13.789004407156698,
+  "interval_precision_decimal_digits": 28,
+  "rho_M_outward_interval": "[13.7890044071566897038568717370349, 13.7890044071566897038568728693596]",
+  "certified_decimal_enclosure": {
+    "lower": "13.78900440",
+    "upper": "13.78900442",
+    "strict": true
+  },
+  "rho_M_above_sign_threshold_2": true,
+  "rho_M_above_minimax_threshold_3": true,
+  "documented_kernel_optimal_amplitude_q4": 1,
+  "minimum_N_times_magnetization_excess_kurtosis": 17.683506610735048,
+  "necessary_width_for_uniform_excess_kurtosis_at_most_0_1": 177,
+  "exact_rho_star_not_computed": true,
+  "coupling_cap_example": {
+    "z": 3,
+    "N": 32,
+    "exact_fraction": "243/64",
+    "decimal": 3.796875
+  },
+  "dependencies": {
+    "numpy": "2.3.5",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "scipy": "1.16.3"
+  },
+  "new_simulations": false,
+  "new_random_draws": 0,
+  "new_empirical_data": false,
+  "tex_compiled": false,
+  "pdf_rendering": false
+}

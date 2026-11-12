@@ -1,0 +1,227 @@
+{
+  "tag": "d3_L16_mm2p30_seed303",
+  "source": "new_precision_chain",
+  "dim": 3,
+  "L": 16,
+  "m0sq": -2.3,
+  "lambda": 1.0,
+  "m_ref_sq": 2.3,
+  "seed": 303,
+  "hmc": {
+    "n_therm": 600,
+    "n_measure": 1200,
+    "measure_every": 1,
+    "n_leapfrog": 20,
+    "step_size_init": 0.08,
+    "target_acc": 0.75
+  },
+  "acceptance": 0.765,
+  "step_size_final": 0.22824933648880016,
+  "n_leapfrog": 20,
+  "dH_stats": {
+    "mean": 0.18581882613445372,
+    "abs_mean": 0.5255600365906817,
+    "std": 0.6301302361102922,
+    "max_abs": 2.425758455821324,
+    "exp_neg_mean": 1.0081352082814918,
+    "accepted_mean": -0.006257323860521001,
+    "accepted_std": 0.5518557760599517,
+    "accepted_max_abs": 1.7880824766530168
+  },
+  "nonfinite_rejects": 0,
+  "nonfinite_rejects_therm": 0,
+  "nonfinite_rejects_prod": 0,
+  "nonfinite_measurements": 0,
+  "n_measure_recorded": 1200,
+  "max_abs_phi": 1.770594427840173,
+  "max_abs_theta": 4.953711217059127,
+  "action_stats": {
+    "mean": 1418.2816395240086,
+    "max": 1607.3625938644132
+  },
+  "U4": 0.4533413804030719,
+  "U4_se": 0.03877243613170528,
+  "U4_bootstrap": {
+    "value": 0.4533413804030719,
+    "se": 0.03877243613170528,
+    "ci16": 0.4178955168855265,
+    "ci84": 0.49225550161910303,
+    "n_boot": 500,
+    "n_invalid": 0,
+    "n_blocks": 20,
+    "block_size": 60
+  },
+  "chi0": 110.45533291893051,
+  "chi0_se": 10.915480692406875,
+  "chi_abs": 23.348927043381593,
+  "chi_abs_se": 2.1925191944998286,
+  "absM": 0.14582939474591597,
+  "M": -0.03719584134253603,
+  "M2": 0.02696663401341077,
+  "M4": 0.0011925893785500674,
+  "xi": {
+    "xi_raw_over_L": 0.7275217376952751,
+    "xi_connected_M_over_L": 0.7076836931377304,
+    "xi_sector_abs_over_L": 0.30273850948680425,
+    "xi_connected_over_L": 0.30273850948680425,
+    "connected_policy": "sector_abs",
+    "g0_raw": 110.45533291893051,
+    "g0_connected_M": 104.78839152734886,
+    "g0_sector_abs": 23.348927043381593,
+    "ghatpmin": 5.1069826552688475,
+    "U4": 0.4533413804030719,
+    "chi0": 110.45533291893051,
+    "chi_abs": 23.348927043381593,
+    "xi_raw_over_L_bootstrap": {
+      "value": 0.7275217376952751,
+      "se": 0.051437935682578304,
+      "ci16": 0.6816090501343298,
+      "ci84": 0.7798022433001383,
+      "n_boot": 500,
+      "n_invalid": 0,
+      "n_blocks": 20,
+      "block_size": 60
+    },
+    "xi_connected_M_over_L_bootstrap": {
+      "value": 0.7076836931377304,
+      "se": 0.06253891043956317,
+      "ci16": 0.6355867593637555,
+      "ci84": 0.7531827208816015,
+      "n_boot": 500,
+      "n_invalid": 0,
+      "n_blocks": 20,
+      "block_size": 60
+    },
+    "xi_sector_abs_over_L_bootstrap": {
+      "value": 0.30273850948680425,
+      "se": 0.016578931096467422,
+      "ci16": 0.28157131174528366,
+      "ci84": 0.3159680230073146,
+      "n_boot": 500,
+      "n_invalid": 0,
+      "n_blocks": 20,
+      "block_size": 60
+    },
+    "xi_connected_over_L_bootstrap": {
+      "value": 0.30273850948680425,
+      "se": 0.021239670261214243,
+      "ci16": 0.28157131174528366,
+      "ci84": 0.3161608722356325,
+      "n_boot": 500,
+      "n_invalid": 0,
+      "n_blocks": 20,
+      "block_size": 60
+    },
+    "U4_bootstrap": {
+      "value": 0.4533413804030719,
+      "se": 0.03877243613170528,
+      "ci16": 0.4178955168855265,
+      "ci84": 0.49225550161910303,
+      "n_boot": 500,
+      "n_invalid": 0,
+      "n_blocks": 20,
+      "block_size": 60
+    },
+    "chi0_bootstrap": {
+      "value": 110.45533291893051,
+      "se": 10.915480692406875,
+      "ci16": 99.89955157742921,
+      "ci84": 121.1850002662986,
+      "n_boot": 500,
+      "n_invalid": 0,
+      "n_blocks": 20,
+      "block_size": 60
+    },
+    "chi_abs_bootstrap": {
+      "value": 23.348927043381593,
+      "se": 2.1925191944998286,
+      "ci16": 20.826002969162438,
+      "ci84": 25.12616577993547,
+      "n_boot": 500,
+      "n_invalid": 0,
+      "n_blocks": 20,
+      "block_size": 60
+    }
+  },
+  "tau_M": {
+    "tau_int": 87.97772259777756,
+    "N_eff": 6.819908293638381,
+    "W": 528,
+    "flag": "ok"
+  },
+  "tau_absM": {
+    "tau_int": 13.621694600398095,
+    "N_eff": 44.04738306072909,
+    "W": 83,
+    "flag": "ok"
+  },
+  "tau_M2": {
+    "tau_int": 12.46994846817869,
+    "N_eff": 48.11567598142878,
+    "W": 76,
+    "flag": "ok"
+  },
+  "npz_path": "results_precision_upgrade/3d_refined_wilson_fisher/chains/d3_L16_mm2p30_seed303.npz",
+  "npz_sha256": "4182ceabb806f5580399e81ac25f8057bed0c3f64426888b5e6814a3906a6534",
+  "runtime_s": 29.60499620437622,
+  "analysis_runtime_s": 0.055999212607275695,
+  "runtime_metadata": {
+    "timestamp_utc": "2026-06-18T14:13:13.437659+00:00",
+    "timezone_requested": "Europe/Rome",
+    "cwd": "/Users/brandonrobinson/Jupyter/current_active/lattice_nnft",
+    "command": [
+      "scripts/precision_upgrade/scalar_precision.py",
+      "--campaign",
+      "3d",
+      "--workers",
+      "1",
+      "--shard-index",
+      "2",
+      "--shard-count",
+      "4",
+      "--skip-analyze"
+    ],
+    "hostname": "MacBook-Pro-10.local",
+    "platform": "macOS-26.6-x86_64-i386-64bit",
+    "pid": 46430,
+    "versions": {
+      "python": "3.11.11",
+      "numpy": "1.25.2",
+      "scipy": "1.11.4",
+      "matplotlib": "3.8.0"
+    },
+    "source_files": [
+      {
+        "path": "scripts/precision_upgrade/scalar_precision.py",
+        "sha256": "eaf4cde9964f8bd473cae2f2a1a1bee9d315b895f71cbb81d60eecdd8c64b6a9"
+      },
+      {
+        "path": "scripts/precision_upgrade/connected_xi.py",
+        "sha256": "baecd7644caaceae7ce0505816c1f03acca66a3a0271542448f70b8f39ed2d9b"
+      },
+      {
+        "path": "scripts/precision_upgrade/common.py",
+        "sha256": "7f93be12774cbc4c4203e1b508c11b4bb898f4cd6ef5e560161735fa5999edd9"
+      },
+      {
+        "path": "scripts/precision_upgrade/configs/scalar_precision.json",
+        "sha256": "83416a1ae73a6d07d9d479bf0f6e281cb1a4ad81b170e98d82520158c4db8c68"
+      },
+      {
+        "path": "experiments_lowerd/hmc.py",
+        "sha256": "48c181e3669b10cb9d881842656462a7af879e971999caa42bf56346d5f2bc52"
+      },
+      {
+        "path": "experiments_lowerd/latent_lattice.py",
+        "sha256": "9c3b26126e88355d4a0b848ac1ecb99a09937c456f3dde93784b69e2826ddbba"
+      },
+      {
+        "path": "experiments_lowerd/observables.py",
+        "sha256": "6387f38857fbca8745f240ebcc511d4fcf1f4970fd90585cace069ea66efb415"
+      }
+    ],
+    "git_commit": null,
+    "git_note": "Repository directory is not a Git worktree in this execution environment."
+  },
+  "diagnostic_pass": true
+}

@@ -1,0 +1,1 @@
+{"L":8,"m0sq":0.5,"lambda":0,"h":0,"n_therm":5000,"n_meas":100000,"n_or":2,"meas_every":1,"seed":26102860001,"zero_mode_gibbs":1,"acc_hb":1.000000,"acc_or":1.000000,"zm_rejection_rate":0.000000,"zm_skipped_therm":0,"zm_skipped_meas":0,"therm_seconds":0.974,"meas_seconds":20.377,"seconds_per_sweepset":0.000203773}

@@ -1,0 +1,2069 @@
+{
+  "schema": "nnlft-public-raw-v1",
+  "version": "v0.1.0",
+  "primary_files": 200,
+  "control_files": 28,
+  "raw_bytes": 4069376000,
+  "byte_order": "little",
+  "dtype": "IEEE754 float64",
+  "columns": [
+    "u",
+    "S2",
+    "S3",
+    "Gp"
+  ],
+  "files": [
+    {
+      "path": "data/rg1/stage2_data/Q12_lo/chain_00/chain.bin",
+      "sha256": "88bf12ec59c075f19f704baf2de2df287023d05b1788d048f82409af92b88875",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q12_lo/chain_01/chain.bin",
+      "sha256": "becd05ed7dc68557764b496845cc314ba6510fe972b4ee209b8ae8aab576fb6a",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q12_lo/chain_02/chain.bin",
+      "sha256": "98b78654014769caa3de82843b278a4ed8880b5c1ece8cf3d965d15046e3e910",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q12_lo/chain_03/chain.bin",
+      "sha256": "9e8586c9f9ccefa570edb8f45a56b91a77c6fc38730727ec6f5ab33bb82b963b",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q12_lo/chain_04/chain.bin",
+      "sha256": "d838f237481eba98d121a91c5a0890cd734688f9ae4824bb3d4063c07cdbb520",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q12_lo/chain_05/chain.bin",
+      "sha256": "2672505b68d86952d537a8fe75cbd92aec212cf5be6fb02a966f05fbd832b358",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q12_lo/chain_06/chain.bin",
+      "sha256": "f595ce142cc4cee3f03c9e326998c8f1269d5bb6325553fb84d3bd22527ed163",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q12_lo/chain_07/chain.bin",
+      "sha256": "4c6e919f53ef16390af928a348fc261518031a4cff8c4b80ee459079558d8f90",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q12_hi/chain_00/chain.bin",
+      "sha256": "fc08134b9672c8fa351db1db8d84c621bca1f0e81e688362cf514a055be191da",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q12_hi/chain_01/chain.bin",
+      "sha256": "dc5fe536ab2b8d16692484398d8839ba74a36377a0e5a4f01f02228b5f4e4a4a",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q12_hi/chain_02/chain.bin",
+      "sha256": "f4e4c8f4cd670a7b38e557a5008ebf95d3711d18dbf610f4f002f6a8d31eb85a",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q12_hi/chain_03/chain.bin",
+      "sha256": "1981a67375781e71617369e13c3bbc4c67dad539ed516b8f42d3a59e8b011ad1",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q12_hi/chain_04/chain.bin",
+      "sha256": "b35b4ea94edb221a047fba74c30e6d796d1fef51c2deae5b0eb4c70e59dbf859",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q12_hi/chain_05/chain.bin",
+      "sha256": "2e505cf36fda42fe2f6afd87b95c1680c4f61d0ed67869ae45157ffd8079ff2c",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q12_hi/chain_06/chain.bin",
+      "sha256": "d2847eb14432d451c81f1607e89f88094bae4bd1c30fc5444d9f8ae5dafef718",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q12_hi/chain_07/chain.bin",
+      "sha256": "859c87c3d6112f6207e0732fb2171076259b893977ab276745330717d5a6c9c5",
+      "bytes": 80800000,
+      "role": "primary",
+      "L": 12,
+      "rows": 2525000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_lo/chain_00/chain.bin",
+      "sha256": "f614b080cd5191e31f313dfd0eddf1fa91e77bbb026a6225fb7eab7aad7a48b2",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_lo/chain_01/chain.bin",
+      "sha256": "45baf4bb14d8c7fe9f505219367c958232043e3205f92ad88a0d3fec5fd65492",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_lo/chain_02/chain.bin",
+      "sha256": "0bd868814a302ae0c5fbd1877b5968501ac36ba39e40026bc98e741291edb3c7",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_lo/chain_03/chain.bin",
+      "sha256": "61b8ee326b4406d19546c6306706da55d7b5dbab1323d697cb7e63232bdb47d3",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_lo/chain_04/chain.bin",
+      "sha256": "ca9de8af09f75183a40142432e9f90bced0811f419060dae0dc8642ba0fac832",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_lo/chain_05/chain.bin",
+      "sha256": "212e2a5847bdb2ba04f6c1e2898e3180f9c51ff6f21f3e9172a236f251efc244",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_lo/chain_06/chain.bin",
+      "sha256": "531019300af5625762d3febc8589da375f2646b574c5ee3eeafa74cd1899f455",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_lo/chain_07/chain.bin",
+      "sha256": "bec4cf4d6de71e868447afc903fc9205e430348ef68ad9a6c045b6cce20ca2c9",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_hi/chain_00/chain.bin",
+      "sha256": "7ebd90983143de152cb374e73e06e30ca7607f8b3cf5e79a44706cb33291bcda",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_hi/chain_01/chain.bin",
+      "sha256": "70e9c55e10fed1dc32159cea26390bce9e51c27933976303e5ce8cd3cbd71c75",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_hi/chain_02/chain.bin",
+      "sha256": "74e7a1b90f86ff667dadd76d6e4edc5de83708f90b2d8d62831357f46e2d8413",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_hi/chain_03/chain.bin",
+      "sha256": "1c18d10a8637ae78234d48209ed363b79825b7b0e6e4077f490f0c98e46e9ad7",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_hi/chain_04/chain.bin",
+      "sha256": "d10282f7541129bdb16e8193f4101369e7acb2c1c45b23890abc0203a58770f7",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_hi/chain_05/chain.bin",
+      "sha256": "235c4b951000e30eca382fe3e0352461fafd6d0f34e66823b20567f2ccf320e3",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_hi/chain_06/chain.bin",
+      "sha256": "b5ef6e70e2a8e9dba8f4542c8d541ca8fe780083ebb46f0a68f511013164c327",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q16_hi/chain_07/chain.bin",
+      "sha256": "d2da39448a23fd1a82bbdd6fb43e799f8ae5a7b489c94f7747e0a5fcf62889db",
+      "bytes": 79552000,
+      "role": "primary",
+      "L": 16,
+      "rows": 2486000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_00/chain.bin",
+      "sha256": "d1a80b20b4ddc073a6bd2f9b03eae735ae03df54e9a6e71537de68bc29a7d798",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_01/chain.bin",
+      "sha256": "884df24eb17c5a266b0f66bddd42f5f60e99708a88c9d97228eef0be8ab7162e",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_02/chain.bin",
+      "sha256": "c516142771ad043bd8cebc88c7845366bca436834bc63b282ead308f6637e875",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_03/chain.bin",
+      "sha256": "5f66b8398f46c31dd9d478b3e5dc70389dea271a20b9cc8ed41ed7b4cfd43ed0",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_04/chain.bin",
+      "sha256": "ce12110ef5de7d874f5a23c5eaeb8de94f1cb47097fc3e2de6602b5138ef77f1",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_05/chain.bin",
+      "sha256": "f5329987dffa2474af790167e87548021898f9d3b8c6da56a80fe2733e2c1558",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_06/chain.bin",
+      "sha256": "8650e20196471105d76a97e8b4448a0658778a39240b2947c45ac1036a655f50",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_07/chain.bin",
+      "sha256": "ea4d0e1ea6f0178a1ba6dfbb51518125828b99aad1b98c86fb71ccb3cef80dfb",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_08/chain.bin",
+      "sha256": "5346f6d20439c89f5f89629a0270a37d1bcbc794c1919bc761aa18e927446101",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_09/chain.bin",
+      "sha256": "f7cf15b1c024c749a9add370a15b503ceab29e39f1720c079b3691e6732d5bf9",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_10/chain.bin",
+      "sha256": "eddcad48db92ce127b31384c3ca971059c662d3d3dd9238b17db7f3e640ee376",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_11/chain.bin",
+      "sha256": "1ff75fcb7aecfbd348698b2bc1682f4196113a6b341048883ce3570a8fb5dfdd",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_12/chain.bin",
+      "sha256": "ddda36cb6b52252b068fe06b5930acb8487697bfca229fba6dea90b6fd8b7a71",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_13/chain.bin",
+      "sha256": "ed18f2ceeca860bd950396fe1cc04a4afa4f257ca30e8b7258b7586b38656e04",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_14/chain.bin",
+      "sha256": "f9984528dba81aeaf86c5b26bd34dcc4f66ca799ccb82f25edb4924a87cf4014",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_lo/chain_15/chain.bin",
+      "sha256": "4221c3562c6ffda8f6613f3f1b07afcdcf300a1c16a1976898cf68b0bcd55177",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_00/chain.bin",
+      "sha256": "2974270a8577cc55c1ad8fc1dc5faa9f5a93e71758142bb72d4d5b6e1831deeb",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_01/chain.bin",
+      "sha256": "529e7140d95c03cab0aef49d07a9e6383c569955932a241af114b575c3282f76",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_02/chain.bin",
+      "sha256": "4d2fbf771e4d97b200440f18e64a65ca7da04e0b02894e8171b88ec306417a33",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_03/chain.bin",
+      "sha256": "113584228e755b77147245f333ae2fd5a8444ff2699d43acd1145f5403935ae7",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_04/chain.bin",
+      "sha256": "e1bb77e945a4390dfeb97cd231bf1768a10764b021f9d267fec8858fce7f0638",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_05/chain.bin",
+      "sha256": "4e16c098e477809c7249ee78d68be192bac68ff8d066d6a47a0e60e4b41f88ed",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_06/chain.bin",
+      "sha256": "c342019991207b8aa868aad2f4fbc9c5013ab0afd2608d36e4a4dbfa2430433d",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_07/chain.bin",
+      "sha256": "3c8d5a192a558a412310093f8b425c24f38b127982336334ceb08f8f6ab991a2",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_08/chain.bin",
+      "sha256": "02d398736a08a4ec81ddb289956cc681e99e8971c44e5b9f1e7e03f9fa71187c",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_09/chain.bin",
+      "sha256": "3874f514e79f8635a7d88898c0bb1b3707787cc7bfdff1b7490f0d4a5187ef13",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_10/chain.bin",
+      "sha256": "939730313c5327b5a2379ca4fe7a1b6393e10a21a3afe22d24bde8e293874458",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_11/chain.bin",
+      "sha256": "4c2c420cf3ea155db1252a9c88e5956efbcd78ae3500e162e35fb60b44c40f88",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_12/chain.bin",
+      "sha256": "b48fa4fc500c555ba8661700f446a448790b34d6b2a91820fe6765179313c2eb",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_13/chain.bin",
+      "sha256": "0af944d0fac4a64f7b3b0d78cf6df1c1c418579b104c419b1ec0cc06d22b8936",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_14/chain.bin",
+      "sha256": "2a69ab92b89c0eee856c0dd527e86d3789d4307ffe9f7a73a68034832be97a59",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q24_hi/chain_15/chain.bin",
+      "sha256": "958acba0037848c419a341b22eed04bbd1e2b853a292304ed31db59823def217",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_00/chain.bin",
+      "sha256": "eef8beb438aadef629e6c63d0866df7fc513a8b4f614eff31115b265c6a17542",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_01/chain.bin",
+      "sha256": "e312ac12a1bac35a9e1a7f4cb54367170242aa5d34b2f64db0799ed3a584b8de",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_02/chain.bin",
+      "sha256": "0ceda828638f0261d1e0bb9c0158f378c4a63e2729e61c03ccc8aed745831def",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_03/chain.bin",
+      "sha256": "39b6d37ba51686a27524abd20d2c774a4a6bc92ef5d706f93e050cfad6cd87ab",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_04/chain.bin",
+      "sha256": "bb84eae222af1e294b11cfb40fc9e0fe7b626518309eaac81354171acab73573",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_05/chain.bin",
+      "sha256": "6aedb34e16df79ce60fc23ff207beabbb451b8e1ca57a6cc9a8c8d83f8a44aa7",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_06/chain.bin",
+      "sha256": "6adc846677f45b2e015e236a668b6d26f83a8f20e138821c5f33dbc279560d3d",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_07/chain.bin",
+      "sha256": "c7d1b7754d2af3b39c7617c650281ef62d53fbc875602adbc2998efa25a3f62e",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_08/chain.bin",
+      "sha256": "d2d10daa63268d6c62c20d07de731cbc758b5350cd90d3749927e650fa68c225",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_09/chain.bin",
+      "sha256": "030b5c21f1344647a80a5109b502b62d5b661e0375fb83f4d3077796dc67afc7",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_10/chain.bin",
+      "sha256": "78b90524ff9787982a259948ee923f329df3f66af5ee6e3c8019c78038aa9e29",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_11/chain.bin",
+      "sha256": "2c6e129f8f505f09779113be0fc412d33452b78ad48a8c46acecdbd843960f8a",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_12/chain.bin",
+      "sha256": "625024b1e0621d02c93454cf67e2d9146a25a0094ed8461bcd286cfaf7f1674e",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_13/chain.bin",
+      "sha256": "b2c1b63ae09f7fc4eeda51b5b5e69212990f4b0bce7e3c7b7eb787608c36e624",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_14/chain.bin",
+      "sha256": "a8094974be1f36301aa51dfe8c952e0f2f0d991492ba751318b96043b9311ce7",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_15/chain.bin",
+      "sha256": "6a0aa3a96d78e8c12399fcf1894ab15b76aa7c50174230aa935983ed398ef850",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_16/chain.bin",
+      "sha256": "3363459c72c952956a58e327925296caa8acf80f46b5d055f40b2291b3e121ce",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_17/chain.bin",
+      "sha256": "c02b472ba5bf34f55052b103b9b09bc48f65a0b3e339b9ed55678a322d2bc8df",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_18/chain.bin",
+      "sha256": "cb5c1325a0f73fe34270e34dbf9f92b99f09089b9c74032f42ec950f7106b970",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_19/chain.bin",
+      "sha256": "1f0bccef2e81b00df3e395192ecc9e4d9c4b7a84223bbc510071b01062e6fb64",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_20/chain.bin",
+      "sha256": "f6c8d4e7bc956992bd28fdd00dc267c126dff4699a3d6235ff22d9d20190f54f",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_21/chain.bin",
+      "sha256": "2def123471560dc4b741fe136d5790a6d3e7332477797ff5a8f7de2d23bb6ae5",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_22/chain.bin",
+      "sha256": "ce164ef8aae6faa9f9b3cd3097ed88e2477f479642ae995da00549ed8695973b",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_23/chain.bin",
+      "sha256": "297b01a837ad01ec32439b57c7bbc3aa5b14f3c107596220b6f614ccf9c0f5ec",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_24/chain.bin",
+      "sha256": "61360933d56653f431ccde6f57dd27c5c2becd7609dd42b847f2925c1f31ad5e",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_25/chain.bin",
+      "sha256": "ef74acf37a08a40ec59c05878484d7ead0f8e1781a1393b7c88402d10d071c8a",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_26/chain.bin",
+      "sha256": "ff76940b98c9e90a1764d906aadeebc6c814dbb1c4bfe59691fd3160546192c4",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_27/chain.bin",
+      "sha256": "fb631f6a4c31ba49e8646bd5f0ffcdf96142c9d14bfbd046df546e4ad71e70fb",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_28/chain.bin",
+      "sha256": "08966d0adf8c568fbafda135b0676caa37a38da164b8444c9d7ebfb4012783c3",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_29/chain.bin",
+      "sha256": "b49d1b8a6b35196ec05813009c890134e7cae11acf58773cf1ed4ef96c517e06",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_30/chain.bin",
+      "sha256": "1826259361b5ee4bba20a655be8aa02569ae41c836f29bfc841843f0a5dc4a29",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_31/chain.bin",
+      "sha256": "4ed2a5adba48c52a6f378a060b62afb9043308d9b3dc4f2fb388adf20d3443aa",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_32/chain.bin",
+      "sha256": "c1424ac586071f75b70390649a5533ee4e938441a1a0de6da8b64f2be02dfb2b",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_33/chain.bin",
+      "sha256": "aac90dca1dc3f9e5c20e30f026b4fb3f91ce678609db59fecbbc86f59cdcddb7",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_34/chain.bin",
+      "sha256": "37ab6127fcfbd2ce666b01594206dd08d462708c09b622f4eb164114bf646d22",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_35/chain.bin",
+      "sha256": "688ab485cd67cf3d29af65b31184aff270a8b7f6aed2aae4e269fc460f573916",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_36/chain.bin",
+      "sha256": "83e92553703ddac2f9f5439d4c8776cb2bee35bbbe84f918b596840dbc68a1a6",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_37/chain.bin",
+      "sha256": "5f0ed7400e3af6e4f2aa0fcf289d7119493b31399fcb8530838ed6775864edc7",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_38/chain.bin",
+      "sha256": "bdd6ae2eedd059920d94fcfdcc066b3c12770b6406fdee8595b69c51284e6368",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_39/chain.bin",
+      "sha256": "450f7baadba013801c9c63124f766a05104b46a4af106784a8608298a420d899",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_40/chain.bin",
+      "sha256": "467df4dc512ee4c19c2eb68f2696ac24036934e143d6e98a63d7138e0a1b5b24",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_lo/chain_41/chain.bin",
+      "sha256": "e22198f17b10e18d80ec69635ed95341a1956791f9c2e5e671334222e2043c50",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_00/chain.bin",
+      "sha256": "09ce21e7e59b6210e3c0760ec7b50781b81ee27abf572382988b755c317ef1b0",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_01/chain.bin",
+      "sha256": "6e7bd005811676f5858e87b2f94b982a770e47adaea7d2f6ae0f9bf5171be76f",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_02/chain.bin",
+      "sha256": "e80044fe8d0775b1b9df2e8af585537ba6ab57cc8523640622dd1f76f6cb1011",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_03/chain.bin",
+      "sha256": "383f788de7ca3f1cbea7a784eeab352ee432c31ddc4d8d5abcdb58a2effdd531",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_04/chain.bin",
+      "sha256": "6be511d1d94646eb525ff6fa324c3fa16871c2d6fd875e6933623ea98a74c64d",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_05/chain.bin",
+      "sha256": "0f5a7db801af65e5142cfa7a5c39fa8cbb7b49c94dcc6c2648b5ae9fda72609c",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_06/chain.bin",
+      "sha256": "8c60264734f861aa79c8289f83c3f2f2f2f667d0089d55e3e52ac09b71ee218f",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_07/chain.bin",
+      "sha256": "eea49ee5a9ebd5e56c68011e24fc09d0c383163a1ec591be6eebde0266c8abfa",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_08/chain.bin",
+      "sha256": "35813013a22e6c105381c399ff1ffcb19750c130d40448427cd78aa5bfcaf1d0",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_09/chain.bin",
+      "sha256": "024584332489a8cc3652229757d3fd07808022d28266945f6674aca05854f8eb",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_10/chain.bin",
+      "sha256": "743cfcf44a0080bee2180c610e1368c2d44b321f7fbe587a5ea95f77205948ed",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_11/chain.bin",
+      "sha256": "c899c7dd899b172111e31f459ad8b47c046fd422bd632de7fac541c3fae64651",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_12/chain.bin",
+      "sha256": "bd8b5401e3f312a5780ac3f49de8525ffd2ef8af05739962b59d4a75e24f4235",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_13/chain.bin",
+      "sha256": "421f86eed9a2b09081f6217f7dc91f4c617c493b5e9a37f9b2c9adaf80327a65",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_14/chain.bin",
+      "sha256": "7de7e803336f3367b721c0b78c6664eb7ea787e669025a75fa5e10374c164312",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_15/chain.bin",
+      "sha256": "901342369369d73da3f8182f5b6c393dfb25aaf9466b9e2cbc2ce6b35c53a6ea",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_16/chain.bin",
+      "sha256": "d971cfcaf90f85de5cd0a116d0ca767e6a68915e40dce4d19c1db59cd7397290",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_17/chain.bin",
+      "sha256": "10e41e222ac4c66f6f26165b97f41066187b9cd825224a83bcad664b9e8380a8",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_18/chain.bin",
+      "sha256": "b4d9a76db0245597bdb83e181b1599749edb0b66f4c203fad90274dd13d93561",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_19/chain.bin",
+      "sha256": "5087e689dc2c18bab104ef7dfdd35eb8236028baf4ca8960052d4c17374801ed",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_20/chain.bin",
+      "sha256": "3b1cc3029889bb39aed5c3f003ef5988afab7ae4b27c4268bc66e07e7fff08a3",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_21/chain.bin",
+      "sha256": "e27fda89c251ef454ef2cab34ee436d7e5f2ae81c855a28d453b56ed545a0885",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_22/chain.bin",
+      "sha256": "e7cf0b0d98432668792d3a621277a7a3a1977c62964f9c373c84cd581f60e6da",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_23/chain.bin",
+      "sha256": "828a71e93043cbf7987b2686f6aebb36252b79d11aea12a930b906477896b192",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_24/chain.bin",
+      "sha256": "56d268a73b35296ae3da55f85e4d5a051cce91307eee51a86f9dc134c2a397ff",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_25/chain.bin",
+      "sha256": "79e282f37f8d93b08e461370078e62898e7ef06bc0dbb51aef5acb346381ac3a",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_26/chain.bin",
+      "sha256": "5306d946789d270be3dc9679331a67e5c43954e673b2af9c6a209d1e7d77dbd2",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_27/chain.bin",
+      "sha256": "36a6b3bb44329d5550814bb0bee00c3f4078a4b5cfc6ccf818bbf0f654817583",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_28/chain.bin",
+      "sha256": "d04c9fb8f18a9f837fc41a60b60e1b15c545bde04cd3bffb16063fcb549a0118",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_29/chain.bin",
+      "sha256": "b3dd776c1d1b15fff9426a50af47bea309598f8618ece0808795a56d866bedfc",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_30/chain.bin",
+      "sha256": "fbc12ada90ee1a43a18e4a4f60c7940ae06dc1a728bf6759c6c622317a721511",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_31/chain.bin",
+      "sha256": "31ab01449bcef04096f60ec0b513b613e4541ca9cc6da2709b753381d75c7da8",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_32/chain.bin",
+      "sha256": "c8a38cb0069084645f6ab19de7d3649b80bf5517eba716b7a1d5df70bc5fd6fb",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_33/chain.bin",
+      "sha256": "a53433190ae24e9731f90e5827419828c291976d3f3eb30ed017a3f06d08ce88",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_34/chain.bin",
+      "sha256": "0472ab8aa2d6a34c26f4b17d8bf1385ce1d39a480d54db410966f33bce300ddf",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_35/chain.bin",
+      "sha256": "94023e482dd04d723677a169c16c633a536fcad6126276be2621b2e39dc979ab",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_36/chain.bin",
+      "sha256": "8a37b75da44745a88775b81cdfd8fbbbc9ead63c8ea914b11b016b2e6bb982a4",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_37/chain.bin",
+      "sha256": "36eb6df4ed55b1589dd37932599bef7b8ef853913f5b6776422dac40847b86d0",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_38/chain.bin",
+      "sha256": "8c85120b4f9b0786b777a01ede4e1ecb1dcf79fdf8f9eee289a6e72cf0cc41f2",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_39/chain.bin",
+      "sha256": "cadd8dd75b051ef52dc521bac43512e84d342dabb6207f2f24a01189fa768506",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_40/chain.bin",
+      "sha256": "39ccb5d3dc6a3415061830a99e4940a24e459e83a0bf061dc07cc3bbfcb13044",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage2_data/Q32_hi/chain_41/chain.bin",
+      "sha256": "ba72e2ecbe198422305b3648afd2e224ab96583d9cf0e3f401550030d3575151",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_lo/chain_00/chain.bin",
+      "sha256": "b68707356eba91fa699b60dcc1420bc9b72f5f3b5cbf51d687c2275359d6e3d3",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_lo/chain_01/chain.bin",
+      "sha256": "48af5b818c34f1fcd7ec19e8c2f2b2edab107e5e931e1e9815edcf4468aa0549",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_lo/chain_02/chain.bin",
+      "sha256": "ff892c608d472a17e31e9c5cf29bdfd1957b16b2fc314cb0020770849f447d60",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_lo/chain_03/chain.bin",
+      "sha256": "d7c7e88bc25ed12b4e75f80ebd2f7e6e482866e81fd1242a626e35c735d20b54",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_lo/chain_04/chain.bin",
+      "sha256": "0c15e77fd45b0536bceec37c3aae5255a97e5fa937b16ffbe972d613e413f5ea",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_lo/chain_05/chain.bin",
+      "sha256": "d146640072a720f6ebb4a9c4da24feb1b093006fbb38b19d946538e541bc6e1b",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_lo/chain_06/chain.bin",
+      "sha256": "08be64badabd36014ff5a0ab01ae3f755e17266e8fcdb534e55c6dfcaa68454a",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_lo/chain_07/chain.bin",
+      "sha256": "aaac0d6095ad1889ab2d6dfa7db5e4acf63739c363414a7506eb91cd16deb765",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_lo/chain_08/chain.bin",
+      "sha256": "c4761d88f8c28cb0d7482f04e8f8ce498e7f165faf98a7a6e01c26c66e83e6dc",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_lo/chain_09/chain.bin",
+      "sha256": "b5d7b4ec6ad9478061f08a65dcee50fe08797efeca2bb38f6412357a59674b03",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_hi/chain_00/chain.bin",
+      "sha256": "eea02cd995a1b81e5a1c6726fa8c8fde760a89f4e19effe821caa1b073d7e617",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_hi/chain_01/chain.bin",
+      "sha256": "688588d208ab962496073b65f1c873fa98f8c5a9b0612e3677e6e0a341f78914",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_hi/chain_02/chain.bin",
+      "sha256": "95696ae39cb46095764095ca4815ec3ed1a8f36f338292d3e546c638d68f1d2b",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_hi/chain_03/chain.bin",
+      "sha256": "ddf541b650c2904c9b0ff1b68cb36b280d220412f4849e52c1e22e023abbc67a",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_hi/chain_04/chain.bin",
+      "sha256": "b8d3f0c04aa4d3f4bf4da24b27d378ae9bb41f6878f2f7248600712c8057a1a0",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_hi/chain_05/chain.bin",
+      "sha256": "e7488005b7f6571a306f27b4e9dc590b9529a9d28058b0356f704538c57ac739",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_hi/chain_06/chain.bin",
+      "sha256": "44a8eb50ba2c710f5dcd332ef7dc62944e588239e53960be4c477f6bf05e0f4e",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_hi/chain_07/chain.bin",
+      "sha256": "c99e7e4bde0cf3063156058edb838eb6fdd3feebe8a6123573afb146f0cf1c85",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_hi/chain_08/chain.bin",
+      "sha256": "9a359dd05392203921a691b53371937a881a01bbcda00816b786e4f97238c6b9",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P24_hi/chain_09/chain.bin",
+      "sha256": "c77ed95c26b3e5ba3dc9411652ec9114e72c2c02555b40cb7e9fcd20c5f0f817",
+      "bytes": 9472000,
+      "role": "primary",
+      "L": 24,
+      "rows": 296000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_00/chain.bin",
+      "sha256": "5a20cebe4f480fa5c65a6d1668d6a7bbf805443e8c12040c7b5211cdd9667fe3",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_01/chain.bin",
+      "sha256": "ef9a02e5ddf4bf3524104bbb195a9227e2d03f896bfdcda6df21badd5a977b1c",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_02/chain.bin",
+      "sha256": "9ba9b913c59ecb570472055843a553fd16d5fd5b565bddf3ef27c3536c970b53",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_03/chain.bin",
+      "sha256": "305949cc0491b6a639c8465aa5d37f4d8c71bb7b380fa053e05dd45e0c213c9e",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_04/chain.bin",
+      "sha256": "95a43ecf448731fab20b2f3de68358a9d2865c465b01b48929fd11b6b0ac3be2",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_05/chain.bin",
+      "sha256": "2310325e7cb3f57767577edce2bb6790268972c42816d6135690429ce431a0e3",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_06/chain.bin",
+      "sha256": "f666dbabca5056c44d200a4352dbca910524c7d0d950a0f22e6839830fec24cb",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_07/chain.bin",
+      "sha256": "c72c3d72e323047cd4f0a52f915aaea37cb7c029593dbb338c4eef3605ce2593",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_08/chain.bin",
+      "sha256": "d23805b2774979cf1b06760c42d14cdc22a3793e40ab1525b0d5bacd8f4e5c16",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_09/chain.bin",
+      "sha256": "81613910ff0270085a1e91fb75c1ddc02409a1e8222ce53ddaa44213679b5a3b",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_10/chain.bin",
+      "sha256": "d49d5b7a9c2e22f55af86c385bbdd9df050e9d1e235b7224681a69a2e64c123c",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_11/chain.bin",
+      "sha256": "5c97f4777bf7ebd8ec883b514db605d0d29274000c83e84e7bf0945f49f3b20f",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_12/chain.bin",
+      "sha256": "6dca3a57e7aa28a2adc2de3b1d60cd17bf645bbead6d59e20bff0c454b6ed5f4",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_13/chain.bin",
+      "sha256": "532e5e4a9a9cf53f99cff9588eb6f0be9ac90a105062e9b67fb6ccd06dcf8d9b",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_14/chain.bin",
+      "sha256": "98bf87958eea6ba90e2b9483b8a7093f366151935c921c0a224c9d96400cbc29",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_lo/chain_15/chain.bin",
+      "sha256": "aac1af4f844912968da860f7f029d38e1aa9c7f1253a26cca32b38fc8fb3b37f",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_00/chain.bin",
+      "sha256": "3328e17ee6bb21d2736a411305010e23f74b84ae4de85b0f1615cbe355e47e43",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_01/chain.bin",
+      "sha256": "02e71c0276ae6bbaba9e4fe4d357ce3a0689e51182a2ddeda790ef94e5b391e7",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_02/chain.bin",
+      "sha256": "eaafc21a8bad448c41df496d34c4f422f8434d1096fcc6317d0e44581916d3ac",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_03/chain.bin",
+      "sha256": "2c3a04630b55423c27153d883c4618f963a5a1a9e075d8d552ee54f2a2886418",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_04/chain.bin",
+      "sha256": "9d1648f5814c10cca3d9ff177c9c2f3529994448d84bd7864f2cc0846043fa5d",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_05/chain.bin",
+      "sha256": "22a512cdc62b39f14eea37d4a0d47b40f18c404d0f1ce3581c7964a415956fb8",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_06/chain.bin",
+      "sha256": "5098f3f4f7887cf4d46a6b4934edfe2e482ddecefde7f00bd4b139d5e94898d6",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_07/chain.bin",
+      "sha256": "a48417d0956a2d04c6ee1cc7d057f2778bb3ea2fa616a046bbccebef1235f5f2",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_08/chain.bin",
+      "sha256": "dfacd9bf559f21dbbe00ac5612578adf6b0b6f3b0ef19ae92d2a2eff4f10f688",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_09/chain.bin",
+      "sha256": "e247e774a83755aec24880fa4cd2519b76e58e52b18d1e2ea7f66b58ed025ff9",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_10/chain.bin",
+      "sha256": "4ee9dfaa7fb3df1a0fbaa3ed96c19295aec6eaa16af2ea79a0f3ba89f5152885",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_11/chain.bin",
+      "sha256": "889c025ec6b5c52aee5a73ab7d99a6f62fadbcc9789cbdd077e9c6d26ef1b37d",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_12/chain.bin",
+      "sha256": "943b59168e489ce294fa58678c3dea6d7bc5f3925c089f4f0a1b5d6a254bd26d",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_13/chain.bin",
+      "sha256": "594862d0ecc23eeab69dc2633731b960d24fdf81b793a6ff4f956a5b1510d60e",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_14/chain.bin",
+      "sha256": "332fb98e0c04363a55e44dbd05718ba44ca9b9c3206963edcb17e8b12e466888",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/P32_hi/chain_15/chain.bin",
+      "sha256": "830c9e2724fec33eecbf9e704842be4ac65dc3a973efcef37df2c84f1672a70b",
+      "bytes": 7840000,
+      "role": "primary",
+      "L": 32,
+      "rows": 245000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C12_repro/chain_00/chain.bin",
+      "sha256": "9c0144493706c4936180e14df17f1825c7e43aceb39ff91f740eb09a8ffbe084",
+      "bytes": 4800000,
+      "role": "control",
+      "L": 12,
+      "rows": 150000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C12_repro/chain_01/chain.bin",
+      "sha256": "2f0985105ccd9d0263e1715e3c33a61abdbf89b169d142cc24bcc1cadf56258d",
+      "bytes": 4800000,
+      "role": "control",
+      "L": 12,
+      "rows": 150000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C12_repro/chain_02/chain.bin",
+      "sha256": "5d1aa4d7ef822c248393e58901c27a20a82337a6f20e91b1b0b08d6db53c5e10",
+      "bytes": 4800000,
+      "role": "control",
+      "L": 12,
+      "rows": 150000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C12_repro/chain_03/chain.bin",
+      "sha256": "67569f8e2a250162c6433308bc5f5345a0756ab153df3774c755417d5c01597b",
+      "bytes": 4800000,
+      "role": "control",
+      "L": 12,
+      "rows": 150000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C12_repro/chain_04/chain.bin",
+      "sha256": "1762b76ab02f15cd108cbbcba17b5538a8900173505947789fb94e5a0c02b489",
+      "bytes": 4800000,
+      "role": "control",
+      "L": 12,
+      "rows": 150000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C12_repro/chain_05/chain.bin",
+      "sha256": "b0ed5233012625b07a9d083f110ac48eb08ab63f5c063274813db45ec6568474",
+      "bytes": 4800000,
+      "role": "control",
+      "L": 12,
+      "rows": 150000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C12_repro/chain_06/chain.bin",
+      "sha256": "ec0cc5b7f1e90cc8027e7f9cf0de500e2a1e1d147e7648c27b07988a6e240be1",
+      "bytes": 4800000,
+      "role": "control",
+      "L": 12,
+      "rows": 150000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C12_repro/chain_07/chain.bin",
+      "sha256": "aa0219666c02a274e10a3f06a1d5a3e0c4bebc0169f38c5f1291b4b85aede2b1",
+      "bytes": 4800000,
+      "role": "control",
+      "L": 12,
+      "rows": 150000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C08_gauss/chain_00/chain.bin",
+      "sha256": "10e586a4bf6b0f34de1d2c2c7d841aedbc68a78d8ec498fdfb2411b710a60caf",
+      "bytes": 3200000,
+      "role": "control",
+      "L": 8,
+      "rows": 100000,
+      "asset": "rg1-raw-L08.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C08_gauss/chain_01/chain.bin",
+      "sha256": "b7e5be667e14a612e0ccefc88e254aae9264e612448227127ba909ede911d364",
+      "bytes": 3200000,
+      "role": "control",
+      "L": 8,
+      "rows": 100000,
+      "asset": "rg1-raw-L08.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C08_gauss/chain_02/chain.bin",
+      "sha256": "10c6cfb6ef1395cd0a2174b1f654f034da58f109e23d3aa10a20c586eec48b97",
+      "bytes": 3200000,
+      "role": "control",
+      "L": 8,
+      "rows": 100000,
+      "asset": "rg1-raw-L08.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C08_gauss/chain_03/chain.bin",
+      "sha256": "13dcbe4b00965d28283b00eb08ce91e81998f7551e9f9965ecbc2ee4b15762bf",
+      "bytes": 3200000,
+      "role": "control",
+      "L": 8,
+      "rows": 100000,
+      "asset": "rg1-raw-L08.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C12_local/chain_00/chain.bin",
+      "sha256": "26c3f9aa6ffddf287835879c1525b87b0af76705b0202f1bb76f830ddf6b51ac",
+      "bytes": 4800000,
+      "role": "control",
+      "L": 12,
+      "rows": 150000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C12_local/chain_01/chain.bin",
+      "sha256": "db88fa515943fda0b9b16724f49743777d8708564e0489102b43f60bbe837975",
+      "bytes": 4800000,
+      "role": "control",
+      "L": 12,
+      "rows": 150000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C12_local/chain_02/chain.bin",
+      "sha256": "01c56032e0bdd0ff221f1061375bf53dec83034abbd922433b5c395a927f1385",
+      "bytes": 4800000,
+      "role": "control",
+      "L": 12,
+      "rows": 150000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C12_local/chain_03/chain.bin",
+      "sha256": "3c1125a2dc3c2990c07d8052adea6413c4bf7cef2fbc15994a2ca888ede660b0",
+      "bytes": 4800000,
+      "role": "control",
+      "L": 12,
+      "rows": 150000,
+      "asset": "rg1-raw-L12.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C16_local/chain_00/chain.bin",
+      "sha256": "320fc8376e116ff2b7074723b3710d31050641e53d86541cc1b34cc36c25c2cf",
+      "bytes": 3200000,
+      "role": "control",
+      "L": 16,
+      "rows": 100000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C16_local/chain_01/chain.bin",
+      "sha256": "dcf5bc585ef4ec575537b5e33d4d3b0d56e5adf91e26754ff2cb1b3b3a91b2d3",
+      "bytes": 3200000,
+      "role": "control",
+      "L": 16,
+      "rows": 100000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C16_local/chain_02/chain.bin",
+      "sha256": "878934d459ac14e4f05550415c93b1df9dcbe1da06aaa1f9c891b247b9094990",
+      "bytes": 3200000,
+      "role": "control",
+      "L": 16,
+      "rows": 100000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C16_local/chain_03/chain.bin",
+      "sha256": "7af50d91a3a357ce8b14f29af0e9f78ff103a3d995d194007273587fd4d343d6",
+      "bytes": 3200000,
+      "role": "control",
+      "L": 16,
+      "rows": 100000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C16_gibbs/chain_00/chain.bin",
+      "sha256": "30564094d5353bc8cc5d563c8b79a2b05996499a9eb67397a5f4b0921647fa5e",
+      "bytes": 3200000,
+      "role": "control",
+      "L": 16,
+      "rows": 100000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C16_gibbs/chain_01/chain.bin",
+      "sha256": "ab9b00ab7d4fafa481b3e599cfd606940960967cf1ba25ba6c4ce45667e9b474",
+      "bytes": 3200000,
+      "role": "control",
+      "L": 16,
+      "rows": 100000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C16_gibbs/chain_02/chain.bin",
+      "sha256": "13024375e41dcb2b68d328c52ca989814eaaff7c6e5d1cfbac13db5f101a17f9",
+      "bytes": 3200000,
+      "role": "control",
+      "L": 16,
+      "rows": 100000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/C16_gibbs/chain_03/chain.bin",
+      "sha256": "10dc53c935a04db16886362e3ba75494c5812c456f966cae3381988ed82fe0b5",
+      "bytes": 3200000,
+      "role": "control",
+      "L": 16,
+      "rows": 100000,
+      "asset": "rg1-raw-L16.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/S24_eta4p5/chain_00/chain.bin",
+      "sha256": "f3169a4e0f93e268e4af51d62ef006581da79907ee85520effeb34abd9d30d10",
+      "bytes": 1920000,
+      "role": "control",
+      "L": 24,
+      "rows": 60000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/S24_eta4p5/chain_01/chain.bin",
+      "sha256": "b0930264304b5ae62b81d68694cc7950cd9f2a42e7e061529de35e3bfe1a799d",
+      "bytes": 1920000,
+      "role": "control",
+      "L": 24,
+      "rows": 60000,
+      "asset": "rg1-raw-L24.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/S32_eta4p5/chain_00/chain.bin",
+      "sha256": "c2ce80d4f5a2b7aa7392c1e06dae66cea521dd9d863db25561aa4bbf72a4fad7",
+      "bytes": 960000,
+      "role": "control",
+      "L": 32,
+      "rows": 30000,
+      "asset": "rg1-raw-L32.tar.gz"
+    },
+    {
+      "path": "data/rg1/stage1_data/S32_eta4p5/chain_01/chain.bin",
+      "sha256": "a1a23738167b2ff3c0a4c144da2d2083a30cbd8ad6c44426ef7088bb31f68d5d",
+      "bytes": 960000,
+      "role": "control",
+      "L": 32,
+      "rows": 30000,
+      "asset": "rg1-raw-L32.tar.gz"
+    }
+  ]
+}

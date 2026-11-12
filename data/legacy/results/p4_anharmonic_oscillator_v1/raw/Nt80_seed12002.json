@@ -1,0 +1,39 @@
+{
+  "Nt": 80,
+  "a": 0.15,
+  "beta": 12.0,
+  "campaign": "p4_anharmonic_oscillator_v1",
+  "diagnostics": {
+    "ESS_per_1000_grad": 91.2752352877354,
+    "ESS_per_sec": 1423.0001201794173,
+    "Neff_worst": 65718.1694071695,
+    "acceptance": 0.8287111111111111,
+    "final_nominal_step_size": 0.5,
+    "mean_actual_step_size": 0.3999999999999999,
+    "mean_leapfrog_steps": 3.0,
+    "nonfinite_production": 0,
+    "nonfinite_warmup": 0,
+    "production_seconds": 46.18282772800012,
+    "tau_worst": 1.3694842813162944,
+    "tau_x2": 1.2014072784790555,
+    "tau_x4": 1.3694842813162944,
+    "total_grad_evals": 720000,
+    "warmup_acceptance": 0.8524
+  },
+  "effective_seed": 80012002,
+  "estimates": {
+    "gap_fit": {
+      "jk_se": 0.08834155932988576,
+      "value": 1.9132455507464994
+    },
+    "x2": {
+      "jk_se": 0.0002916619551693458,
+      "value": 0.25549842689912583
+    },
+    "x4": {
+      "jk_se": 0.00042912070555363967,
+      "value": 0.17818715521801393
+    }
+  },
+  "seed": 12002
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "nnlft-release-assets-v1",
+  "version": "v0.1.0",
+  "primary_files": 200,
+  "control_files": 28,
+  "measurement_files": 228,
+  "measurement_bytes": 4069376000,
+  "extra_members": [
+    {
+      "name": "README_DATA.txt",
+      "bytes": 363,
+      "sha256": "3debdbcb423e70257c9f94100575ce2dc303dcfbb38d6dab9df93c2438dee30f"
+    },
+    {
+      "name": "CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    }
+  ],
+  "assets": [
+    {
+      "name": "rg1-raw-L08.tar.gz",
+      "bytes": 12385169,
+      "sha256": "39a7a338a4b47e458572476904ff3499499d3b7954150846b9add22d68ad1b56",
+      "url": "https://github.com/BrandonJRobinson/Neural-Lattice-Fields/releases/download/v0.1.0/rg1-raw-L08.tar.gz",
+      "measurement_files": 4,
+      "measurement_bytes": 12800000
+    },
+    {
+      "name": "rg1-raw-L12.tar.gz",
+      "bytes": 1303675349,
+      "sha256": "a59b892273ccee88745eb0489810e18202a756b0787d993e3bb67c090ae2dbf6",
+      "url": "https://github.com/BrandonJRobinson/Neural-Lattice-Fields/releases/download/v0.1.0/rg1-raw-L12.tar.gz",
+      "measurement_files": 28,
+      "measurement_bytes": 1350400000
+    },
+    {
+      "name": "rg1-raw-L16.tar.gz",
+      "bytes": 1250376403,
+      "sha256": "00933513a01ac5624570ff5d33e47a6a507edeb74e7166f97d58c0df5d20a0e3",
+      "url": "https://github.com/BrandonJRobinson/Neural-Lattice-Fields/releases/download/v0.1.0/rg1-raw-L16.tar.gz",
+      "measurement_files": 24,
+      "measurement_bytes": 1298432000
+    },
+    {
+      "name": "rg1-raw-L24.tar.gz",
+      "bytes": 477196275,
+      "sha256": "90c046df54558e3ceeb491d2e9ad72d85e767263b2f6d4ab317d611a7c9b2321",
+      "url": "https://github.com/BrandonJRobinson/Neural-Lattice-Fields/releases/download/v0.1.0/rg1-raw-L24.tar.gz",
+      "measurement_files": 54,
+      "measurement_bytes": 496384000
+    },
+    {
+      "name": "rg1-raw-L32.tar.gz",
+      "bytes": 872523545,
+      "sha256": "3314bd61ed78977f977e486b3e086567795f014a681935a6d9d2df74842be420",
+      "url": "https://github.com/BrandonJRobinson/Neural-Lattice-Fields/releases/download/v0.1.0/rg1-raw-L32.tar.gz",
+      "measurement_files": 118,
+      "measurement_bytes": 911360000
+    }
+  ],
+  "new_simulations": false
+}

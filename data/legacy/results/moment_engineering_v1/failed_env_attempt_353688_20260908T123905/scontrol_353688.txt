@@ -1,0 +1,421 @@
+JobId=353688 ArrayJobId=353688 ArrayTaskId=119 ArrayTaskThrottle=32 JobName=nnft_mom_v1
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=6 Nice=0 Account=linuxusers QOS=normal
+   JobState=COMPLETED Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=00:00:08 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:35:42 EligibleTime=2026-09-08T11:35:42
+   AccrueTime=2026-09-08T11:35:42
+   StartTime=2026-09-08T12:16:46 EndTime=2026-09-08T12:16:54 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T12:16:46 Scheduler=Backfill
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=hipster-cn013
+   BatchHost=hipster-cn013
+   NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=cpu=2,mem=2G,node=1,billing=2
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_119.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_119.out
+   TresPerTask=cpu=1
+   
+
+JobId=353706 ArrayJobId=353688 ArrayTaskId=16 ArrayTaskThrottle=32 JobName=nnft_mom_v1
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=0 Nice=0 Account=linuxusers QOS=normal
+   JobState=PENDING Reason=user_env_retrieval_failed_requeued_held Dependency=(null)
+   Requeue=1 Restarts=1 BatchFlag=2 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:37:51 EligibleTime=2026-09-08T11:39:52
+   AccrueTime=Unknown
+   StartTime=Unknown EndTime=Unknown Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T11:35:45 Scheduler=Main
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_16.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_16.out
+   TresPerTask=cpu=1
+   
+
+JobId=353705 ArrayJobId=353688 ArrayTaskId=15 ArrayTaskThrottle=32 JobName=nnft_mom_v1
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=0 Nice=0 Account=linuxusers QOS=normal
+   JobState=PENDING Reason=user_env_retrieval_failed_requeued_held Dependency=(null)
+   Requeue=1 Restarts=1 BatchFlag=2 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:37:51 EligibleTime=2026-09-08T11:39:52
+   AccrueTime=Unknown
+   StartTime=Unknown EndTime=Unknown Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T11:35:45 Scheduler=Main
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_15.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_15.out
+   TresPerTask=cpu=1
+   
+
+JobId=353704 ArrayJobId=353688 ArrayTaskId=14 ArrayTaskThrottle=32 JobName=nnft_mom_v1
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=0 Nice=0 Account=linuxusers QOS=normal
+   JobState=PENDING Reason=user_env_retrieval_failed_requeued_held Dependency=(null)
+   Requeue=1 Restarts=1 BatchFlag=2 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:37:51 EligibleTime=2026-09-08T11:39:52
+   AccrueTime=Unknown
+   StartTime=Unknown EndTime=Unknown Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T11:35:45 Scheduler=Main
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_14.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_14.out
+   TresPerTask=cpu=1
+   
+
+JobId=353703 ArrayJobId=353688 ArrayTaskId=13 ArrayTaskThrottle=32 JobName=nnft_mom_v1
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=0 Nice=0 Account=linuxusers QOS=normal
+   JobState=PENDING Reason=user_env_retrieval_failed_requeued_held Dependency=(null)
+   Requeue=1 Restarts=1 BatchFlag=2 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:37:51 EligibleTime=2026-09-08T11:39:52
+   AccrueTime=Unknown
+   StartTime=Unknown EndTime=Unknown Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T11:35:45 Scheduler=Main
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_13.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_13.out
+   TresPerTask=cpu=1
+   
+
+JobId=353702 ArrayJobId=353688 ArrayTaskId=12 ArrayTaskThrottle=32 JobName=nnft_mom_v1
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=0 Nice=0 Account=linuxusers QOS=normal
+   JobState=PENDING Reason=user_env_retrieval_failed_requeued_held Dependency=(null)
+   Requeue=1 Restarts=1 BatchFlag=2 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:37:51 EligibleTime=2026-09-08T11:39:52
+   AccrueTime=Unknown
+   StartTime=Unknown EndTime=Unknown Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T11:35:45 Scheduler=Main
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_12.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_12.out
+   TresPerTask=cpu=1
+   
+
+JobId=353701 ArrayJobId=353688 ArrayTaskId=11 ArrayTaskThrottle=32 JobName=nnft_mom_v1
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=0 Nice=0 Account=linuxusers QOS=normal
+   JobState=PENDING Reason=user_env_retrieval_failed_requeued_held Dependency=(null)
+   Requeue=1 Restarts=1 BatchFlag=2 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:37:50 EligibleTime=2026-09-08T11:39:51
+   AccrueTime=Unknown
+   StartTime=Unknown EndTime=Unknown Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T11:35:45 Scheduler=Main
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_11.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_11.out
+   TresPerTask=cpu=1
+   
+
+JobId=353700 ArrayJobId=353688 ArrayTaskId=10 ArrayTaskThrottle=32 JobName=nnft_mom_v1
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=0 Nice=0 Account=linuxusers QOS=normal
+   JobState=PENDING Reason=user_env_retrieval_failed_requeued_held Dependency=(null)
+   Requeue=1 Restarts=1 BatchFlag=2 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:37:51 EligibleTime=2026-09-08T11:39:52
+   AccrueTime=Unknown
+   StartTime=Unknown EndTime=Unknown Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T11:35:45 Scheduler=Main
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_10.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_10.out
+   TresPerTask=cpu=1
+   
+
+JobId=353696 ArrayJobId=353688 ArrayTaskId=6 ArrayTaskThrottle=32 JobName=nnft_mom_v1
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=0 Nice=0 Account=linuxusers QOS=normal
+   JobState=PENDING Reason=user_env_retrieval_failed_requeued_held Dependency=(null)
+   Requeue=1 Restarts=1 BatchFlag=2 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:37:48 EligibleTime=2026-09-08T11:39:49
+   AccrueTime=Unknown
+   StartTime=Unknown EndTime=Unknown Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T11:35:45 Scheduler=Main
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_6.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_6.out
+   TresPerTask=cpu=1
+   
+
+JobId=353695 ArrayJobId=353688 ArrayTaskId=5 ArrayTaskThrottle=32 JobName=nnft_mom_v1
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=0 Nice=0 Account=linuxusers QOS=normal
+   JobState=PENDING Reason=user_env_retrieval_failed_requeued_held Dependency=(null)
+   Requeue=1 Restarts=1 BatchFlag=2 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:37:48 EligibleTime=2026-09-08T11:39:49
+   AccrueTime=Unknown
+   StartTime=Unknown EndTime=Unknown Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T11:35:45 Scheduler=Main
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_5.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_5.out
+   TresPerTask=cpu=1
+   
+
+JobId=353694 ArrayJobId=353688 ArrayTaskId=4 ArrayTaskThrottle=32 JobName=nnft_mom_v1
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=0 Nice=0 Account=linuxusers QOS=normal
+   JobState=PENDING Reason=user_env_retrieval_failed_requeued_held Dependency=(null)
+   Requeue=1 Restarts=1 BatchFlag=2 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:37:48 EligibleTime=2026-09-08T11:39:49
+   AccrueTime=Unknown
+   StartTime=Unknown EndTime=Unknown Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T11:35:45 Scheduler=Main
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_4.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_4.out
+   TresPerTask=cpu=1
+   
+
+JobId=353693 ArrayJobId=353688 ArrayTaskId=3 ArrayTaskThrottle=32 JobName=nnft_mom_v1
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=0 Nice=0 Account=linuxusers QOS=normal
+   JobState=PENDING Reason=user_env_retrieval_failed_requeued_held Dependency=(null)
+   Requeue=1 Restarts=1 BatchFlag=2 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:37:47 EligibleTime=2026-09-08T11:39:48
+   AccrueTime=Unknown
+   StartTime=Unknown EndTime=Unknown Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T11:35:45 Scheduler=Main
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_3.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_3.out
+   TresPerTask=cpu=1
+   
+
+JobId=353692 ArrayJobId=353688 ArrayTaskId=2 ArrayTaskThrottle=32 JobName=nnft_mom_v1
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=0 Nice=0 Account=linuxusers QOS=normal
+   JobState=PENDING Reason=user_env_retrieval_failed_requeued_held Dependency=(null)
+   Requeue=1 Restarts=1 BatchFlag=2 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:37:48 EligibleTime=2026-09-08T11:39:49
+   AccrueTime=Unknown
+   StartTime=Unknown EndTime=Unknown Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T11:35:45 Scheduler=Main
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_2.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_2.out
+   TresPerTask=cpu=1
+   
+
+JobId=353691 ArrayJobId=353688 ArrayTaskId=1 ArrayTaskThrottle=32 JobName=nnft_mom_v1
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=0 Nice=0 Account=linuxusers QOS=normal
+   JobState=PENDING Reason=user_env_retrieval_failed_requeued_held Dependency=(null)
+   Requeue=1 Restarts=1 BatchFlag=2 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:37:47 EligibleTime=2026-09-08T11:39:48
+   AccrueTime=Unknown
+   StartTime=Unknown EndTime=Unknown Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T11:35:45 Scheduler=Main
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_1.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_1.out
+   TresPerTask=cpu=1
+   
+
+JobId=353690 ArrayJobId=353688 ArrayTaskId=0 ArrayTaskThrottle=32 JobName=nnft_mom_v1
+   UserId=brobins(200092907) GroupId=domain users(513) MCS_label=N/A
+   Priority=0 Nice=0 Account=linuxusers QOS=normal
+   JobState=PENDING Reason=user_env_retrieval_failed_requeued_held Dependency=(null)
+   Requeue=1 Restarts=1 BatchFlag=2 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-09-08T11:37:47 EligibleTime=2026-09-08T11:39:48
+   AccrueTime=Unknown
+   StartTime=Unknown EndTime=Unknown Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-08T11:35:45 Scheduler=Main
+   Partition=capacity AllocNode:Sid=hipster:2805668
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=2G,node=1,billing=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/slurm/moment_engineering_v1.sbatch
+   WorkDir=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+   StdErr=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_0.err
+   StdIn=/dev/null
+   StdOut=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft/logs/moment_engineering_v1/353688_0.out
+   TresPerTask=cpu=1
+   
+

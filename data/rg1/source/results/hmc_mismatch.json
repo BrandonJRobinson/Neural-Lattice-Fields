@@ -1,0 +1,106 @@
+{
+ "12": {
+  "zero_mode_collective_T0.2": {
+   "omega": 0.35591041319722894,
+   "tau_int_theta2": 197.19343632038465
+  },
+  "zero_mode_collective_T0.3": {
+   "omega": 0.35591041319722894,
+   "tau_int_theta2": 87.54954582093117
+  },
+  "zero_mode_collective_T0.4": {
+   "omega": 0.35591041319722894,
+   "tau_int_theta2": 49.17463009353038
+  },
+  "p_min_mode_T0.2": {
+   "omega": 0.6568025663754815,
+   "tau_int_theta2": 57.78674011982881
+  },
+  "p_min_mode_T0.3": {
+   "omega": 0.6568025663754815,
+   "tau_int_theta2": 25.592494711856514
+  },
+  "p_min_mode_T0.4": {
+   "omega": 0.6568025663754815,
+   "tau_int_theta2": 14.326049041584932
+  }
+ },
+ "16": {
+  "zero_mode_collective_T0.2": {
+   "omega": 0.2616295090390226,
+   "tau_int_theta2": 365.06361090586387
+  },
+  "zero_mode_collective_T0.3": {
+   "omega": 0.2616295090390226,
+   "tau_int_theta2": 162.1582310840986
+  },
+  "zero_mode_collective_T0.4": {
+   "omega": 0.2616295090390226,
+   "tau_int_theta2": 91.14158847784421
+  },
+  "p_min_mode_T0.2": {
+   "omega": 0.5346821991544092,
+   "tau_int_theta2": 87.28183050280616
+  },
+  "p_min_mode_T0.3": {
+   "omega": 0.5346821991544092,
+   "tau_int_theta2": 38.7007149736808
+  },
+  "p_min_mode_T0.4": {
+   "omega": 0.5346821991544092,
+   "tau_int_theta2": 21.69833841305718
+  }
+ },
+ "24": {
+  "zero_mode_collective_T0.2": {
+   "omega": 0.1814907405045472,
+   "tau_int_theta2": 758.8146996504852
+  },
+  "zero_mode_collective_T0.3": {
+   "omega": 0.1814907405045472,
+   "tau_int_theta2": 337.15854370939246
+  },
+  "zero_mode_collective_T0.4": {
+   "omega": 0.1814907405045472,
+   "tau_int_theta2": 189.57900459106864
+  },
+  "p_min_mode_T0.2": {
+   "omega": 0.38592238506179993,
+   "tau_int_theta2": 167.69096718463655
+  },
+  "p_min_mode_T0.3": {
+   "omega": 0.38592238506179993,
+   "tau_int_theta2": 74.4374449936412
+  },
+  "p_min_mode_T0.4": {
+   "omega": 0.38592238506179993,
+   "tau_int_theta2": 41.79923709225158
+  }
+ },
+ "32": {
+  "zero_mode_collective_T0.2": {
+   "omega": 0.1308147545195113,
+   "tau_int_theta2": 1460.7537588108446
+  },
+  "zero_mode_collective_T0.3": {
+   "omega": 0.1308147545195113,
+   "tau_int_theta2": 649.1313826286686
+  },
+  "zero_mode_collective_T0.4": {
+   "omega": 0.1308147545195113,
+   "tau_int_theta2": 365.06361090586387
+  },
+  "p_min_mode_T0.2": {
+   "omega": 0.2954053810551407,
+   "tau_int_theta2": 286.3194347556922
+  },
+  "p_min_mode_T0.3": {
+   "omega": 0.2954053810551407,
+   "tau_int_theta2": 127.16091027878855
+  },
+  "p_min_mode_T0.4": {
+   "omega": 0.2954053810551407,
+   "tau_int_theta2": 71.45573336702236
+  }
+ }
+}

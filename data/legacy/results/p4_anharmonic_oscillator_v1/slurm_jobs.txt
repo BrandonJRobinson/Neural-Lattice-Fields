@@ -1,0 +1,15 @@
+campaign=p4_anharmonic_oscillator_v1
+reference_job=355149
+hmc_job=355150
+analysis_job=355151
+hmc_tasks=20
+beta=12.0
+omega=1.0
+g=1.0
+omega_ref=1.0
+Nt_values=48,64,80,96,128
+seeds=12001,12002,12003,12004
+warmup=5000
+production=180000
+jackknife_blocks=60
+timestamp=2026-09-09T18:28:16+02:00

@@ -1,0 +1,9 @@
+campaign=moment_engineering_p1c_s1
+fix_class=json_serialization_only
+scientific_logic_changed=false
+production_changed=false
+raw_data_changed=false
+original_analyzer_sha256=369bb1d04e9d7982ee2885bc613f54b077e790b47830a141fed47392569e7633
+fixed_analyzer_sha256=83dec2b5b8f496e756465106fb86afaf7872032c28e6cb134687cb1056ae33e9
+reason=numpy_bool_not_json_serializable
+timestamp=2026-09-08T14:55:09+02:00

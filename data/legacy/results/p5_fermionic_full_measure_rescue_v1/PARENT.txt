@@ -1,0 +1,10 @@
+parent_campaign=p5_fermionic_full_measure_v1
+parent_reference=results/p5_fermionic_full_measure_v1/reference/reference.json
+reference_recomputed=false
+scientific_gates_changed=false
+physics_thresholds_changed=false
+sampler_thresholds_changed=false
+constant_observable_tau_fix=true
+direct_epsilon_adaptation=true
+fixed_n_leapfrog=3
+final_rescue=true

@@ -1,0 +1,10 @@
+campaign=moment_engineering_v1
+lineage=envsafe_r1
+failed_production_job=353688
+failed_analysis_job=353689
+production_job=353816
+analysis_job=353817
+submission_export=NIL
+repository=/home/brobins/lattice_nnft_upload/lattice_nnft_nnft4pt_20260811/lattice_nnft
+python=/home/brobins/miniconda3/envs/categorification_env/bin/python
+timestamp=2026-09-08T12:39:09+02:00

@@ -1,0 +1,46 @@
+{
+  "campaign": "moment_engineering_p1c_s1",
+  "purpose": "Adjudicate the coherent Gaussian N=64 sextic shift seen in P1c using an exactly unbiased cross-configuration U-statistic estimator.",
+  "status": "PREREGISTERED_BEFORE_PRODUCTION",
+  "parent_campaign": "moment_engineering_p1c_v1",
+  "amplitude_law": "gaussian",
+  "L": 16,
+  "twoscale": {
+    "sigma1": 5.053427193613765,
+    "sigma2": 1.9002050977792333,
+    "pi1": 0.8013785646741373,
+    "sigma_c": 0.7126676290948498
+  },
+  "widths": [16, 32, 64],
+  "seeds": [9301, 9302, 9303, 9304, 9305, 9306, 9307, 9308],
+  "samples_per_replica": 48000,
+  "batch_size": 50,
+  "jackknife_blocks": 24,
+  "geometry_seed_rule": "seed + 10000*N",
+  "amplitude_seed_rule": "seed + 200000000 + 10000*N",
+  "exact_target": {
+    "N2_kappa6": 0.0
+  },
+  "estimators": {
+    "legacy_global_plugin": "mu6_bar - 15 mu4_bar mu2_bar + 30 mu2_bar^3, where each moment is pooled over configurations and sites",
+    "sitewise_plugin": "site average of [mu6hat_x - 15 mu4hat_x mu2hat_x + 30 mu2hat_x^3]",
+    "sitewise_unbiased_U": "site average of [S6/M - 15(S4*S2-S6)/(M(M-1)) + 30(S2^3-3*S2*S4+2*S6)/(M(M-1)(M-2))]"
+  },
+  "primary_analysis": {
+    "aggregation_unit": "independent seed",
+    "seed_mean": "unweighted",
+    "conservative_se": "max(between-seed SE, quadrature mean of within-seed jackknife SEs)",
+    "per_width_abs_z_max": 3.0,
+    "width_chi2_dof_max": 3.5
+  },
+  "secondary_analysis": [
+    "legacy_global_plugin minus unbiased_U",
+    "sitewise_plugin minus unbiased_U",
+    "bias scaling with width",
+    "jackknife uncertainty calibration"
+  ],
+  "interpretation": {
+    "pass": "The original P1c Gaussian sextic miss is attributable to finite-sample plug-in estimation rather than a physical Gaussian sextic interaction.",
+    "fail": "A statistically significant nonzero unbiased U-statistic requires auditing the analytic zero-target or generator implementation."
+  }
+}

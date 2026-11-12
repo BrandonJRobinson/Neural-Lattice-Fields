@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this versioned code/data release when using these records or replay tools."
+type: software
+title: "Neural Lattice Fields: recovered-record replay and analytic checks"
+version: "0.1.0"
+date-released: "2026-11-12"
+authors:
+  - family-names: Jejjala
+    given-names: Vishnu
+  - family-names: Robinson
+    given-names: Brandon
+repository-code: "https://github.com/BrandonJRobinson/Neural-Lattice-Fields"
+url: "https://github.com/BrandonJRobinson/Neural-Lattice-Fields/releases/tag/v0.1.0"
+license: MIT

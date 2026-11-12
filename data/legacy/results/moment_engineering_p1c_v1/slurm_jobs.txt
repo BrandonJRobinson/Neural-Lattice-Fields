@@ -1,0 +1,7 @@
+campaign=moment_engineering_p1c_v1
+production_job=353941
+analysis_job=353942
+submission_export=NIL
+array_tasks=96
+array_throttle=32
+timestamp=2026-09-08T13:29:57+02:00

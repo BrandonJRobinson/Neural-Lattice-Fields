@@ -1,0 +1,9 @@
+{
+  "scripts/precision_upgrade/scalar_precision.py": "b7e50d49e727eefb739ea499a106dff9709f54fd5cf9e5e1487013a317e490ad",
+  "scripts/precision_upgrade/connected_xi.py": "baecd7644caaceae7ce0505816c1f03acca66a3a0271542448f70b8f39ed2d9b",
+  "scripts/precision_upgrade/common.py": "7f93be12774cbc4c4203e1b508c11b4bb898f4cd6ef5e560161735fa5999edd9",
+  "scripts/precision_upgrade/configs/scalar_precision.json": "83416a1ae73a6d07d9d479bf0f6e281cb1a4ad81b170e98d82520158c4db8c68",
+  "experiments_lowerd/hmc.py": "48c181e3669b10cb9d881842656462a7af879e971999caa42bf56346d5f2bc52",
+  "experiments_lowerd/latent_lattice.py": "9c3b26126e88355d4a0b848ac1ecb99a09937c456f3dde93784b69e2826ddbba",
+  "experiments_lowerd/observables.py": "6387f38857fbca8745f240ebcc511d4fcf1f4970fd90585cace069ea66efb415"
+}

@@ -1,0 +1,4 @@
+rc=0 wall_s=1152
+children user/sys (bash times, 2nd line):
+0m0.005s 0m0.007s
+73m43.626s 9m19.335s

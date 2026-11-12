@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-11",
+  "status": "RAW_TO_PRIMARY_REPLAY_PASS",
+  "archive_sha256": "47cb2f23cf2af8c1123bf989263923860bb434e02a343ba8bea5915f96b31e81",
+  "primary_binaries": 200,
+  "control_binaries": 28,
+  "all_228_raw_qc_recomputed": "PASS",
+  "all_stage1_control_verdicts_recomputed": "MATCH",
+  "stage2_replication_and_L12_controls": "MATCH",
+  "eight_endpoint_estimates_and_adopted_errors": "REPRODUCED_FROM_RAW",
+  "eight_joint_jackknife_covariances": "RECONSTRUCTED_FROM_RAW; primary error envelope unchanged",
+  "principal_M1_MCUT_MPT_fits": "MATCH_WITHIN_NUMERICAL_TOLERANCES",
+  "quadrature_convergence": {
+    "status": "PASS",
+    "baseline_rule": {
+      "nodes": 80,
+      "halfwidth_sigmas": 11
+    },
+    "stricter_rule": {
+      "nodes": 160,
+      "halfwidth_sigmas": 16
+    },
+    "chains_recomputed": 224,
+    "measured_rows_recomputed": 126988000,
+    "max_relative_block_r2_change": 5.218897153139174e-16,
+    "max_relative_block_r4_change": 5.728102043203684e-16,
+    "coupling_changes": {
+      "12": {
+        "baseline": [
+          5.781216428017484,
+          0.01079525240465757
+        ],
+        "stricter": [
+          5.781216428017474,
+          0.010795252404649175
+        ],
+        "delta_g": -1.0658141036401503e-14,
+        "delta_g_over_baseline_se": -9.87298919643888e-13,
+        "delta_se": -8.39432690025177e-15
+      },
+      "16": {
+        "baseline": [
+          5.6428034393827335,
+          0.018322364267234006
+        ],
+        "stricter": [
+          5.642803439382768,
+          0.018322364267237608
+        ],
+        "delta_g": 3.4638958368304884e-14,
+        "delta_g_over_baseline_se": 1.8905288565979413e-12,
+        "delta_se": 3.6012859361278515e-15
+      },
+      "24": {
+        "baseline": [
+          5.410171758834406,
+          0.0741882839809749
+        ],
+        "stricter": [
+          5.410171758834421,
+          0.07418828398097393
+        ],
+        "delta_g": 1.509903313490213e-14,
+        "delta_g_over_baseline_se": 2.035231484633635e-13,
+        "delta_se": -9.71445146547012e-16
+      },
+      "32": {
+        "baseline": [
+          5.266544377788858,
+          0.07580998528859285
+        ],
+        "stricter": [
+          5.266544377788895,
+          0.07580998528859181
+        ],
+        "delta_g": 3.730349362740526e-14,
+        "delta_g_over_baseline_se": 4.920657019705071e-13,
+        "delta_se": -1.0408340855860843e-15
+      }
+    },
+    "elapsed_s": 299.7443540096283,
+    "new_simulations": false,
+    "scope": "full existing zero-source data reprocessing with stricter quadrature; numerical convergence evidence, not a rigorous arbitrary-integrand error bound"
+  },
+  "input_hashes_rechecked_after_analysis": "PASS",
+  "R01-R03": "Measured input availability, source identity, executed settings, per-chain QC and numerical quadrature now independently checked on retrieved rows",
+  "R04": "Raw-to-interpolation replay complete; original error-envelope choice retained; new joint covariance records supplied",
+  "R05": "Raw-to-principal-fit replay complete; original calibration generator/summary retained without new draws",
+  "not_regenerated": [
+    "Full eleven-radius historical Lee-Yang/source-response diagnostic grid",
+    "Synthetic calibration campaigns"
+  ],
+  "remaining_claim_limits": [
+    "Interpolation curvature is not bounded by the two-endpoint design",
+    "Higher cutoff terms/continuum limit are not established",
+    "QC PASS is scoped to the declared diagnostics, not a proof of mixing"
+  ],
+  "new_simulations": false,
+  "new_synthetic_draws": false,
+  "versions": {
+    "python": "3.13.2",
+    "numpy": "2.3.5",
+    "scipy": "1.16.3"
+  }
+}

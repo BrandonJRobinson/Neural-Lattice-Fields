@@ -1,0 +1,80 @@
+Optimized control-variate comparison — fixed analysis specification
+12 November 2026. Recorded before inspecting the control-variate outcomes.
+This is a new, post hoc analysis specification, not historical preregistration.
+
+Data and scope
+Use all 200 existing primary zero-source chains at the original eight mass
+endpoints. Recheck the raw hashes and the conditional library pin. No new
+sampler runs, random draws, bootstrap draws, or LaTeX/PDF execution are allowed.
+The manuscript input is the verified 849-line/858-line latest patched source
+pair in novelty_positioning_20261112/patched. Do not substitute the different
+3745-line Downloads/NNLFT/main.tex.
+
+Comparator
+Use uniform-mode Schwinger–Dyson/Stein identities h'(t)-U_psi'(t)h(t), which
+are accessible from the retained (u,S2,S3,Gp) data. This implements the published
+zero-mean covariance-optimization strategy in the uniform direction; it is not
+a reproduction of an unavailable full-site control basis or a neural control
+variate. Do not use conditional quadrature or conditional moments to fit the
+comparator. Quadrature remains the independently evaluated reference method.
+
+Let X=L*u and t=3*X. The conditional potential is
+ U_psi(t) = a*t^4 + b*t^2 + c*t,
+ a=lambda/81,
+ b=(m0sq*L^4/2+6*lambda*S2)/(9*L^2),
+ c=4*lambda*S3/(3*L), d=b-1/2.
+Use normalized probabilists' Hermite polynomials h_j=He_j/sqrt(j!).
+Define A_j=h_j'-(4*a*t^3+2*b*t+c)*h_j.
+Every background multiplier below is held fixed when differentiating t.
+
+Basis order (all controls have exact conditional expectation zero):
+ 1–4: A_j, j=1,3,5,7;
+ 5–8: c*A_j, j=0,2,4,6;
+ 9–12: d*A_j, j=1,3,5,7;
+ 13–16: c^2*A_j, j=1,3,5,7;
+ 17–20: c*d*A_j, j=0,2,4,6;
+ 21–24: c^3*A_j, j=0,2,4,6.
+The primary comparator is SD24 with standardized-covariance ridge rho=1e-6.
+Report SD4, SD8, SD12 at the same rho as basis checks, plus SD24 with rho=1e-4
+and 1e-2 as fixed regularization checks. Do not select a basis/ridge from test
+performance or report a selected best result as prechosen.
+
+Optimization and evaluation
+The target vector is (X^2,X^4,Gp). Fit its three coefficient vectors by minimizing
+centered per-configuration squared residuals plus rho times the squared norm
+of the coefficients on standardized controls. Covariances come from all raw
+training rows, stored as block sums/cross-products. Do not demean controls on
+the evaluation data: their population expectations are known to be zero.
+
+Use two-fold cross-fitting by independent chains. Within each stage/endpoint,
+chain-index parity defines the folds, balancing both stages. Each chain is
+evaluated only with coefficients trained on the opposite fold. Training counts
+are 4,4,13,29 chains per endpoint/fold at L=12,16,24,32. All rows are evaluated
+once as held-out observations; generation cost is common to all methods.
+
+Inference and uncertainty
+Recompute each method's mass and coupling at each endpoint and interpolate
+with its own measured masses to z=3. Preserve raw/conditional/CV pairing.
+For stratified delete-block jackknife, refit the coefficients and the training
+scales after each deletion, then recompute mass, coupling and interpolation.
+Use the original eight blocks per chain for the primary errors. Also delete
+groups corresponding to 4,2,1 blocks per chain, retaining the same row-level
+training objective, to check block sensitivity. One block means whole-chain
+deletion. Do not freeze coefficients when calculating the primary CV errors.
+Report paired differences against conditional quadrature and variance ratios;
+do not replace the manuscript's adopted primary errors with diagnostic errors.
+
+Cost
+Reprocess raw and conditional moments and SD24 features on the same rows in one
+local process. Time data loading/hashing separately. Include the SD row-level
+training covariance accumulation in feature-pass timings; report coefficient
+fit and uncertainty-refit costs separately. Repeat raw/conditional/SD24 timing
+on deterministic evenly spaced 65,536-row subsets at every endpoint. Keep
+historical HIPSTER generation timers separate; do not invent a same-hardware
+generation-plus-analysis speedup. No current hardware simulation is permitted.
+
+Interpretation
+Report whichever estimator wins or ties, including any worse CV results. This
+comparison tests the specified optimized SD family, not all possible control
+variates. Existing primary physics, interpolation and cutoff-model boundaries
+remain in force. Reassess novelty on the measured result, not the desired result.
