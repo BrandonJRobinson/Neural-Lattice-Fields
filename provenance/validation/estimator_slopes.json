@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "methods": [
+    "raw",
+    "conditional",
+    "SD4",
+    "SD8",
+    "SD12",
+    "SD24",
+    "SD24_r1e-4",
+    "SD24_r1e-2"
+  ],
+  "slopes": {
+    "raw": {
+      "B": 0.023454826484901183,
+      "se": 0.013032333530089571,
+      "chi2": 0.8820178876772532,
+      "dof": 1,
+      "scope": "secondary common model using benchmark joint-jackknife errors, not adopted primary envelopes"
+    },
+    "conditional": {
+      "B": 0.02103046865131748,
+      "se": 0.006376746768490172,
+      "chi2": 0.029268465585975883,
+      "dof": 1,
+      "scope": "secondary common model using benchmark joint-jackknife errors, not adopted primary envelopes"
+    },
+    "SD4": {
+      "B": 0.02363605678573465,
+      "se": 0.007993408331770764,
+      "chi2": 0.4261029066769731,
+      "dof": 1,
+      "scope": "secondary common model using benchmark joint-jackknife errors, not adopted primary envelopes"
+    },
+    "SD8": {
+      "B": 0.022499956813459735,
+      "se": 0.006901131803121217,
+      "chi2": 0.005314161980494907,
+      "dof": 1,
+      "scope": "secondary common model using benchmark joint-jackknife errors, not adopted primary envelopes"
+    },
+    "SD12": {
+      "B": 0.022071660212689827,
+      "se": 0.006846551979697397,
+      "chi2": 0.003086744948694547,
+      "dof": 1,
+      "scope": "secondary common model using benchmark joint-jackknife errors, not adopted primary envelopes"
+    },
+    "SD24": {
+      "B": 0.021906024887241977,
+      "se": 0.0064075732829551564,
+      "chi2": 0.010048255819701963,
+      "dof": 1,
+      "scope": "secondary common model using benchmark joint-jackknife errors, not adopted primary envelopes"
+    },
+    "SD24_r1e-4": {
+      "B": 0.02192282220290643,
+      "se": 0.006404030175296699,
+      "chi2": 0.015578394851516677,
+      "dof": 1,
+      "scope": "secondary common model using benchmark joint-jackknife errors, not adopted primary envelopes"
+    },
+    "SD24_r1e-2": {
+      "B": 0.02198130506057284,
+      "se": 0.006454069739864168,
+      "chi2": 0.030719939820232942,
+      "dof": 1,
+      "scope": "secondary common model using benchmark joint-jackknife errors, not adopted primary envelopes"
+    }
+  },
+  "maximum_absolute_discrepancy": 0.0,
+  "scope": "Secondary common-model fits using benchmark joint-jackknife errors; distinct from the adopted primary error envelopes.",
+  "new_simulations": false,
+  "new_random_draws": 0,
+  "tex_rendering": false
+}

@@ -24,8 +24,8 @@
     },
     {
       "path": "DATA_LICENSE.md",
-      "bytes": 653,
-      "sha256": "d08138818b7fe75a9edbd96655028ed1050b34a7d8e9dff5edc242ac47d3a0f5"
+      "bytes": 689,
+      "sha256": "afa81ee0ae76a9552940def01eb65e5b5365224b58212bef91283a94b8b22881"
     },
     {
       "path": "LICENSE",
@@ -39,8 +39,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7323,
-      "sha256": "eaab0031e18da22034ae5414f215a477d4e8ccbdb2068e3ed4a845d43e872389"
+      "bytes": 7882,
+      "sha256": "8ad50585481d3f8f522ada2fdfb9172b898557646c300c576b119004538f9d07"
     },
     {
       "path": "data/legacy/configs/moment_engineering_p1c_s1_preregistration.json",
@@ -13623,9 +13623,14 @@
       "sha256": "125406f5bc37d4ee81fe0503f18e05570e4e82f8f92327640d18ec68e92c9e9d"
     },
     {
+      "path": "provenance/PUBLIC_CLONE_VALIDATION.json",
+      "bytes": 1156,
+      "sha256": "8868c7ca3b0f384755046fe5cc75b0290e5d5dac6c53059a4e74575817083309"
+    },
+    {
       "path": "provenance/RELEASE_VALIDATION.json",
-      "bytes": 4648,
-      "sha256": "400b95a29347bde4e0d5684c5bc8432ec81f1f0c2af17cd129464e2062576c69"
+      "bytes": 5057,
+      "sha256": "054c327d4c80c56aaa09a44c0df026a5f80e68bb6158370f22bc04575399ffe9"
     },
     {
       "path": "provenance/REPLAY_ENVIRONMENT.json",
@@ -13641,6 +13646,11 @@
       "path": "provenance/validation/control_variate_inference.json",
       "bytes": 100874,
       "sha256": "264d37469c36c95c5ad1a0837d7ab13edeb3d276135f8b9e70d0a067ef8c701f"
+    },
+    {
+      "path": "provenance/validation/estimator_slopes.json",
+      "bytes": 2432,
+      "sha256": "9526d8c7c3883f1c62453446562cd655e0203fc64fe6fec00304759989958a9e"
     },
     {
       "path": "provenance/validation/full_replay.json",
@@ -15141,6 +15151,11 @@
       "path": "tools/replay.py",
       "bytes": 6948,
       "sha256": "154c36e08be57373a719a33a724bb7d930d30eec84f6ac3cf95b267c4ba220eb"
+    },
+    {
+      "path": "tools/verify_estimator_slopes.py",
+      "bytes": 2223,
+      "sha256": "13c4b655065b5be3e8feb1a81e3e828a9ed1771fe2d648e4dc1f75836ae65a65"
     },
     {
       "path": "tools/verify_release.py",

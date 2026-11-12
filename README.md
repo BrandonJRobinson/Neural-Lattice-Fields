@@ -32,11 +32,14 @@ This command recombines the included estimator block statistics, audits the 72 P
 .venv/bin/python tools/download_rg1.py
 .venv/bin/python tools/verify_release.py --raw --report work/raw-integrity.json
 .venv/bin/python tools/replay.py all --output work/full-replay --quadrature
+.venv/bin/python tools/verify_estimator_slopes.py --blocks work/full-replay/estimator_raw/recomputed/BLOCK_REPLAY_VERIFICATION.json --reference replay/estimators/CV_BENCHMARK_RESULT.json --output work/full-replay/estimator-slopes.json
 ```
 
 The downloader verifies both each compressed archive and every extracted measurement file against SHA-256 manifests. It refuses to replace differing measurement files. For an offline transfer, download all five assets and substitute `tools/download_rg1.py --asset-dir /path/to/assets`.
 
 `all --quadrature` runs the compact-record checks, recomputes the RG-1 conditional observables and all 228 chain QC checks, reconstructs the eight mass endpoints and their joint jackknife covariance, interpolates to `z = 3`, refits the primary models, and replays the 28 controls within the documented principal-result scope. It also reruns the 160-node conditional-quadrature convergence check and recomputes the optimized control-variate sufficient statistics from the 200 primary binaries before replaying all eight estimator methods and four blockings. The preserved primary replay uses two workers; full validation runtime is recorded in `provenance/RELEASE_VALIDATION.json`. Each output directory must be new.
+
+The final command also verifies all eight secondary estimator slope fits from those freshly replayed matched couplings and errors. It uses the preserved fitting function and keeps the benchmark joint-jackknife error model separate from the adopted primary envelopes. It does not remeasure the historical timing benchmarks.
 
 To run the two measurement analyses separately:
 

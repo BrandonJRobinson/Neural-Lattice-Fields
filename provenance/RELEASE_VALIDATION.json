@@ -2,7 +2,7 @@
   "schema": "nnlft-public-release-validation-v1",
   "version": "v0.1.0",
   "status": "PASS",
-  "completed_utc": "2026-11-12T20:25:52.616109+00:00",
+  "completed_utc": "2026-11-12T20:41:33.118969+00:00",
   "commands": [
     {
       "command": "python tools/download_rg1.py --asset-dir ../assets --verify-only",
@@ -14,6 +14,10 @@
     },
     {
       "command": ".venv/bin/python tools/replay.py summaries --output work/clean_env_summary",
+      "status": "PASS"
+    },
+    {
+      "command": "python tools/verify_estimator_slopes.py --blocks work/release_validation_v1/estimator_raw/recomputed/BLOCK_REPLAY_VERIFICATION.json --reference replay/estimators/CV_BENCHMARK_RESULT.json --output work/release_validation_v1/estimator-slopes.json",
       "status": "PASS"
     },
     {
@@ -40,6 +44,7 @@
     "tools/replay.py": "154c36e08be57373a719a33a724bb7d930d30eec84f6ac3cf95b267c4ba220eb",
     "tools/download_rg1.py": "bccb11a3eac653ad97957c7372694a866694dbe3408d5ea503d778589ace4259",
     "tools/verify_release.py": "c10357397b29ffde6da7ece7823b9c106332e8792cd831c6d6a2d2cea14bc31d",
+    "tools/verify_estimator_slopes.py": "13c4b655065b5be3e8feb1a81e3e828a9ed1771fe2d648e4dc1f75836ae65a65",
     "replay/rg1/replay_primary.py": "428960aff57c102a08195c5ab3eff8010b905768c4c393845b69ee90e0cc3ac4",
     "replay/rg1/quadrature_convergence.py": "c02b07878311979ad5fa28305d815670892dc4a19fd2d69397eca5a89f5698c2",
     "replay/estimators/benchmark_cv.py": "1ac46dc74fc011bf362aaa18b5e93cc92d7bf8484be3561b52def7108a6fd427",

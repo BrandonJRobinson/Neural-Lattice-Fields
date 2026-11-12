@@ -1,0 +1,36 @@
+{
+  "schema": "nnlft-public-clone-validation-v1",
+  "status": "PASS",
+  "checked_utc": "2026-11-12T20:29:11.040095+00:00",
+  "repository": "https://github.com/BrandonJRobinson/Neural-Lattice-Fields",
+  "tested_source_commit": "4028e9928d51f7f899cc2f45044dd4198474ee0e",
+  "source_and_record_files": 3029,
+  "raw_integrity": {
+    "status": "PASS",
+    "files": 228,
+    "primary_files": 200,
+    "control_files": 28,
+    "bytes": 4069376000,
+    "rows": 127168000
+  },
+  "archive_extraction": "All five matching local release archives extracted into the fresh public clone, verifying compressed and member hashes; no pre-existing measurements reused.",
+  "summary_replay": {
+    "status": "PASS",
+    "mode": "summaries",
+    "source_files_verified": 3029,
+    "elapsed_seconds": 6.0350280000129715,
+    "reports": {
+      "summaries": {
+        "status": "PASS",
+        "path": "work/clone_summaries"
+      }
+    },
+    "new_simulations": false,
+    "new_random_draws": 0,
+    "tex_rendering": false
+  },
+  "dependencies": "Fresh virtual environment from requirements.txt",
+  "new_simulations": false,
+  "new_random_draws": 0,
+  "tex_rendering": false
+}
