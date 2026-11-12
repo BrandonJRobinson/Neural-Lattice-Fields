@@ -1,0 +1,194 @@
+{
+  "status": "PASS",
+  "kind": "summary-and-analytic-replay",
+  "estimator": "PASS",
+  "reference_kernel": {
+    "schema": "nnlft-p3-summary-inference-v1",
+    "summary_files_verified": 72,
+    "independent_effective_seeds": 72,
+    "reference_points": 18,
+    "observables": 6,
+    "replicate_groups_per_contrast": 4,
+    "scalar_trend_tests": 18,
+    "alpha": 0.05,
+    "t3_critical_individual95": 3.182446305284263,
+    "t3_critical_simultaneous18": 9.129392351849411,
+    "t3_critical_simultaneous108": 16.75434892538228,
+    "min_reference_tail_area": {
+      "L": 24,
+      "observable": "xi_over_L",
+      "p": 0.0489191505079662
+    },
+    "min_safe_holm18": 0.8805447091433916,
+    "familywise_05_rejections": 0,
+    "L32_reference_tail_area_range": [
+      0.10181232439450955,
+      0.16187885962169765
+    ],
+    "simultaneous108_range_lower_bounds_all_zero": true,
+    "original_weight_projections_all_contain_zero": true,
+    "all_18_reference_constant_subspaces_intersect_rectangle": true,
+    "normal_centered_independent_replica_model_assumed": true,
+    "equivalence_established": false,
+    "equilibration_established": false,
+    "archived_weighted_fit_recalibrated": false,
+    "new_random_draws": 0,
+    "new_simulations": false,
+    "latex_compiled": false,
+    "pdf_rendering": false
+  },
+  "analytic_checks": "PASS",
+  "independent_analytic_checks": "PASS",
+  "legacy_summary": "PASS",
+  "calibration_and_transitions": {
+    "N01": [
+      {
+        "family": "Gaussian",
+        "params": [
+          3.930720578889936
+        ],
+        "sigma_c": 0.7035469881047967,
+        "mode_relative_RMS": 0.24322836104282788,
+        "relative_norm": 0.1959247119119036,
+        "amplitude_rescaling_matches": true
+      },
+      {
+        "family": "TwoScale",
+        "params": [
+          5.053427193613765,
+          1.9002050977792333,
+          0.8013785646741373
+        ],
+        "sigma_c": 0.7126676290948498,
+        "mode_relative_RMS": 0.0303020946495685,
+        "relative_norm": 0.023904138963579093,
+        "amplitude_rescaling_matches": true
+      }
+    ],
+    "S01": [
+      {
+        "campaign": "2d_refined_crossings",
+        "seed_records": 216,
+        "points_reproduced": 27,
+        "failed_diagnostic_records": 66,
+        "crossing_central_values_reproduced": 8,
+        "bootstrap_scope": "archived bracket-preserving seed-bootstrap errors recovered, not rerun",
+        "source_pins": [
+          {
+            "path": "scripts/precision_upgrade/scalar_precision.py",
+            "match": true
+          },
+          {
+            "path": "scripts/precision_upgrade/connected_xi.py",
+            "match": true
+          },
+          {
+            "path": "scripts/precision_upgrade/common.py",
+            "match": true
+          },
+          {
+            "path": "scripts/precision_upgrade/configs/scalar_precision.json",
+            "match": true
+          },
+          {
+            "path": "experiments_lowerd/hmc.py",
+            "match": true
+          },
+          {
+            "path": "experiments_lowerd/latent_lattice.py",
+            "match": true
+          },
+          {
+            "path": "experiments_lowerd/observables.py",
+            "match": true
+          }
+        ],
+        "legacy_import_hashes_verified": {
+          "experiments_lowerd/outputs/phi4_ising_2d_critical_refine_summary.json": "f95aa4cf552e2d7e56010b6b97b1de3c65586d07b8006f5e14db6641e0b5e2b4"
+        },
+        "archived_status": "PARTIAL"
+      },
+      {
+        "campaign": "3d_refined_wilson_fisher",
+        "seed_records": 224,
+        "points_reproduced": 28,
+        "failed_diagnostic_records": 55,
+        "crossing_central_values_reproduced": 4,
+        "bootstrap_scope": "archived bracket-preserving seed-bootstrap errors recovered, not rerun",
+        "source_pins": [
+          {
+            "path": "scripts/precision_upgrade/scalar_precision.py",
+            "match": true
+          },
+          {
+            "path": "scripts/precision_upgrade/connected_xi.py",
+            "match": true
+          },
+          {
+            "path": "scripts/precision_upgrade/common.py",
+            "match": true
+          },
+          {
+            "path": "scripts/precision_upgrade/configs/scalar_precision.json",
+            "match": true
+          },
+          {
+            "path": "experiments_lowerd/hmc.py",
+            "match": true
+          },
+          {
+            "path": "experiments_lowerd/latent_lattice.py",
+            "match": true
+          },
+          {
+            "path": "experiments_lowerd/observables.py",
+            "match": true
+          }
+        ],
+        "legacy_import_hashes_verified": {},
+        "archived_status": "PARTIAL"
+      }
+    ],
+    "selected_xi_invalid_points": [
+      {
+        "dim": 2,
+        "L": 48,
+        "m0sq": -4.35,
+        "policy": "sector_abs"
+      },
+      {
+        "dim": 2,
+        "L": 48,
+        "m0sq": -4.15,
+        "policy": "sector_abs"
+      },
+      {
+        "dim": 2,
+        "L": 64,
+        "m0sq": -4.25,
+        "policy": "sector_abs"
+      }
+    ],
+    "scope": "Record recovery and deterministic summary replay; archived failed diagnostics and PARTIAL campaign status retained. No new simulations, bootstrap draws or LaTeX rendering.",
+    "input_hashes": {
+      "results_arch_campaign/architecture_campaign_summary.json": "069bfa9cc8a31dee2aaa02734e7ea397659665908b0c44a1c458cc66860a798f",
+      "spectral_prior_architectures.py": "2109dc8dde387fcb0a68e9552b47f10bbfe4b7e85f22694dbb284f706f2edb4c",
+      "kernel_recalibration.py": "784997525702fd439d29de1a61c2819be69d03bce1905e8c0509586931dacc8f",
+      "results_precision_upgrade/2d_refined_crossings/summary.json": "d4a70960d4550aab0c4304dae366706f5711f9c86fdbdbffe102efdac8356a20",
+      "results_precision_upgrade/2d_refined_crossings/binder_table.csv": "567c206d40a88f25ccaf7e1884d09fcb2ff50b0dd6ccd629610667f421a6dfab",
+      "results_precision_upgrade/2d_refined_crossings/crossing_table.csv": "d5cc3d356f6fd4fc4dc217df2cdb9ecf7bd4cda6b62b454df018559f5a907797",
+      "results_precision_upgrade/2d_refined_crossings/hmc_diagnostics.csv": "18ea42d0bd266768e4669f6e0c1072ffb3b3e2c4e72e87ca01e8fcf2d029b85f",
+      "results_precision_upgrade/3d_refined_wilson_fisher/summary.json": "74319f8c9c6636dc7042f8273a26618c4addb0a47b85eb8fe212ba9030c4d0b8",
+      "results_precision_upgrade/3d_refined_wilson_fisher/binder_table.csv": "165b7192c58756808a471c3f6acab7adeed99fa1c6c91fd86ef0e0468140ed9a",
+      "results_precision_upgrade/3d_refined_wilson_fisher/crossing_table.csv": "e8c091d923924d1b020721f64f7692f51025bd35c886a8f1af5834111a6b1ca3",
+      "results_precision_upgrade/3d_refined_wilson_fisher/hmc_diagnostics.csv": "79aa4072a34b479b21b2cd2487ba9a93694a6fe39c11e2074745c20455f0bbce",
+      "results_precision_upgrade/connected_xi/connected_xi_summary.json": "da137f702c3300ef03554cccb15922f21826defdca8342ba567a601afb994390",
+      "scripts/precision_upgrade/scalar_precision.py": "b7e50d49e727eefb739ea499a106dff9709f54fd5cf9e5e1487013a317e490ad",
+      "scripts/precision_upgrade/common.py": "7f93be12774cbc4c4203e1b508c11b4bb898f4cd6ef5e560161735fa5999edd9",
+      "scripts/precision_upgrade/connected_xi.py": "baecd7644caaceae7ce0505816c1f03acca66a3a0271542448f70b8f39ed2d9b"
+    }
+  },
+  "new_simulations": false,
+  "new_random_draws": 0,
+  "tex_rendering": false
+}

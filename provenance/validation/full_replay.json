@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "mode": "all",
+  "source_files_verified": 3012,
+  "elapsed_seconds": 831.0370300830109,
+  "reports": {
+    "summaries": {
+      "status": "PASS",
+      "path": "work/release_validation_v1/summaries"
+    },
+    "rg1": {
+      "status": "PASS",
+      "kind": "raw-to-primary",
+      "raw_files": 228,
+      "principal_chains": 200,
+      "primary_rows": 123988000,
+      "controls": 28,
+      "quadrature_replayed": true,
+      "new_simulations": false,
+      "synthetic_calibration": "archived summary retained; no new draws",
+      "historical_diagnostic_grid": "carried records; full grid not rerun",
+      "tex_rendering": false
+    },
+    "estimator_raw": {
+      "status": "PASS",
+      "kind": "raw-to-control-variate-results",
+      "raw_files": 200,
+      "rows": 123988000,
+      "new_simulations": false,
+      "new_random_draws": 0
+    }
+  },
+  "new_simulations": false,
+  "new_random_draws": 0,
+  "tex_rendering": false
+}

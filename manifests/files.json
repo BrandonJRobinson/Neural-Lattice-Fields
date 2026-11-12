@@ -3,6 +3,11 @@
   "version": "v0.1.0",
   "files": [
     {
+      "path": ".gitattributes",
+      "bytes": 92,
+      "sha256": "b46a6033a141a9d9f9428fa1f5b7c7028f517995bada9ef6edd36ed2df55907e"
+    },
+    {
       "path": ".gitignore",
       "bytes": 64,
       "sha256": "c8d0b2a929f27b4bb1cfedd45795004297aea2bdac2d9b9de868f22a0d7f9d99"
@@ -34,8 +39,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7170,
-      "sha256": "4ea60942ef600b2b2f04e3918bca2e7072fec4d698556cdbe2be6288ea582f14"
+      "bytes": 7323,
+      "sha256": "eaab0031e18da22034ae5414f215a477d4e8ccbdb2068e3ed4a845d43e872389"
     },
     {
       "path": "data/legacy/configs/moment_engineering_p1c_s1_preregistration.json",
@@ -13618,9 +13623,49 @@
       "sha256": "125406f5bc37d4ee81fe0503f18e05570e4e82f8f92327640d18ec68e92c9e9d"
     },
     {
+      "path": "provenance/RELEASE_VALIDATION.json",
+      "bytes": 4648,
+      "sha256": "400b95a29347bde4e0d5684c5bc8432ec81f1f0c2af17cd129464e2062576c69"
+    },
+    {
       "path": "provenance/REPLAY_ENVIRONMENT.json",
       "bytes": 787,
       "sha256": "52d1bc4599b5f9341a68c5e5f93536c7a5626026639cd0aa79a8a7b64a708d4e"
+    },
+    {
+      "path": "provenance/validation/clean_environment.json",
+      "bytes": 306,
+      "sha256": "0d504e88afb7cbeb2ae7e6fd1dfafdd992746d9f6c4f4ca34bf9ad49bd32472b"
+    },
+    {
+      "path": "provenance/validation/control_variate_inference.json",
+      "bytes": 100874,
+      "sha256": "264d37469c36c95c5ad1a0837d7ab13edeb3d276135f8b9e70d0a067ef8c701f"
+    },
+    {
+      "path": "provenance/validation/full_replay.json",
+      "bytes": 957,
+      "sha256": "62e86c069a313c35d5bf9cd21725e9105c728d1cc97311ed48fb01baea5567ef"
+    },
+    {
+      "path": "provenance/validation/primary_replay.json",
+      "bytes": 299146,
+      "sha256": "f4e7bdbe1bdcf13fd92837abb44a7994195aeecd4ba2f499f380fd9edc4135af"
+    },
+    {
+      "path": "provenance/validation/quadrature_convergence.json",
+      "bytes": 1906,
+      "sha256": "012b2ff7ccbd03d1278fa3de2aef656f1751c0900ca71cd75d82ecab46a1d9b9"
+    },
+    {
+      "path": "provenance/validation/raw_control_variate.json",
+      "bytes": 248,
+      "sha256": "064ed09d9f0a3c556fe9ae4af315af9520415dc9312a0cf49a597de48189a29a"
+    },
+    {
+      "path": "provenance/validation/summary_replay.json",
+      "bytes": 7376,
+      "sha256": "d985e12fa158103cab229697568df84eb4528f73ec02da8f54cbe7c037a7ff52"
     },
     {
       "path": "replay/estimators/CV_BENCHMARK_RESULT.json",

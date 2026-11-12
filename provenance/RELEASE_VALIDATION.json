@@ -1,0 +1,154 @@
+{
+  "schema": "nnlft-public-release-validation-v1",
+  "version": "v0.1.0",
+  "status": "PASS",
+  "completed_utc": "2026-11-12T20:25:52.616109+00:00",
+  "commands": [
+    {
+      "command": "python tools/download_rg1.py --asset-dir ../assets --verify-only",
+      "status": "PASS"
+    },
+    {
+      "command": "python tools/replay.py all --output work/release_validation_v1 --quadrature",
+      "status": "PASS"
+    },
+    {
+      "command": ".venv/bin/python tools/replay.py summaries --output work/clean_env_summary",
+      "status": "PASS"
+    },
+    {
+      "command": ".venv/bin/python -m pip check",
+      "status": "PASS"
+    }
+  ],
+  "full_replay_elapsed_seconds": 831.0370300830109,
+  "measurement_files": 228,
+  "primary_files": 200,
+  "control_files": 28,
+  "measurement_bytes": 4069376000,
+  "raw_control_variate_rows": 123988000,
+  "zero_source_quadrature_rows": 126988000,
+  "local_archive_verification": {
+    "status": "PASS",
+    "verified_measurement_members": 228,
+    "extraction": false,
+    "new_simulations": false
+  },
+  "origin_entries_checked": 3157,
+  "unique_origin_files_checked": 2996,
+  "scientific_replay_script_sha256": {
+    "tools/replay.py": "154c36e08be57373a719a33a724bb7d930d30eec84f6ac3cf95b267c4ba220eb",
+    "tools/download_rg1.py": "bccb11a3eac653ad97957c7372694a866694dbe3408d5ea503d778589ace4259",
+    "tools/verify_release.py": "c10357397b29ffde6da7ece7823b9c106332e8792cd831c6d6a2d2cea14bc31d",
+    "replay/rg1/replay_primary.py": "428960aff57c102a08195c5ab3eff8010b905768c4c393845b69ee90e0cc3ac4",
+    "replay/rg1/quadrature_convergence.py": "c02b07878311979ad5fa28305d815670892dc4a19fd2d69397eca5a89f5698c2",
+    "replay/estimators/benchmark_cv.py": "1ac46dc74fc011bf362aaa18b5e93cc92d7bf8484be3561b52def7108a6fd427",
+    "replay/estimators/raw_reprocess.py": "4e95aaf814f305744939b7b88c2a20d291fea37338eb342e39d13ada9b2edea6",
+    "replay/estimators/replay_block_statistics.py": "d2c4bdce171c67c6018456e70b6eee635c305246cf01647474b3f62fe2d920de",
+    "replay/legacy/saved_records.py": "8ea587ac5013d9c1b0432505a5f83e9fed33ac352d789aa1c07ba9ab8fa82158",
+    "replay/legacy/calibration_and_transitions.py": "aa3abc423c8cca2cba3bc69f586286057cd7ef3e4245d87d710c937aaa05e7c3"
+  },
+  "primary_matched_couplings": {
+    "12": {
+      "g_at_z3": [
+        5.781216428017484,
+        0.01079525240465757
+      ],
+      "g_err_uncorrelated": 0.010647740866314736,
+      "t": 0.568503131033345,
+      "z_lo": [
+        2.969286216831408,
+        0.0003348136517800033
+      ],
+      "z_hi": [
+        3.0233119230975545,
+        0.00038519418467266876
+      ],
+      "bracket": "PASS",
+      "extrapolation": false
+    },
+    "16": {
+      "g_at_z3": [
+        5.6428034393827335,
+        0.018322364267234006
+      ],
+      "g_err_uncorrelated": 0.018076792587471857,
+      "t": 0.5276398286363714,
+      "z_lo": [
+        2.9346138526844885,
+        0.0005551171500088162
+      ],
+      "z_hi": [
+        3.0585357853492288,
+        0.0005827325411797515
+      ],
+      "bracket": "PASS",
+      "extrapolation": false
+    },
+    "24": {
+      "g_at_z3": [
+        5.410171758834406,
+        0.0741882839809749
+      ],
+      "g_err_uncorrelated": 0.0716628318413933,
+      "t": 0.12373550740553405,
+      "z_lo": [
+        2.9863767406209845,
+        0.0014177539682675817
+      ],
+      "z_hi": [
+        3.0964765790963407,
+        0.0012955773147717124
+      ],
+      "bracket": "PASS",
+      "extrapolation": false
+    },
+    "32": {
+      "g_at_z3": [
+        5.266544377788858,
+        0.07580998528859285
+      ],
+      "g_err_uncorrelated": 0.0751286422857252,
+      "t": 0.34646060615096147,
+      "z_lo": [
+        2.9613570709228108,
+        0.0012440012383437983
+      ],
+      "z_hi": [
+        3.072893356408473,
+        0.00125935676983767
+      ],
+      "bracket": "PASS",
+      "extrapolation": false
+    }
+  },
+  "primary_fits": {
+    "M1": {
+      "B": [
+        0.016010272844017785,
+        0.001663173495349654
+      ],
+      "chi2": 0.6333013561517374,
+      "dof": 2
+    },
+    "MCUT": {
+      "B": [
+        0.021028750328581862,
+        0.006689326194116075
+      ],
+      "chi2": 0.026210378287005606,
+      "dof": 1
+    }
+  },
+  "details": "provenance/validation/",
+  "environment": "provenance/REPLAY_ENVIRONMENT.json",
+  "carried_records": [
+    "historical synthetic calibration summaries",
+    "complete historical diagnostic radius grid",
+    "legacy transition bootstrap errors"
+  ],
+  "legacy_scope": "Saved run summaries and source pins; unavailable time histories are not reconstructed.",
+  "new_simulations": false,
+  "new_random_draws": 0,
+  "tex_rendering": false
+}

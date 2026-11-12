@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "raw_binary_hashes": 200,
+  "rows": 123988000,
+  "scope": "raw hashes, primitive block means and full SD24 block sufficient statistics reproduced",
+  "simulations": false,
+  "random_draws": false,
+  "tex_execution": false
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "mode": "summaries",
+  "source_files_verified": 3020,
+  "elapsed_seconds": 20.94455716595985,
+  "reports": {
+    "summaries": {
+      "status": "PASS",
+      "path": "work/clean_env_summary"
+    }
+  },
+  "new_simulations": false,
+  "new_random_draws": 0,
+  "tex_rendering": false
+}

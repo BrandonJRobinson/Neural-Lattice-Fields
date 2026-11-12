@@ -6,7 +6,7 @@ Version **v0.1.0** releases recovered HIPSTER code and scientific records for th
 
 ## Install and verify the source
 
-Use a little-endian machine with CPython **3.13.2**. The independent release replay uses NumPy 2.3.5, SciPy 1.16.3, SymPy 1.14.0 and mpmath 1.3.0. These are the replay environment versions; they are not asserted to be the historical HIPSTER Python versions.
+Use a little-endian machine with CPython **3.13.2** and filesystem support for directory symlinks (the raw replay recreates the historical input layout). The independent release replay was validated on macOS and uses NumPy 2.3.5, SciPy 1.16.3, SymPy 1.14.0 and mpmath 1.3.0. These are the replay environment versions; they are not asserted to be the historical HIPSTER Python versions.
 
 ```sh
 git clone --branch v0.1.0 https://github.com/BrandonJRobinson/Neural-Lattice-Fields.git
@@ -36,7 +36,7 @@ This command recombines the included estimator block statistics, audits the 72 P
 
 The downloader verifies both each compressed archive and every extracted measurement file against SHA-256 manifests. It refuses to replace differing measurement files. For an offline transfer, download all five assets and substitute `tools/download_rg1.py --asset-dir /path/to/assets`.
 
-`all --quadrature` runs the compact-record checks, recomputes the RG-1 conditional observables and all 228 chain QC checks, reconstructs the eight mass endpoints and their joint jackknife covariance, interpolates to `z = 3`, refits the primary models, and replays the 28 controls within the documented principal-result scope. It also reruns the 160-node conditional-quadrature convergence check and recomputes the optimized control-variate sufficient statistics from the 200 primary binaries before replaying all eight estimator methods and four blockings. The preserved primary replay uses two workers; the full replay takes several minutes on a desktop. Each output directory must be new.
+`all --quadrature` runs the compact-record checks, recomputes the RG-1 conditional observables and all 228 chain QC checks, reconstructs the eight mass endpoints and their joint jackknife covariance, interpolates to `z = 3`, refits the primary models, and replays the 28 controls within the documented principal-result scope. It also reruns the 160-node conditional-quadrature convergence check and recomputes the optimized control-variate sufficient statistics from the 200 primary binaries before replaying all eight estimator methods and four blockings. The preserved primary replay uses two workers; full validation runtime is recorded in `provenance/RELEASE_VALIDATION.json`. Each output directory must be new.
 
 To run the two measurement analyses separately:
 
