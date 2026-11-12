@@ -13638,6 +13638,11 @@
       "sha256": "52d1bc4599b5f9341a68c5e5f93536c7a5626026639cd0aa79a8a7b64a708d4e"
     },
     {
+      "path": "provenance/UPLOADED_ASSETS_VERIFICATION.json",
+      "bytes": 1728,
+      "sha256": "8a9987b5038fab0d289d0fbdf90e90f42d9c0d27d82e837d055cc04b7d18adb5"
+    },
+    {
       "path": "provenance/validation/clean_environment.json",
       "bytes": 306,
       "sha256": "0d504e88afb7cbeb2ae7e6fd1dfafdd992746d9f6c4f4ca34bf9ad49bd32472b"

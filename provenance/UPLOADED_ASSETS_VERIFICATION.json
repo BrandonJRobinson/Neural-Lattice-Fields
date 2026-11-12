@@ -1,0 +1,55 @@
+{
+  "schema": "nnlft-github-asset-verification-v1",
+  "status": "PASS",
+  "checked_utc": "2026-11-12T21:31:31.373851+00:00",
+  "release_id": 443461173,
+  "version": "v0.1.0",
+  "asset_count": 6,
+  "measurement_assets": 5,
+  "measurement_files": 228,
+  "verification": "GitHub-computed SHA-256 and byte count compared to the locally verified archive manifest.",
+  "assets": [
+    {
+      "name": "SHA256SUMS_ASSETS.txt",
+      "asset_id": 740943220,
+      "bytes": 425,
+      "sha256": "38d9424fd54ebb10c1779dca802c9403ccaa8f700e756d7297d1a0aad2dc8f64",
+      "server_digest_verified": true
+    },
+    {
+      "name": "rg1-raw-L08.tar.gz",
+      "asset_id": 740941016,
+      "bytes": 12385169,
+      "sha256": "39a7a338a4b47e458572476904ff3499499d3b7954150846b9add22d68ad1b56",
+      "server_digest_verified": true
+    },
+    {
+      "name": "rg1-raw-L12.tar.gz",
+      "asset_id": 740941021,
+      "bytes": 1303675349,
+      "sha256": "a59b892273ccee88745eb0489810e18202a756b0787d993e3bb67c090ae2dbf6",
+      "server_digest_verified": true
+    },
+    {
+      "name": "rg1-raw-L16.tar.gz",
+      "asset_id": 740941020,
+      "bytes": 1250376403,
+      "sha256": "00933513a01ac5624570ff5d33e47a6a507edeb74e7166f97d58c0df5d20a0e3",
+      "server_digest_verified": true
+    },
+    {
+      "name": "rg1-raw-L24.tar.gz",
+      "asset_id": 740941028,
+      "bytes": 477196275,
+      "sha256": "90c046df54558e3ceeb491d2e9ad72d85e767263b2f6d4ab317d611a7c9b2321",
+      "server_digest_verified": true
+    },
+    {
+      "name": "rg1-raw-L32.tar.gz",
+      "asset_id": 740941017,
+      "bytes": 872523545,
+      "sha256": "3314bd61ed78977f977e486b3e086567795f014a681935a6d9d2df74842be420",
+      "server_digest_verified": true
+    }
+  ]
+}
